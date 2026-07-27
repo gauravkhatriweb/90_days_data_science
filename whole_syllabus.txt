@@ -1,0 +1,1629 @@
+# Phase 1 : Python Powerhouse
+
+**Objective:** To complete a comprehensive Python journey from basics to advanced, including solving a variety of questions and building essential projects along the way.
+
+### 1. Installation of Python 🐍
+
+- **Download Python**: Get it from [python.org](https://www.python.org/). Check "Add Python to PATH" during installation.
+- **Download VS Code**: Install from [code.visualstudio.com](https://code.visualstudio.com/).
+- **Understand IDE**: An IDE is a tool for writing and managing code (e.g., VS Code).
+- **First Program**: Open VS Code, create a Python file, and run your first program.
+
+**Key Concepts**: Python, VS Code, IDE
+
+### 2. Comments, Variables, and Data Types
+
+- **Comments**: Single-line: `#`, Multi-line: `"""..."""`. Example: `# This is a comment`.
+- **Variables**: Store values (e.g., `a = 12`, `b = 67`). Naming conventions: Camel case: `helloWorld`, Pascal case: `HelloWorld`, Snake case: `hello_world`. Rules: No numbers at the start, no spaces, or special characters (except `_`).
+- **Data Types**:
+    - **Number**: `int` (e.g., `1`), `float` (e.g., `12.34`), `complex` (e.g., `2j`).
+    - **String**: Enclosed in `" "` or `' '`.
+    - **Boolean**: `True` or `False`.
+- **Key Concepts**: Comments, variable naming, data types.
+
+### 3. In-Depth Strings, Print Statements, Type Conversion, and Input
+
+- **String Basics**:
+    - **Indexing**: Strings have positive (left-to-right) and negative (right-to-left) indices. Example: `"hello"`
+        - Positive: `0 1 2 3 4` → `h e l l o`
+        - Negative: `5 -4 -3 -2 -1` → `h e l l o`
+    - **Slicing**: Extract portions using `[start:stop:step]`. Example: `a = "yoo brother"`.
+- **String Properties**:
+    - **Immutable**: Strings cannot be changed after creation.
+- **Print Statements**:
+    - **Concatenation**: Combine strings using `+`.
+    - **Formatted Strings**: Use `f-strings` for embedding variables. Example: `f"Hello, {name}"`.
+    - **Escape Sequences**: `\n` (newline), `\b` (backspace), `\t` (tab).
+    - **Raw Strings**: Ignore escape sequences with `r`. Example: `r"hello\nworld"`.
+- **Type Conversion**:
+    - Functions: `int()`, `float()`, `str()`, `bool()`.
+    - **Truthy**: Non-zero/non-empty values. **Falsy**: `0`, `0.0`, `False`, `""`, `[]`, `{}`, `()`.
+- **Input Statements**:
+    - Default input type is `str`. Use type conversion for specific types. Example: `int(input("Tell your age: "))`.
+
+**Key Concepts**: String indexing, slicing, immutability, print techniques, type conversion, and input handling.
+
+### 4. Operators
+
+- **What Are Operators?**
+    
+    Operators are the foundation of expressions, enabling computations and logical evaluations.
+    
+- **Arithmetic Operators**:
+    
+    Perform mathematical operations:
+    
+    `+` (Addition), `-` (Subtraction), `*` (Multiplication), `/` (Division), `//` (Floor Division), `**` (Exponentiation), `%` (Modulus).
+    
+    **Example**: `result = num1 + num2`.
+    
+- **Assignment Operators (Shorthand)**:
+    
+    Assign values to variables:
+    
+    `+=` (Add and assign), `-=` (Subtract and assign), `*=` (Multiply and assign), `/=` (Divide and assign), `//=` (Floor divide and assign), `%=` (Modulus and assign).
+    
+    **Example**: `x += 5` → `x = x + 5`.
+    
+- **Operators in Strings**:
+    - **Concatenation (`+`)**: Combines strings. Example: `"Hello" + " World" = "Hello World"`.
+    - **Multiplication ()**: Repeats strings. Example: `"Hi" * 3 = "HiHiHi"`.
+- **Logical Operators in Strings**:
+    
+    Strings can use logical operators like `and`, `or`, and `not` (details to follow in upcoming classes).
+    
+
+**Key Concepts**: Arithmetic, assignment, string operations, logical operators.
+
+### 5. Comparison and Logical Operators
+
+- **Comparison Operators**:
+    
+    Compare two values and return a Boolean (`True`/`False`).
+    
+    Operators: `==` (Equal), `!=` (Not equal), `>` (Greater than), `<` (Less than), `>=` (Greater or equal), `<=` (Less or equal).
+    
+- **Logical Operators**:
+    
+    Combine multiple comparisons:
+    
+    - `and`: `True` if all conditions are true.
+    - `or`: `True` if at least one condition is true.
+
+**Key Concepts**: Comparing values, combining conditions, and forming expressions using logical and comparison operators.
+
+### 6. Conditional Statements and Logical Operators
+
+- **IF and ELSE**: Used to control program flow. `if` checks conditions, and `else` is the final fallback. Indentation (4 spaces) is used. `pass` is for empty blocks. Ternary operator: `"even" if a % 2 == 0 else "odd"`.
+- **ELIF Statement**: Used for checking multiple conditions in sequence (`if-elif-else`)
+- **Logical Operators**: Combine conditions with `and`, `or`, and `not`. Example: Comparing variables `A = 12, B = 24, C = 20` to find the greatest.
+
+**Key Concepts**: Controlling flow with `if`, `else`, `elif`, and combining conditions with logical operators.
+
+### 7. Loops
+
+- **Loops Introduction**: Used for repetitive tasks.
+- **Types of Loops**:
+    - **For Loop**: Used when you know the range (`start`, `stop`).
+    - **While Loop**: Used with a condition.
+- **For Loop**:
+    - **Range Function**: `range(start, stop, step)` for generating a sequence of numbers. Works with numbers and strings (`for i in a:`).
+
+**Key Concepts**: Repeating tasks with loops, using `range` with `for`, and condition-based repetition with `while`.
+
+### 8. While Loop and Loop Control
+
+- **While Loop**: Works based on a condition. Stops when the condition becomes `False`.
+    
+    
+    Syntax: `while condition:`
+    
+- **Break, Continue, and Else in Loops**:
+    - **Break**: Exits the loop when encountered.
+    - **Continue**: Skips the current iteration, but the loop continues.
+    - **Else**: Executes if no `break` is encountered; doesn't execute if `break` is used.
+
+**Key Concepts**: Condition-based repetition with `while`, controlling loop flow with `break`, `continue`, and using `else` with loops.
+
+### 9. Functions
+
+- **Imperative vs Functional Code**: Functional code is reusable.
+- **Function Syntax**: `def functionname():`, call with `functionname()`.
+- **Print vs Return**: `return` sends results back, `print` displays in the terminal.
+- **Parameters and Arguments**: Parameters are function variables, arguments are values passed to them (keyword, default, and parameters with values).
+- **Args and Kwargs**: `args` allows variable arguments; details will come later.
+
+**Key Concepts**: Defining functions, understanding `return`, `print`, parameters, and `args`/`kwargs`.
+
+### 10. Intro to Data Structures
+
+- **Data Structures**: Storage for multiple values.
+- **In-built Data Structures**: `List`, `Tuple`, `Dictionary`, `Set`.
+- **Customised Data Structures**: `Stack`, `Queue`, `Linked List`, `Trees`, `Graphs`, etc.
+
+**Key Concepts**: Understanding in-built and customised data structures.
+
+### 11. Lists
+
+- **List**: Stores multiple values with square brackets `[ ]`.
+- **Indexing & Slicing**: Same as strings.
+- **Heterogeneous**: Can store different data types.
+- **Mutable**: Values can be changed.
+- **Copying**: Deep and shallow copy.
+- **Accessing**: By values or using `range()` for indices.
+- **Methods**: `append()`, `pop()`, `reverse()`, `dir()`, `help()`.
+
+**Key Concepts**: Storing, modifying, and accessing list values.
+
+### 12. Tuple
+
+- **Tuple**: Stores multiple values using parentheses `()`.
+- **Indexing & Slicing**: Same as list.
+- **Single Element**: Can use a single element by adding a comma.
+- **Tuple Constructor**: `tuple()` converts a list to a tuple.
+- **Tuple Unpacking**: Assigns tuple values to variables.
+- **Accessing**: By values or using `range()` for indices.
+- **Methods**: Basic methods and general methods (`dir()`, `help()`).
+
+**Key Concepts**: Storing and accessing tuples, tuple unpacking, and methods.
+
+### 13. Set
+
+- **Set**: Stores multiple values using `{}`.
+- **Unordered**: No index points, but mutable.
+- **No Duplicates**: Does not allow duplicate values.
+- **Set Constructor**: `set()` converts other data types to a set.
+- **Accessing**: Traversing based on hash values (unordered, no index).
+- **Methods**: Use various set methods, explore with `dir()` and `help()`.
+
+**Key Concepts**: Storing unordered data, avoiding duplicates, and set methods.
+
+### 14. Dictionary
+
+- **Dictionary**: Stores multiple values with key-value pairs using `{}`.
+- **Ordered & Mutable**: Ordered by keys and values, mutable.
+- **No Duplicate Keys**: Can have duplicate values.
+- **Dictionary Constructor**: `dict()` converts other types to a dictionary.
+- **Accessing**:
+    - By keys using loops.
+    - By values using `dict.values()`.
+- **Methods**: Basic and general methods (`dir()`, `help()`).
+
+**Key Concepts**: Storing key-value pairs, traversing dictionaries, and dictionary methods.
+
+### 15. Advanced Python Concepts
+
+- **Lambda Expressions**: Anonymous functions for short, one-line operations using `lambda x: x + 1`.
+- **Map Function**: Applies a function to each element of an iterable → `map(function, iterable)`.
+- **Filter Function**: Filters elements based on a condition → `filter(function, iterable)`.
+- **Zip Function**: Combines multiple iterables element-wise → `zip(iter1, iter2, ...)`.
+- **List Comprehensions**: Compact syntax for creating lists → `[expression for item in iterable if condition]`.
+- **Dictionary Comprehensions**: Compact syntax for creating dictionaries → `{key: value for item in iterable}`.
+- **Generators**: Functions using `yield` to produce values one at a time (memory-efficient).
+- **Decorators**: Functions that modify or enhance other functions using the `@decorator_name` syntax.
+
+**Key Concepts**: Writing concise and efficient Python code using lambda, map, filter, zip, comprehensions, generators, and decorators.
+
+### 16. Exception Handling
+
+- **Exceptions**: Errors raised during program execution, e.g., Syntax Error, Name Error, ZeroDivisionError.
+- **Why Exceptions?**: Occur when the code is syntactically correct but causes an error. They don’t stop program execution but change its flow.
+- **Syntax Errors**: Cannot be handled, but other exceptions can be.
+
+### Exception Handling Functionalities
+
+- **Try**: Catches exceptions.
+- **Except**: Deals with exceptions (custom or universal).
+- **Else**: Executes if no exception occurs.
+- **Finally**: Always executes, regardless of exceptions.
+- **Raise**: Raises a custom error.
+
+**Key Concepts**: Managing errors using `try`, `except`, `else`, `finally`, and custom exceptions.
+
+### 17. File Handling
+
+- **File Handling**: Involves creating, reading, updating, and deleting files (CRUD operations).
+
+### File Handling Functionalities
+
+- **open()**: Opens a file. Takes two parameters: file location and mode (`"r"`, `"a"`, `"w"`, `"x"`).
+    - `"r"`: Read mode (error if file does not exist).
+    - `"a"`: Append mode (creates a file if it doesn’t exist).
+    - `"w"`: Write mode (overwrites or creates the file).
+    - `"x"`: Exclusive creation (error if file exists).
+- **with open()**: Automatically closes the file after the block execution.
+
+### Project: File and Folder CRUD
+
+- Create a project implementing file handling for CRUD operations.
+
+**Key Concepts**: Opening files, modes of operation, and using `with` for automatic file closure.
+
+### 18. OOPs Intro
+
+- **OOPs**: Stands for **Object-Oriented Programming**.
+
+### What We Will Learn
+
+- **`class`**: Blueprint or prototype for **`objects`**.
+- **`objects`**: Instances created using a **`class`**.
+- **`polymorphism`**: Having many forms.
+- **`encapsulation`**: Provides security to code by restricting access.
+- **`inheritance`**: One class inherits features from another.
+- **`abstraction`**: Hides the internal functionality.
+- **Other Concepts**:
+    - **`attributes`**, **`methods`**, **`constructor`**.
+    - **`public`**, **`protected`**, **`private`**.
+    - **Single** and **Multilevel Inheritance**.
+    - **`super()`** function, **`dunder (magic)`** methods.
+
+**Key Concepts**: Creating **`classes`**, **`objects`**, and understanding key OOP principles like **`polymorphism`**, **`encapsulation`**, **`inheritance`**, and **`abstraction`**.
+
+### 19. Class in Python
+
+- **Class**: A blueprint or prototype to define objects in Python.
+- **Creating a class**: Use the `class` keyword followed by the class name:
+
+### Attributes and Methods
+
+- **Attributes**: Variables stored inside a class.
+- **Methods**: Functions stored inside a class.
+- To call an attribute or method, first call the class, then access the specific attribute or method.
+
+**Key Concepts**: Using class, attributes, and methods to structure and define objects and behaviors.
+
+### 20. Objects in Python
+
+- **Object**: An instance created using a `class` blueprint.
+- **Creating an Object**: To create an object, call the `class` inside a variable initialized outside the class.
+
+**Key Concepts**: Using a `class` to create `objects` that represent real-world entities and hold their respective attributes and methods. An object is an instance of a class.
+
+### 21. Constructor in Python
+
+- **Constructor**: A method that runs automatically whenever we call the `class`.
+- **Purpose**: Allows a `class` to accept `parameters` while creating an `object`, ensuring the object is initialized with specific values.
+- **`self`**: Refers to the instance of the `object`, used to store the location of the object and its attributes.
+
+**Key Concepts**: Constructors are used to initialize an `object`'s state by accepting `parameters`, and the `self` keyword is used to reference the `object`'s instance and store its `attributes`.
+
+### 22. In-depth Attribute and Method
+
+- **Instance Attribute**: Created using `self`, e.g., `self.name`.
+- **Class Attribute**: Created inside the class without `self`.
+- **Instance Method**: Uses `self` to operate on instance data.
+- **Class Method**: Uses `@classmethod` and operates on class-level data.
+- **Static Method**: Defined with `@staticmethod`, does not rely on `self` or `cls`.
+
+**Key Concepts**: Differentiates instance attributes and methods from class-level and static methods in terms of how they interact with data.
+
+### 23. Inheritance
+
+- **Inheritance**: A mechanism where a child class can inherit properties and methods from a parent class.
+- **Types**:
+    - **Single-Level**: One class inherits from another. (`Parent class ==> Child class`)
+    - **Multilevel**: A class inherits from another class that is already a child. (`Parent class ==> Child class ==> Child class`)
+    - **Multiple**: A class inherits from more than one parent class. (`Parent class1 ==> Child class`, `Parent class2 ==> Child class`)
+    - **Hierarchical**: Multiple classes inherit from a single parent class. (`Parent class ==> Child class1`, `Parent class ==> Child class2`)
+
+**Key Concepts**: Inheritance allows classes to reuse and extend functionality from other classes, enabling the creation of more complex structures through parent-child relationships.
+
+### 24. Encapsulation
+
+- **Encapsulation**: Bundling data (attributes) and methods into one unit (class), while controlling access to the attributes using access modifiers.
+- **Access Modifiers**:
+    - **Public**: Accessible anywhere.`public attribute/method`
+    - **Protected**: Accessible in the class and subclasses. The protected access modifier in Python doesn't function as strictly as in some other languages like Java or C++.`protected attribute/method`
+    - **Private**: Accessible only in the class. We use `__` (double underscore) to define private attributes and methods, meaning they are not accessible outside the class or even in child classes.`__private attribute/method`
+
+**Key Concepts**: Encapsulation allows the grouping of data and methods into a single unit (class) and the protection of the data by controlling access to it via access modifiers.
+
+### 25. Abstraction
+
+- **Abstraction**: Hides complex details, exposing only essential features.
+- **Abstract Class**: Contains one or more abstract methods. `class AbstractClass:`
+- **Abstract Method**: A method not implemented in the abstract class. Subclasses must implement it. `@abstractmethod def abstract_method(self):`
+- **abc Module**: Used to define abstract classes and methods. `from abc import ABC, abstractmethod`
+
+**Key Concepts**: Focuses on what an object does, not how it does it.
+
+### 26. Polymorphism
+
+- **Polymorphism**: Allows methods with the same name to have different behaviors in different classes, often achieved via `method overriding`.
+- **Types**:
+    - **Method Overloading**: Simulated in Python using `default` or `variable-length` arguments.
+    - **Method Overriding**: Subclass method replaces the `superclass` method.
+
+**Key Concepts**: Polymorphism enables one interface for multiple data types via `method overloading` and `method overriding`.
+
+### 27. Dunder/Magic Methods
+
+- **Dunder Methods**: Special methods in Python that define object behavior for built-in operations, prefixed with double underscores (e.g., `__init__`, `__str__`).
+- **Common Dunder Methods**:
+    - `__init__(self, ...)`: Constructor, called when an object is created.
+    - `__add__(self, other)`: Defines behavior for the `+` operator.
+    - `__eq__(self, other)`: Defines behavior for the `==` operator.
+    - `__getitem__(self, key)`: Allows indexing like lists and dictionaries.
+    - `__str__(self)`: Provides string representation of an object.
+    - `__len__(self)`: Returns the length of an object, used by `len()`.
+
+**Key Concepts**: Dunder methods allow you to customize built-in operations for objects, providing a way to define how objects behave in various situations, such as addition, comparison, and representation.
+
+### 28. Modules and Packages
+
+- **Module**: A file containing Python code (functions, variables, classes) that allows code reuse and organization.
+- **Package**: A directory of modules with an `__init__.py` file, enabling hierarchy.
+
+**Creating and Using Modules**:
+
+- **Creating a Module**: A Python file (`.py`) with functions or variables.
+- **Using a Module**: Use `import module_name` or `from module_name import ...` to access its contents.
+
+**Creating and Using Packages**:
+
+- **Creating a Package**: A directory with an `__init__.py` file and multiple module files.
+- **Using a Package**: Use `import package_name.module_name` to access modules within the package.
+
+**Key Concepts**: Modules help organize code, while packages allow for hierarchical organization of modules.
+
+# **Phase 2: Stats that Matters**
+
+### 1. Visualising Data
+
+- **Introduction to Visualizing Data**: Understanding the importance of visualizing data for analysis and communication.
+- **One-Way Table**: A simple table to display frequency counts of a single variable.
+    - Example: `| Category | Frequency |`
+- **Bar Graphs and Pie Charts**:
+    - **Bar Graphs**: Represent categorical data with rectangular bars.
+    - **Pie Charts**: Show proportions of a whole using slices of a circle.
+- **Line Graphs**: Display trends over time or continuous data points.
+- **Two-Way Table**: A table to summarize the relationship between two categorical variables.
+    - Example: `| Variable A \ Variable B | Category 1 | Category 2 |`
+- **Frequency Table and Dot Plots**:
+    - **Frequency Table**: Shows how often each value in a dataset occurs.
+        - Example: `| Value | Frequency |`
+    - **Dot Plots**: A simple graph that uses dots to represent data points along a number line.
+- **Relative Frequency Table**: Displays proportions or percentages instead of raw counts.
+    - Example: `| Value | Relative Frequency |`
+- **Joint Distribution**: A table or graph showing the distribution of two variables simultaneously.
+- **Histogram**: A graphical representation of data using bars to show the frequency of numerical data ranges.
+
+**Key Concepts**: Understanding different types of data visualizations, their use cases, and how to interpret them. Focus on tables, graphs, and charts to represent data effectively.
+
+### 2. Analysing Data
+
+- **Introduction to Analyzing Data**: Understanding the process of inspecting, cleaning, and interpreting data to extract meaningful insights.
+- **Measure of Central Tendency**:
+    - **Mean**: The average value of a dataset.
+        - Example: `Mean = (Sum of all values) / (Number of values)`
+    - **Median**: The middle value in an ordered dataset.
+    - **Mode**: The most frequently occurring value in a dataset.
+- **Measure of Spread**:
+    - **Interquartile Range (IQR)**: The range between the first quartile (Q1) and the third quartile (Q3).
+        - Formula: `IQR = Q3 - Q1`
+- **Changing the Data and Outliers**:
+    - **Outliers**: Data points that are significantly different from other observations.
+    - **Impact of Outliers**: How outliers can skew measures of central tendency and spread.
+    - **Handling Outliers**: Techniques like trimming, transforming, or using robust statistical methods.
+- **Box Plot**:
+    - A graphical representation of data using quartiles, highlighting the median, IQR, and potential outliers.
+    - Components: `Lower Whisker (Q1 - 1.5*IQR)`, `Box (Q1 to Q3)`, `Median Line`, `Upper Whisker (Q3 + 1.5*IQR)`, and `Outliers`.
+
+**Key Concepts**: Understanding central tendency, spread, and visualization tools like box plots to analyze and interpret data effectively.
+
+### 3. Data Distribution
+
+- **Introduction**: Understanding how data is spread and its patterns.
+- **Measures of Variability**:
+    - `Mean`: The average of data.
+    - `Variance`: Measures dispersion from the `Mean`. Formula: `Σ(x - Mean)² / N`
+    - `Standard Deviation (SD)`: Square root of variance. Formula: `√Variance`
+- **Frequency & Density Representation**:
+    - `Histogram`: Bar graph showing frequency distribution.
+    - `Frequency Polygon`: Line graph linking histogram midpoints.
+    - `Density Curve`: Smooth curve approximating data distribution.
+    - Making the Density curve using these things Histogram —> Frequency polygon —> Density curve
+- **Types of Distributions**:
+    - `Symmetrical`: Balanced around the center. Mean, median, mode at same position.
+    - `Right-Skewed`: Tail extends to Right side of data.
+    - `Left-Skewed`: Tail extends to left side of the data.
+- **Outliers**: Extreme values that distort analysis.
+- **Normal Distribution**:
+    - Bell-shaped, symmetrical curve centered around `Mean`.
+    - `68%-95%-99.7% Rule`: % of data within `1-2-3 SD`.
+    - `Z-Score`: Standardizes a value. Formula: `(X - Mean) / SD`
+- **Covariance & Correlation**:
+- `Covariance`: Measures directional relationship between variables.
+- `Correlation (r)`: Scaled `Covariance`, ranges `1 to 1`.
+- Formula: `Cov(X, Y) / (SDx * SDy)`
+
+**Key Takeaways**: Understand distribution shapes, variability, and relationships between variables.
+
+### 4.  Probability
+
+- **Introduction to Probability**:
+    - Measures the likelihood of an event occurring.
+    - Formula: `P(Event) = Favorable Outcomes / Total Outcomes`.
+- **Simple Probability**:
+    - Probability of a single event happening.
+    - Example: Rolling a die, `P(rolling a 3) = 1/6`.
+- **Addition Rule & Union vs Intersection**:
+    - `Union (A ∪ B)`: Either event `A` or `B` (or both) occur.
+    - `Intersection (A ∩ B)`: Both events `A` and `B` occur simultaneously.
+    - **Formula**: `P(A ∪ B) = P(A) + P(B) - P(A ∩ B)`.
+- **Independent & Dependent Events, Conditional Probability**:
+    - `Independent`: One event does not affect the other.
+    - `Dependent`: The outcome of one event influences the other.
+    - `Conditional Probability`: Probability of `A` given `B` happened:
+        - `P(A|B) = P(A ∩ B) / P(B)`.
+- **Bayes' Theorem**:
+    - Calculates `P(A|B)` when reverse probabilities are known.
+    - **Formula**: `P(A|B) = [P(B|A) * P(A)] / P(B)`.
+
+**Key Takeaways**: Understanding probability rules, dependencies, and Bayes' Theorem helps in real-world decision-making and data science applications.
+
+### 5. Hypothesis Testing
+
+- **Introduction to Hypothesis Testing**:
+    - A statistical method to make inferences about a population using sample data.
+    - Helps decide whether to accept or reject a **claim (hypothesis)**.
+- **Types of Hypotheses**:
+    - **Null Hypothesis (H₀)**: Assumes no effect or no difference exists.
+    - **Alternative Hypothesis (H₁)**: Assumes a significant effect or difference exists.
+- **Steps in Hypothesis Testing**:
+    1. Define **H₀** and **H₁**.
+    2. Set the **significance level (α)**, commonly 0.05.
+    3. Choose the **test statistic** (Z, t, χ², ANOVA).
+    4. Compute the test statistic from sample data.
+    5. Compare with the **critical value** or **p-value**.
+    6. **Reject H₀** if p-value < α; otherwise, **fail to reject H₀**.
+- **Z-Test**:
+    - Used when population variance is known or sample size > 30.
+    - Formula: `Z = (X̄ - μ) / (σ / √n)`
+- **T-Test**:
+    - Used when population variance is unknown and sample size < 30.
+    - Types:
+        - **One-sample t-test** — compares sample mean to population mean.
+        - **Independent two-sample t-test** — compares means of two groups.
+        - **Paired t-test** — compares means from the same group at different times.
+- **Chi-Square (χ²) Test**:
+    - Used for **categorical data** to test independence or goodness of fit.
+    - Formula: `χ² = Σ [(O - E)² / E]`,
+        
+        where *O* = Observed value, *E* = Expected value.
+        
+- **ANOVA (Analysis of Variance)**:
+    - Used to compare **means of three or more groups**.
+    - Tests if at least one group mean differs significantly from others.
+    - Based on **F-statistic**:
+        
+        `F = Variance between groups / Variance within groups`.
+        
+
+**Key Takeaways**: Hypothesis testing validates assumptions using statistical evidence. Z and T tests handle mean comparisons, Chi-Square tests categorical relationships, and ANOVA compares multiple group means.
+
+🔹 Basic Array Creation
+
+# Phase 3 : NumPy Ninjas
+
+### 1. NumPy Array Basics
+
+- **Basic Array Creation:**
+    - How to create `1D` and `2D` arrays using NumPy and understand how they differ from Python lists.
+    
+- **Array Generation Functions** :
+    - Learn built-in NumPy functions like `arange()`, `zeros()`, `ones()`, and `linspace()` to easily generate arrays with specific patterns or values.
+    
+- **Random Generation Functions:**
+    - Understand how to create arrays with random values, random integers, and normally distributed numbers using NumPy’s random module.
+    
+- **Array Attributes** :
+    - Explore properties like shape, size, and data type that help describe an array’s structure.
+    
+- **Array Methods** :
+    - Learn how to perform quick mathematical operations such as sum, mean, max, min, standard deviation, and find element indices.
+    
+- **Reshaping and Resizing** :
+    - Understand how to change the structure of arrays without altering the data, which is essential for data preprocessing and model input preparation.
+
+### 2. Numpy indexing and slicing
+
+- **NumPy Indexing and Slicing of Vectors:**
+    - Access **specific elements** or **subsets** of a **`1D array`**using **slicing techniques** to efficiently **extract ranges** or **skip elements**.
+- **NumPy Indexing and Slicing of Matrix:**
+    - Retrieve **rows**, **columns**, or **submatrices** from a **2D array** using **slicing** for efficient **data extraction** and **manipulation**.
+- **Boolean Indexing:**
+    - Filter **`array elements`** using **conditions** with **boolean masks** to extract **specific values** (e.g., even numbers, values above a limit) for **dynamic** and **powerful data selection**.
+
+### 3. Numpy Operations
+
+- **Arithmetic Operations** :
+    - Perform **element-wise mathematical operations** like **addition (+)**, **subtraction (-)**, **multiplication (*)**, **division (/)**, **floor division (//)**, and **power (**)** between arrays for **fast numerical computation**.
+- **Broadcasting**:
+    - NumPy automatically **extends smaller arrays** to match the shape of larger ones during operations, enabling **vectorized computations** without explicit loops.
+    
+- **Deep and Shallow Copy:**
+    - Understand the difference between **views (shallow copies)** that share data and **deep copies** that create independent arrays, ensuring **safe data manipulation**.
+    
+- **Matrix Operations** :
+    
+    Perform **matrix multiplication** using `np.dot()` and compute **transposes** using `.T`. These are essential for **linear algebra** and **data transformation tasks**.
+    
+- **Advanced Array Manipulation:**
+    - **Stacking Arrays** – Combine multiple arrays **vertically** or **horizontally** using `vstack()`, `hstack()`, and `column_stack()` for **structured data organization**.
+    - **Splitting Arrays** – Divide large arrays into smaller sections with `hsplit()` and `vsplit()` for easier **data segmentation** and **analysis**.
+
+# Phase 4: Pandas Playground
+
+### 1. Pandas installation and basics:
+
+- **Introduction to Pandas:**
+    - Learn what Pandas is and why it’s essential for data analysis and manipulation.
+
+- **Installation & Importing:**
+    - Understand how to install Pandas using `pip` and import it along with NumPy.
+    
+- **Series & DataFrame Basics:**
+    - Explore Pandas’ two core data structures — **`Series (1D)`** and **`DataFrame (2D)`**.
+
+- **Creating Series:**
+    - Learn to create Series from **`lists**` and **`dictionaries`**.
+    
+- **Creating DataFrames:**
+    - Understand how to create DataFrames from **dictionaries** and **NumPy arrays**.
+    
+- **Reading Data Files:**
+    - Get a preview of how to read **`CSV**` and **`Excel**` files using Pandas
+
+### **2. Pandas DataFrame Basics**
+
+- **Inspecting Data:**
+    - Learn how to quickly understand your dataset using functions like `head()`, `tail()`, `info()`, `shape`, and `dtypes` to view structure, types, and summary info.
+
+- **Selecting Columns & Rows:**
+    - Understand different ways to access data — select single/multiple columns, specific rows using **`loc`** (labels) and **`iloc`** (integer indexes), and slice data efficiently.
+
+- **Index & Columns Overview:**
+    - Explore how to view and understand DataFrame components — `index`, `columns`, and `values` (underlying NumPy data).
+    
+- **Renaming Columns & Setting Index:**
+    - Learn how to rename columns using `rename()`, set a column as an index with `set_index()`, and reset it using `reset_index()`.
+    
+- **Basic Attributes Recap:**
+    - Review core attributes like `df.columns`, `df.index`, and `df.values` to quickly inspect structure or prepare data for operations.
+
+- **Mini Practice:**
+    - Apply all concepts — create a DataFrame, inspect it, select subsets, rename columns, modify index, and explore attributes like shape and data type**3. Pandas Data Cleaning Essentials.**
+
+### **3. Pandas Data Cleaning Essentials**
+
+- **Handling Missing Values:**
+    - Detect missing entries using `isna()` or `isnull()`, remove them with `dropna()`, or replace them using `fillna()` with constants, mean, or forward/backward fill methods.
+    
+- **Changing Data Types (`astype`):**
+    - Convert columns to the correct type e.g., strings to numbers, integers to floats, or categorical types for efficiency ensuring data compatibility.
+    
+- **Replacing Values (`replace`):**
+    - Clean or fix specific data points and typos by replacing single or multiple values, or using mapping and regex patterns for text cleaning.
+    
+- **Dropping Rows & Columns (`drop`):**
+    - Remove unnecessary rows or columns using `drop()` and control changes with the `axis` and `inplace` parameters.
+    
+- **Detecting & Removing Duplicates:**
+    - Identify duplicate rows using `duplicated()` and remove them with `drop_duplicates()`, based on full data or specific column subsets.
+
+- **Mini Practice:**
+    - Apply all data cleaning steps on a messy dataset — handle missing data, fix types, correct typos, drop unwanted data, and remove duplicates to create a clean, analysis-ready DataFrame.
+
+### **4. Pandas Data Selection & Filtering**
+
+- **Boolean Indexing & Conditional Selection:**
+    - Learn to filter DataFrame rows using logical conditions (`>`, `<`, `==`, `&`, `|`, `~`). Helps extract data matching specific criteria.
+    
+- **Filtering with Multiple Conditions:**
+    - Combine multiple conditions using parentheses for refined and dynamic data filtering.
+    
+- **Using `query()` Method:**
+    - Simplify filtering using readable string-based expressions. Supports using Python variables with `@`.
+    
+- **String Operations on Columns:**
+    - Use `.str` accessor for text-based filtering and cleaning — such as `contains`, `startswith`, `endswith`, `replace`, `lower`, and `upper`.
+    
+- **Mini Practice:**
+    - Create a dataset and apply multiple filtering techniques (boolean indexing, query method, and string operations) to strengthen your understanding of conditional data selection.
+
+### **5. Pandas Sorting & Basic Statistics**
+
+- **Sorting Data:**
+    - Learn how to sort data using `sort_values()` by one or multiple columns and `sort_index()` for sorting by index (rows/columns).
+    
+- **Descriptive Statistics:**
+    - Use statistical functions like `mean()`, `median()`, `mode()`, `std()`, and `describe()` to summarize and understand numeric data.
+    
+- **Counting Values:**
+    - Apply `value_counts()` to find frequency or percentage of unique values in a Series for categorical data analysis.
+    
+- **Correlation & Covariance:**
+    - Understand relationships between numerical columns using `corr()` and `cov()` to identify patterns or dependencies.
+
+### **6. Pandas GroupBy & Aggregations**
+
+- **Split–Apply–Combine Concept:**
+    - Understand how to divide data into groups, apply operations like `mean`, `sum`, or `count`, and combine the results for summary insights.
+
+- **GroupBy Operations:**
+    - Use `groupby()` to analyze grouped data efficiently with functions like `mean()`, `sum()`, `count()`, and `agg()` for multiple statistics.
+    
+- **Multiple Aggregations:**
+    - Perform different aggregation functions on multiple columns simultaneously using the flexible `agg()` method.
+    
+- **Pivot Tables & Crosstab:**
+    - Create `pivot_table()` to summarize data (like Excel pivots) and use `crosstab()` to analyze frequency distributions across categories.
+
+### **7. Pandas Merging, Joining & Concatenation**
+
+- **Concatenation (`concat`)** :
+    - Stack DataFrames vertically or horizontally using `pd.concat()`.
+    - Control alignment with `axis` and reset indexes using `ignore_index=True`.
+
+- **Merging (`merge`)** :
+    - Perform SQL-style joins (`inner`, `left`, `right`, `outer`) based on key columns using `merge()`.
+    
+- **Joining (`join`)** :
+    - Combine DataFrames using index alignment or a specific key column (`on='col'`).
+
+- **Practical Use Cases:**
+    - Merge and analyze related datasets (like Sales & Revenue), handle missing data after joins, and understand real-world data integration.
+
+### 8. Working with Time Series
+
+- **Datetime Conversion (`pd.to_datetime`):**
+    - Convert string or numeric date columns into datetime objects to enable time-based analysis and operations.
+        
+        
+- **DateTime Indexing & Resampling (`set_index`, `resample`)** :
+    - Set a datetime column as the index and resample data by different time periods (`'D'`, `'W'`, `'M'`, `'Y'`) to compute aggregates like sum or mean.
+    
+- **Date-Based Filtering & Slicing (`loc`)** :
+    - Retrieve data for specific dates, months, or custom ranges (e.g., `df.loc['2024-01']` or `df.loc['2024-01-10':'2024-01-20']`).
+    
+- **Rolling & Expanding Windows (`rolling`, `expanding`)** :
+    - Calculate moving averages, cumulative sums, or trends over time for performance and trend analysis.
+    
+- **Practical Use Cases** :
+    - Analyze time-based datasets like sales or website visits, perform trend analysis, and generate monthly or weekly performance reports.
+
+### **9. Pandas Advanced Tricks & Performance**
+
+- **Applying Custom Functions (`apply`, `map`):**
+    - Use `apply()` for row- or column-wise operations and `map()` for element-wise transformations on Series. Ideal for data cleaning and calculations.
+    
+- **Lambda Functions** :
+    - Quickly apply inline transformations (e.g., compute totals, normalize values, or categorize grades).
+    
+- **Custom Logic Functions** :
+    - Define user functions for complex operations like grading or conditional updates.
+    
+- **Practical Use Cases:**
+    - Automate repetitive transformations, create derived columns, and enhance datasets with dynamic calculations efficiently.
+
+# Phase 5 : Data Visualization
+
+### Introduction to Matplotlib
+
+- Understanding Matplotlib
+    - Learn the basics of Python’s most popular plotting library for creating static, animated, and interactive visualizations.
+    
+- Figure and Axes :
+    - Understand the structure of a Matplotlib figure, including Figure (canvas), Axes (plot area), and Axis (x/y scales).
+
+- Basic Plotting:
+    - Create simple visualizations such as line plots, scatter plots, bar charts, and histograms using `plt.plot()`, `plt.scatter()`, and others.
+
+- Customization :
+    - Add titles, labels, legends, and grids to make plots more informative and visually appealing.
+
+- Subplots :
+    - Learn to display multiple plots in a single figure using `plt.subplot()` or the object-oriented approach.
+
+- Styling and Layout:
+    - Control figure size, DPI, colors, markers, and line styles for professional-quality visuals.
+
+- Practical Use Cases :
+    - Visualize trends, distributions, and comparisons in datasets for data analysis and storytelling.
+    
+
+### **1. Seaborn Introduction & Relational Plots**
+
+- **What is Seaborn:**
+    - A high-level visualization library built on top of Matplotlib, designed for quick, attractive, and informative statistical plots with minimal code.
+    
+- **Relational Plots:**
+    - Used to visualize relationships between two variables, helping identify trends, correlations, and distributions.
+    
+- **Core Functions**
+    - `scatterplot()` – Displays individual data points to show correlation.
+    - `lineplot()` – Shows continuous trends or summary lines over time or categories.
+    
+- **Styling & Palettes** :
+    - Customize visual appeal with themes like `darkgrid`, `whitegrid`, or color palettes such as `pastel`, `deep`, and `muted`.
+        
+        
+- **Practical Use Cases:**
+    - Visualize relationships between numeric variables (like price vs. sales), discover patterns in data, and enhance storytelling through colors and styles.
+    
+
+### **2. Seaborn Categorical Plots**
+
+- **What Are Categorical Plots** :
+    - Used when one variable is **categorical** (like gender, day, or class). They help compare counts, averages, and spread across different groups.
+    
+- **Core Functions** –
+    - `barplot()` – Displays the **average** of a numeric variable for each category.
+    - `countplot()` – Shows the **frequency** of observations per category.
+    - `boxplot()` – Visualizes **median**, **quartiles**, and **outliers**.
+    - `violinplot()` – Combines boxplot with **distribution shape** for deeper insight.
+    - `stripplot()` – Displays **all data points**, even if they overlap.
+    - `swarmplot()` – Similar to stripplot but **prevents overlap** of points.
+    
+- **Practical Use Cases** :
+    - Compare customer spending by weekday, analyze score distributions by gender, or visualize category frequencies in survey or sales data.
+
+### **3. Seaborn Distribution Plots**
+
+- **What Are Distribution Plots** :
+    - Used to visualize how data values are **spread, concentrated, or distributed** across a range.
+    
+- **Core Functions** –
+    - `histplot()` – Modern **histogram** with options for bins and KDE overlay.
+    - `kdeplot()` – Displays a **smooth density curve** representing data distribution.
+    - `rugplot()` – Adds **small tick marks** for individual observations.
+    - `distplot()` – Deprecated; replaced by `histplot()` and `kdeplot()`.
+    
+- **Advanced Use** :
+    - Use `hue` to compare **multiple groups** (e.g., male vs female spending).
+    
+- **Practical Use Cases** :
+    - Analyze distribution of prices, customer tips, or sales amounts; compare value distributions across categories for insights.
+
+### **4. Seaborn Regression & Mixed Plots**
+
+- **What Are Regression & Mixed Plots** :
+    - Used to visualize **relationships** between variables along with **trend lines** or **combined plot types**.
+
+- **Core Functions** –
+    - `regplot()` – Displays a **scatterplot** with a fitted **regression line**.
+    - `lmplot()` – Similar to regplot but supports **grouping** (`hue`) and **faceting**.
+    - `jointplot()` – Combines **scatter** and **histogram/KDE** for joint and marginal distributions.
+    - `pairplot()` – Shows **pairwise relationships** among multiple variables in a dataset.
+    
+- **Practical Use Cases:**
+    - Analyze correlations (e.g., total bill vs tip), visualize gender-based trends, and explore relationships among multiple numeric features in datasets like *Iris*.
+    
+
+### **5. Seaborn Matrix & Styling Plots**
+
+- **Purpose** :
+    - Matrix or grid plots are great for exploring **correlations**, **patterns**, and **relationships** within datasets.
+        
+        
+- **Key Plots:**
+    - `heatmap()` → Displays correlations or pivot tables as colored grids (use `annot=True` for values).
+    - `clustermap()` → Adds clustering to heatmaps for grouping similar variables or patterns.
+    
+- **Styling Options:**
+    - `sns.set_style()` → Choose from `"white"`, `"dark"`, `"darkgrid"`, `"whitegrid"`, `"ticks"`.
+    - `sns.set_palette()` → Customize color themes (e.g., `"Set2"`, `"pastel"`, `"deep"`).
+    
+- **Use Cases:**
+    - Analyze correlations, highlight variable groupings, and create visually consistent plots with global themes.
+
+# Phase 6 : Excel Intelligence
+
+---
+
+## **1. Excel Fundamentals and Cell Management**
+
+1. Introduction, Installation, and Interface Overview
+2. Cell Operations: CRUD, Naming, Formatting, and Selection
+3. Row and Column Management, Auto-adjust, and Shortcuts
+4. Number Formatting and Custom Formats
+5. Basic Formulas and Functions
+6. Cell Referencing: Relative, Absolute, and Mixed
+7. Flash Fill and Smart Data Entry
+8. Efficient Navigation and Productivity Shortcuts
+9. Freeze Panes, Split View, Zoom, and Page Layout
+10. Data Validation and Drop-down Lists
+
+---
+
+## **2. Advanced Formulas and Functions**
+
+1. Arithmetic Operators and Basic Functions
+2. Logical Functions – `IF`, `AND`, `OR`, `NOT`, `IFS`, `SWITCH`, Nested `IFs`
+3. Error Handling – `IFERROR`, `IFNA`
+4. Text Functions – `LEFT`, `RIGHT`, `MID`, `LEN`, `TRIM`, `UPPER`, `LOWER`, `PROPER`, `SEARCH`, `FIND`, `SUBSTITUTE`, `CONCAT`, `TEXTJOIN`
+5. Date and Time Functions – `DAY`, `MONTH`, `YEAR`, `WEEKNUM`, `TODAY`, `NOW`
+6. Lookup Functions – `VLOOKUP`, `HLOOKUP`, `XLOOKUP`, `INDEX + MATCH`
+7. Dynamic Array Formulas – `FILTER`, `SORT`, `UNIQUE`, `RANDARRAY`, `SEQUENCE`
+8. Modern Excel Functions – `LET` and `LAMBDA`
+
+---
+
+## **3. Data Organization and Analysis Tools**
+
+1. Sorting (Basic, Custom, Multi-Level) and Filtering (AutoFilter, Advanced Filter)
+2. Conditional Formatting – Rules, Color Scales, Data Bars
+3. Data Cleaning – Remove Duplicates, Find/Replace, Text-to-Columns, Delimiters
+4. Data Merging, Consolidate, and Append
+5. Grouping and Outlining Data
+6. Subtotals and Aggregations – `COUNT`, `COUNTA`, `COUNTBLANK`, `COUNTIF`, `COUNTIFS`, `SUMIF`, `SUMIFS`
+7. Excel Tables – Structured References, Slicers, and Total Rows
+
+---
+
+## **4. Data Visualization and Charting**
+
+1. Introduction to Charts – Column, Line, Pie, Bar, and Trendlines
+2. Combo Charts and Dual Axis Charts
+3. Advanced Visuals – Waterfall, Sunburst, Treemap
+4. Statistical Charts – Histogram, Pareto, Box Plot
+5. Sparklines and Mini Graphs
+6. Interactive Charts using Drop-downs and Form Controls
+7. Specialized Charts – Stacked Column 100%, Area Chart 100%, Scatter Plot, Funnel Chart
+
+---
+
+## **5. Introduction to Pivot Tables**
+
+1. Pivot Table Fundamentals – Create, Format, and Drill Down
+2. Grouping, Sorting, and Summarizing Data
+3. Pivot Charts and Slicers for Interactivity
+4. Calculated Fields and Items
+5. Interactive Dashboards using Pivot Tables and Report Connections
+
+---
+
+## **6. Power Query, Power Pivot, and DAX Essentials**
+
+### Power Query
+
+1. Introduction to Power Query (Get and Transform)
+2. Import Data from Multiple Sources (Excel, CSV, Web, etc.)
+3. Advanced Data Cleaning Techniques
+4. Merging and Appending Queries
+5. Parameters and M Language Basics
+
+### Power Pivot
+
+1. Introduction to Data Models and Star Schema
+2. Creating Relationships (Cardinality, Cross Filter, Inactive Relationships)
+3. Building KPIs, Hierarchies, and Managing Relationships
+
+### DAX (Data Analysis Expressions)
+
+1. Calculated Columns, Measures, and Tables
+2. DAX Operators and Syntax
+3. Text, Math, Logical, Filter, and Date Functions
+4. Time Intelligence Functions – `DATEADD`, `DATESBETWEEN`, `TOTALYTD`, `SAMEPERIODLASTYEAR`
+5. Relationship Functions – `CROSSFILTER`, `RELATED`, `USERELATIONSHIP`
+6. Variables and Performance Optimization – `VAR`, `RETURN`
+
+---
+
+## **7. Automation, AI, and Integration**
+
+1. Macros – Record, Edit, and Run
+2. VBA (Visual Basic for Applications) – Automate Reports and Dashboards
+3. Office Scripts – Excel Web Automation
+4. Copilot in Excel – AI-Powered Formula Suggestions and Insights
+5. Excel + Python Integration – Perform Data Science within Excel
+
+---
+
+## **Capstone Project Ideas**
+
+1. Sales Performance Dashboard
+2. HR Attrition Analysis
+3. Financial KPI and Forecasting Report
+4. Excel Automation using Macros and VBA
+5. AI-Powered Reporting using Excel Copilot
+
+# Phase 7 : Power BI Prodigy
+
+## **1: Introduction & Data Analyst Foundation**
+
+### **Discover Data Analysis**
+
+1. Learn about the **roles in data**.
+2. Learn about the **tasks of a data analyst**.
+    
+    `→ Prepare → Model → Visualize → Analyze → Manage`
+    
+3. **Power BI Ecosystem Overview** – Desktop, Service, Mobile.
+4. **Data Analyst Workflow & Use Cases in Business.**
+
+---
+
+### **Get Started with Power BI**
+
+1. **Introduction to Power BI** (Desktop, Service, Mobile)
+2. **Installation**, **Setup**, and **Interface Overview**
+3. **Data Analyst Workflow**
+
+| Step | Tool Used |
+| --- | --- |
+| **Prepare** | Power Query |
+| **Model** | Power Pivot |
+| **Visualize** | Power View |
+| **Analyze** | DAX |
+| **Share** | Power BI Service |
+1. **Connecting Data Sources** (`Excel, CSV, Web, SQL, SharePoint, JSON, PDF`)
+2. **Basic Transformations in Power Query** (`Remove rows, Split columns, Fill down`)
+3. **Data Types**, **Rename Columns**, **Detect Data Type Errors**
+4. **Semantic Models vs Visual Layers** – Core Concepts
+5. Understanding **Power BI Building Blocks** → `Datasets`, `Reports`, `Dashboards`, `Workspaces`
+6. **Power BI Roles** in Microsoft Fabric Ecosystem
+
+**Case Study:** Cleaning messy Excel data into report-ready format
+
+---
+
+## **2: Data Preparation (Power Query Mastery)**
+
+### **Get Data**
+
+1. Identify and connect to **data sources**.
+2. Select a **storage mode**.
+3. Fix **performance issues**.
+4. Resolve **data import errors**.
+
+`Storage Mode → Import | DirectQuery | Dual | DirectLake`
+
+`Power Query Editor (M Language Basics)` | `Data Profiling`
+
+1. Resolve **inconsistencies**, **unexpected and null values**, and **data quality issues**.
+2. Apply **data shape transformations** to columns and table structures.
+3. Apply **user-friendly naming conventions**.
+4. **Merge Queries vs Append Queries**
+5. **Conditional Columns**, **Custom Columns**
+6. **Group By**, **Aggregate**, **Pivot & Unpivot Columns**
+7. **Handling Errors & Nulls** like a Pro
+8. **Parameters & Functions** in Power Query
+9. **Dynamic Source Switching** (Folder + File Parameterization)
+10. **Creating Date Table** using **M Language**
+11. **Query Diagnostics** (Performance Optimization)
+
+**Case Study:** Sales Data Cleaning + Auto Refresh Setup
+
+---
+
+## **3: Data Modeling and DAX Essentials**
+
+### **Design a Semantic Model**
+
+1. Understanding **Relational Data Modeling**
+2. **Star Schema** vs **Snowflake Schema Design**
+3. Managing **Relationships** (1-Many, Many-Many)
+4. **Cardinality** & **Cross Filter Direction**
+5. Role of **Primary & Foreign Keys**
+6. Building **Hierarchies** (Date, Product, Geography)
+7. Handling **Inactive Relationships** (`USERELATIONSHIP`)
+8. **Project:** Build a complete Power Pivot Model
+
+---
+
+### **Add Measures to Semantic Models**
+
+1. **DAX Concept and Syntax**
+2. **Calculated Measures**, **Columns**, and **Tables**
+
+---
+
+### **Use DAX Functions**
+
+1. Understand and manipulate **Row Context** vs **Filter Context**
+2. Use **DAX Functions** to extend semantic models
+
+**Key Function Categories:**
+
+- **Aggregate Functions:** `SUM`, `SUMX`, `COUNT`, `COUNTROWS`, `DISTINCTCOUNT`
+- **Date and Time Functions:** `TODAY`, `NOW`, `DATEDIFF`
+- **Filter Functions:** `FILTER`, `CALCULATE`, `ALL`
+- **Logical Functions:** `IF`, `SWITCH`, `AND`, `OR`
+- **Time Intelligence:** `DATEADD`, `DATESBETWEEN`, `DATESINPERIOD`, `PARALLELPERIOD`, `SAMEPERIODLASTYEAR`
+- **Relationship Functions:** `RELATED`, `RELATEDTABLE`, `CROSSFILTER`, `USERELATIONSHIP`
+1. **Dynamic Titles**, **KPIs**, **Variance %**
+
+---
+
+### **Optimize Model Performance**
+
+1. Use **variables** (`VAR`, `RETURN`) to improve performance and troubleshooting.
+2. Review performance of **measures**, **relationships**, and **visuals**.
+
+---
+
+### **Create Visual Calculation**
+
+1. Understand **Visual Calculations** and how they differ from measures.
+2. Create **Visual Calculations** in Power BI Desktop.
+3. Use **parameters** in visual calculations.
+
+**Case Study:** Financial Dashboard using DAX
+
+---
+
+## **4: Data Visualization & Advanced Analytics**
+
+### **Design Power BI Report**
+
+1. Understand **Power BI Report Structure** and **Report Objects**.
+2. Select the appropriate **Visual Type** to use.
+3. **Format and Configure Visualizations**.
+4. Explore **Interactive Features** of visuals.
+
+**Core Visuals:** Bar, Column, Line, Pie/Donut, Scatter Chart, Card & Multi-row Card, Table & Matrix
+
+**Advanced Visuals:** Waterfall, Map (Filled), Tree Map, Gauge, KPI, Funnel
+
+**Conditional Formatting**, **Custom Tooltips**
+
+---
+
+### **Enhance Reports for User Experience**
+
+1. Design **Report Navigation** and **Filtering**.
+2. Add **Report Elements** and **Bookmarks**.
+3. **Drill Through** to other visuals.
+4. Choose when to use **Paginated Reports**.
+
+**Key Concepts:**
+
+- **Hierarchies & Drill Through**
+- **Bookmarks & Buttons** (Navigation & Storytelling)
+- **Dynamic Filters with Slicers** (Sync, Visual-Level, Page-Level)
+- **Report Themes & Color Palettes**
+
+---
+
+### **AI Visuals**
+
+- **Key Influencers**
+- **Smart Narratives**
+- **Decomposition Tree**
+- **Q&A Visual** (Natural Language Querying)
+- **Integration with Copilot & AI Formula Builder**
+
+---
+
+### **Performance & Advanced Analytics**
+
+1. Use the **Analyze Feature**.
+2. **Group, Bin, and Cluster Data.**
+3. **Identify Patterns and Trends.**
+
+Integrate **Power BI with Python & R** for Data Science
+
+Use **What-If Parameters** & **Scenario Simulation**
+
+Perform **Forecasting & Trendline Analysis**
+
+---
+
+## **5: Management, Security, and Microsoft Fabric**
+
+### **Create and Manage Workspaces**
+
+1. **Create Workspace** and **Manage Permissions**.
+2. Explore different **Workspace Items**.
+3. **Share and Distribute Reports.**
+
+---
+
+### **Implement Row Level Security (RLS)**
+
+1. Configure **RLS (Static Method)**.
+2. Configure **RLS (Dynamic Method)**.
+
+---
+
+### **Manage Semantic Models**
+
+1. Connect to **On-premises Data Sources**.
+2. Keep data up to date using **Incremental Refresh**.
+3. **Semantic Model Endorsement.**
+4. **Data Protection & Report Settings.**
+5. Leverage **Usage Metrics Reports** for insights.
+
+---
+
+### **Create Dashboards**
+
+1. Create **Power BI Dashboards.**
+2. **Pin Live Report Pages** to a dashboard.
+3. Add a **Theme** to visuals in your dashboard.
+4. Set a **Mobile View.**
+
+---
+
+### **Explore Copilot**
+
+1. Understand **Semantic Model Requirements.**
+2. Create **Visuals and Reports** using **Copilot for Power BI.**
+3. Create **Summaries** using **Copilot for Power BI.**
+
+---
+
+### **Explore End-to-End Analytics with Microsoft Fabric**
+
+1. Describe **End-to-End Analytics** in **Microsoft Fabric.**
+2. Understand **Data Teams and Roles** that use Fabric.
+3. Describe how to **Enable and Use Fabric.**
+
+---
+
+# Phase 8 : SQL
+
+### **1: SQL Fundamentals and Data Retrieval (SELECT)**
+
+1. **Database Concepts:** What is a Database, RDBMS, and SQL?
+2. **Installation & Setup:** MySQL/PostgreSQL/SQL Server installation and basic client UI overview.
+3. **Basic Queries:** `SELECT` statement and `FROM` clause.
+4. **Filtering Data:** The `WHERE` clause, Comparison Operators (`=, >, <, !=`), and Logical Operators (`AND, OR, NOT`).
+5. **Special Operators:** `BETWEEN`, `IN`, `LIKE` (wildcards: `%` and `_`), and `IS NULL`/`IS NOT NULL`.
+6. **Sorting Results:** The `ORDER BY` clause (ASC/DESC).
+7. **Limiting Results:** `LIMIT` (MySQL/PostgreSQL) or `TOP` (SQL Server).
+
+### **2: Data Manipulation (CRUD) and Schema Definition**
+
+1. **Data Definition Language (DDL):**
+    - `CREATE DATABASE`, `CREATE TABLE` (defining columns, data types).
+    - **Data Types** (INT, VARCHAR, DATE, DECIMAL).
+    - **Constraints:** `PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `UNIQUE`, `DEFAULT`.
+    - `ALTER TABLE` (ADD/DROP/MODIFY COLUMN), `DROP TABLE`.
+2. **Data Manipulation Language (DML):**
+    - **Create (C):** `INSERT INTO` (single and multiple rows).
+    - **Update (U):** `UPDATE` with `SET` and `WHERE`.
+    - **Delete (D):** `DELETE FROM` with `WHERE`.
+    - **Transaction Control:** `COMMIT`, `ROLLBACK`.
+    
+
+### **3: Aggregation, Grouping, and Multi-Table Queries**
+
+1. **Built-in Functions:**
+    - **String Functions** (`CONCAT`, `LENGTH`, `UPPER`, `SUBSTRING`).
+    - **Date/Time Functions** (`NOW()`, `DATEDIFF`, `DATE_FORMAT`).
+    - **Numeric Functions** (`ROUND`, `MOD`).
+2. **Aggregate Functions:** `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`.
+3. **Grouping Data:** The `GROUP BY` clause.
+4. **Filtering Groups:** The `HAVING` clause vs. `WHERE` clause.
+5. **Joins - The Core:**
+    - **Inner Join** (`JOIN` or `INNER JOIN`).
+    - **Outer Joins** (`LEFT JOIN`/`RIGHT JOIN`).
+    - **Full Join** (if supported).
+6. **Self-Join** and **Cross Join**.
+
+### **4: Advanced Queries and Subqueries**
+
+1. **Subqueries (Nested Queries):**
+    - Subqueries in the `WHERE` clause (using operators like `IN`, `ANY`, `ALL`).
+    - Subqueries in the `FROM` clause (Derived Tables).
+    - Subqueries in the `SELECT` clause (Scalar Subqueries).
+2. **Set Operators:** `UNION` and `UNION ALL` (combining result sets).
+3. **Window Functions (Basic):** Introduction to analytic functions.
+    - `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`.
+    - `PARTITION BY` clause.
+4. **Common Table Expressions (CTEs):** The `WITH` clause for simplifying complex queries.
+5. **Views:** `CREATE VIEW` (Virtual Tables).
+
+### **5: Stored Procedures, Functions, and Automation**
+
+1. **Stored Procedures:**
+    - `CREATE PROCEDURE`.
+    - Using **Parameters** (IN/OUT).
+    - Control Flow (`IF/ELSE`, `CASE`, Looping—depending on the dialect).
+    - Executing Stored Procedures.
+2. **User-Defined Functions (UDFs):** Scalar vs. Table-Valued Functions.
+3. **Indexes:**
+    - Purpose and importance of **Indexing**.
+    - `CREATE INDEX`, `DROP INDEX` (clustered vs. non-clustered).
+4. **Triggers:**
+    - **Concept:** Automated actions based on events (`INSERT`, `UPDATE`, `DELETE`).
+    - `CREATE TRIGGER` (defining event and timing: `BEFORE`/`AFTER`).
+    - **Example use cases** (auditing, enforcing business rules).
+
+# Phase 9 : Machine Learning Unleashed
+
+## **Machine Learning Overview**
+
+- **Definition:** Learning from `data` to make predictions.
+- **Types:**
+    - `Supervised Learning` → Labeled data
+    - `Unsupervised Learning` → Unlabeled data
+    - `Reinforcement Learning` → Learn by `trial & error`
+- **Applications:** `Recommendation`, `Fraud Detection`, `Spam Filter`, `Self-driving Cars`
+- **Workflow:** `Problem` → `Data` → `EDA` → `Features` → `Model` → `Evaluate` → `Improve`
+
+---
+
+## **Supervised Learning – Regression**
+
+### **Linear Regression**
+
+- Predicts **continuous values**
+- Equation: `Y = mX + c`
+- **Goal:** Minimize error between actual & predicted
+- **Assumptions:** Linearity, No multicollinearity, Normality, Homoscedasticity
+- **Regularization:** `Ridge (L2)`, `Lasso (L1)`
+- **Metrics:** `MSE`, `RMSE`, `R² Score`
+- **Implementation:** `LinearRegression()` from `sklearn`
+
+### **Polynomial Regression**
+
+- Extends linear regression to fit **curves**
+- Uses `PolynomialFeatures` to add higher-degree terms
+
+---
+
+## **Supervised Learning – Classification**
+
+### **Logistic Regression**
+
+- For **binary classification**
+- Uses `sigmoid function` → outputs probability between `0` and `1`
+- **Threshold:** >0.5 → `Class 1`, else `Class 0`
+- **Metrics:** `Confusion Matrix`, `Accuracy`, `Precision`, `Recall`, `F1-Score`, `ROC-AUC`
+
+### **K-Nearest Neighbors (KNN)**
+
+- Classifies based on **majority of nearest neighbors**
+- Uses distance metrics like `Euclidean` or `Manhattan`
+- **Hyperparameter:** `K` (no. of neighbors)
+
+### **Decision Tree**
+
+- Splits data based on conditions
+- Uses `Gini` or `Entropy` to find best split
+- **Pruning** helps avoid overfitting
+
+### **Random Forest**
+
+- Collection of multiple `Decision Trees`
+- **Final Prediction:** Majority vote or average
+- **Pros:** Handles overfitting better than single tree
+
+### **Support Vector Machine (SVM)**
+
+- Finds best `hyperplane` to separate classes
+- Uses `kernel trick` (`linear`, `rbf`, `poly`) for non-linear data
+
+### **Naive Bayes**
+
+- Based on `Bayes' Theorem`
+- Assumes **independent features**
+- Types: `GaussianNB`, `MultinomialNB`, `BernoulliNB`
+- Common in `text classification`, `spam detection`
+
+---
+
+## **Classification Metrics**
+
+- `Confusion Matrix`
+- `Accuracy` = (TP + TN) / Total
+- `Precision` = TP / (TP + FP)
+- `Recall` = TP / (TP + FN)
+- `F1-Score` = 2 × (Precision × Recall) / (Precision + Recall)
+- `ROC-AUC` → Measures model’s discrimination ability
+
+---
+
+## **Unsupervised Learning**
+
+### **K-Means Clustering**
+
+- Groups data into `K` clusters
+- Minimizes distance between points & cluster centers
+
+### **Hierarchical Clustering**
+
+- Builds tree-like structure (`dendrogram`)
+- Shows relationships between clusters
+
+### **DBSCAN**
+
+- Groups points based on **density**
+- Detects noise & irregular shapes
+
+### **PCA (Principal Component Analysis)**
+
+- Reduces dimensions while retaining variance
+- Used for `visualization` and `speed improvement`
+
+---
+
+## **Model Evaluation & Tuning**
+
+- `Train-Test Split` → Evaluate on unseen data
+- `Cross Validation` → Better performance estimation
+- `GridSearchCV`, `RandomizedSearchCV` → Tune hyperparameters
+- `Bias-Variance Tradeoff` → Balance underfitting & overfitting
+- `Underfitting` → Too simple model
+- `Overfitting` → Too complex model
+
+# Phase 10 : Deep Learning Demystified
+
+### Core Concepts
+
+**Neuron / Perceptron** → Basic unit of computation | **Weights & Biases** → Learnable parameters | **Activation Functions** → `ReLU`, `Sigmoid`, `Tanh`
+
+**Layers** → `Input`, `Hidden`, `Output` | **Forward Propagation** → Computes predictions | **Loss Function** → `MSE`, `CrossEntropy` | **Backpropagation** → Updates weights using `Gradient Descent`
+
+---
+
+### Building Neural Networks
+
+**Frameworks** → `TensorFlow`, `Keras`, `PyTorch` | **Feedforward Neural Network** → For tabular datasets like `MNIST`, `Iris`, `Boston Housing`
+
+**Keras Syntax** → `Sequential()`, `Dense()`, `compile()`, `fit()`, `evaluate()`
+
+---
+
+### Training & Optimization
+
+**Epochs** → Full passes over training data | **Batch Size** → Mini-batch size for updates | **Learning Rate** → Step size for optimizer
+
+**Optimizers** → `SGD`, `Adam`, `RMSprop` | **Loss Curves** → Used to monitor training | **Metrics** → `Accuracy`, `Loss`, `Confusion Matrix`
+
+---
+
+### Types of Neural Networks
+
+**CNN (Convolutional Neural Network)** → For image data | Layers: `Conv2D`, `ReLU`, `Pooling`, `Flatten`, `Dense` | Use Case: Image classification on `MNIST`, `CIFAR-10`
+
+**RNN (Recurrent Neural Network)** → For sequential data | Variants: `LSTM`, `GRU` | Use Case: Time series prediction, sentiment analysis
+
+---
+
+### Evaluation & Overfitting
+
+**Validation** → `Train-Test Split`, `Validation Set` | **Overfitting Signs** → High training accuracy, poor test accuracy
+
+**Solutions** → `Dropout`, `Early Stopping`, `Regularization (L2)`, `Data Augmentation`
+
+---
+
+### Transfer Learning
+
+**Pretrained Models** → `VGG16`, `ResNet`, `MobileNet` | **Use Cases** → Feature extraction, fine-tuning on custom datasets | **Tools** → `Keras Applications`, `torchvision.models`
+
+# Phase 11 : Generative AI Revolution
+
+## **Introduction**
+
+- `Generative AI` → Models that **create** new content (text, image, code, audio, etc.)
+- Examples → `ChatGPT`, `Gemini`, `Claude`, `DALL·E`, `Midjourney`
+- Core Idea → Learn data patterns → **generate similar outputs**
+- Works using → `Large Language Models (LLMs)` and `Diffusion Models`
+
+---
+
+## **Large Language Models (LLMs)**
+
+- Trained on massive text data
+- Predict the next word/token in a sequence
+- Examples → `GPT`, `Gemini`, `Claude`, `Mistral`
+- **Key Concepts:**
+    - `Tokenization` → Convert words into numerical form
+    - `Embeddings` → Vector representation of meaning
+    - `Transformers` → Use self-attention for context understanding
+
+---
+
+## **Capabilities & Limitations**
+
+✅ **Can Do:**
+
+- Text generation, summarization, Q&A, code writing, translation
+
+❌ **Limitations:**
+
+- May hallucinate
+- Biased by training data
+- Doesn’t have real-world understanding
+
+---
+
+## **LangChain / LangGraph**
+
+- Frameworks to build **LLM-powered applications**
+- Connect LLMs with **tools, memory, and APIs**
+
+**Core Components:**
+
+- `LLMs` → Core language model
+- `Prompt Templates` → Reusable input formats
+- `Chains` → Sequential workflows
+- `Agents` → Make dynamic decisions
+- `Memory` → Retain conversation history
+- `Tools` → APIs, functions, or databases
+
+---
+
+## **LangGraph (Advanced LangChain)**
+
+- Graph-based orchestration of LLM workflows
+- Allows **branching, looping, and multi-agent coordination**
+- Used for **complex, dynamic AI systems**
+
+---
+
+## **AI Agents**
+
+- **Definition:** LLMs + Tools + Memory + Logic
+- **Purpose:** Perform tasks autonomously
+- **Types:**
+    - `Reactive Agents` → Respond based on input
+    - `Proactive Agents` → Plan and execute multi-step tasks
+- **Examples:**
+    - Research Agent
+    - Personal Assistant
+    - Task Planner
+
+---
+
+## **Vector Databases (VectorDBs)**
+
+- Store embeddings for **semantic search**
+- Enable context-aware and memory-based AI
+- Examples → `Pinecone`, `Weaviate`, `FAISS`, `ChromaDB`
+
+**Functions:**
+
+- Store embeddings
+- Perform similarity search
+- Retrieve relevant context for prompts
+
+---
+
+## **RAG (Retrieval-Augmented Generation)**
+
+- Combine **LLMs + Vector Databases** for contextual output
+
+**Steps:**
+
+1. Convert user query → embedding
+2. Search VectorDB → retrieve similar documents
+3. Combine retrieved data → feed to LLM
+
+**Use Cases:**
+
+- Document Q&A
+- Knowledge assistants
+- Custom chatbots
+
+---
+
+## **Multi-Agent Systems**
+
+- Multiple agents collaborating to complete tasks
+- Each agent has a dedicated role
+
+**Example:**
+
+- `Planner Agent` → Defines workflow
+- `Research Agent` → Gathers information
+- `Writer Agent` → Generates final output
+
+---
+
+## **Building Generative AI Apps**
+
+🧩 **Tech Stack:**
+
+- **Frontend / UI:** `Streamlit`
+- **Backend Logic:** `Python`
+- **LLM Framework:** `LangChain` / `LangGraph`
+- **Vector Database:** `Pinecone`, `ChromaDB`, or `FAISS`
+- **Model APIs:** `Gemini`, `OpenAI`, `Mistral`, `HuggingFace`
+
+# 
+
+# Phase 12 : MLOps and Deployment
+
+## 1: MLOps Foundations and Machine Learning Refresher
+
+- **Introduction to MLOps**
+    - Definition and Importance: Bridging the gap between **Data Science** and **Operations**.
+    - The **MLOps Lifecycle**: `Experimentation`, `Data & Model Management`, `CI/CD`, `Monitoring`.
+    - **MLOps Maturity Levels**: `Manual`, `Automated Pipeline`, `CI/CD`.
+- **Version Control and Code Management**
+    - **`Git`** and **`GitHub`/`GitLab`** essentials for collaborative ML projects.
+    - **Project structure** and **best practices** for MLOps.
+- **Machine Learning Project Basics (Refresher)**
+    - Review of a standard **ML workflow**: `Data Ingestion`, `EDA`, `Feature Engineering`.
+    - `Model Training`, `Hyperparameter Tuning`, and **Evaluation Metrics** (e.g., `Accuracy`, `F1-Score`, `AUC`).
+    - Serializing Models: Using **`pickle`** or **`joblib`** for model persistence.
+- **Key Concept: Reproducibility in ML**
+    - Understanding the challenge of **non-determinism**.
+    - Version control for `code`, `data`, `dependencies`, and `configuration`.
+
+---
+
+## 2: Experiment Tracking and Model Management with MLFlow
+
+- **Introduction to `MLFlow`**
+    - **MLFlow Architecture and Components**: `Tracking`, `Projects`, `Models`, `Registry`.
+    - Setting up an **MLFlow Tracking Server** (`Local`, `Remote/Cloud`).
+- **MLFlow Tracking**
+    - Logging `parameters`, `metrics`, and `artifacts` (e.g., the trained model, feature importance plots).
+    - Organizing runs into **`Experiments`**.
+    - Comparing and visualizing multiple runs using the **MLFlow UI**.
+- **MLFlow Models**
+    - Saving models in the **MLFlow format** (`Model Flavors`) for cross-platform deployment.
+    - Creating a reproducible environment using **`Conda`** or **`Docker`** specifications in MLFlow Projects.
+- **MLFlow Model Registry**
+    - Centralized repository for managing the **model lifecycle**.
+    - Model `versioning` and `staging` (`Staging`, `Production`, `Archived`).
+    - Transitioning models between stages for a governed deployment process.
+- **Data and Dependency Versioning**
+    - Introduction to **`Data Version Control (DVC)`** or using a **Feature Store** concept.
+    - Managing project dependencies with **`requirements.txt`** or **`environment.yml`**.
+
+---
+
+## 3: Continuous Integration (CI) for ML Code and Pipelines
+
+- **DevOps Tools Foundation**
+    - Introduction to **`CI/CD`** concepts and pipelines.
+    - Overview of CI tools: **`GitHub Actions`**, **`GitLab CI`**, or **`Jenkins`**.
+- **Code Testing for ML**
+    - **Unit Testing** for utility functions (e.g., data preprocessing, feature engineering).
+    - **Integration Testing** to ensure pipeline components connect correctly.
+- **Continuous Integration (CI) Implementation**
+    - Setting up a CI pipeline using **`GitHub Actions`** or **`GitLab CI`**.
+    - Automating code quality checks (`linting`, `formatting`).
+    - Automated execution of unit and integration tests on every code commit.
+- **ML-Specific CI: Testing the Model and Data**
+    - **Data Validation** (e.g., **`Great Expectations`**): Checking data schema and value distributions.
+    - **Model Validation/Drift Tests**: Automatically retraining the model and validating its performance on a held-out set; comparing the new model to the production baseline.
+    - Using **`CML (Continuous Machine Learning)`** for reporting model metrics back to pull requests.
+
+---
+
+## 4: Deployment and Continuous Delivery (CD)
+
+- **Model Serving Architectures**
+    - **`Online/Real-time Serving`** (REST APIs) vs. **`Batch Serving`**.
+    - Deployment Patterns: `Shadow Deployment`, `Canary Rollouts`, `A/B Testing`.
+- **Containerization with Docker**
+    - Why use **`Docker`** for ML deployment? Isolating environments and dependencies.
+    - Writing an efficient **`Dockerfile`** for an ML application (e.g., with Python and the saved MLFlow model).
+    - Building and running the **`Docker image`**.
+- **API Development for Model Serving**
+    - Developing a production-ready REST API using a framework like **`FastAPI`** or **`Flask`**.
+    - Exposing a simple endpoint for model inference.
+- **Orchestration and Scaling with Kubernetes (or Cloud Services)**
+    - **`Kubernetes (k8s)` Basics**: `Pods`, `Deployments`, `Services`.
+    - Deploying the Docker container to a Kubernetes cluster or using a managed service (**`AWS SageMaker`**, **`Azure ML`**, **`GCP Vertex AI`**).
+    - Scaling the deployment and load balancing.
+- **Continuous Deployment (CD) Pipeline**
+    - Automating the deployment process using the CI tool (e.g., **`GitHub Actions`**).
+    - Triggering model deployment upon successful CI and Model Registry approval.
+    - Implementing a **Health Check** and **Rollback** strategy.
+
+---
+
+## 5: Model Monitoring and Retraining (Continuous Training - CT)
+
+- **Model Monitoring in Production**
+    - Need for Monitoring: `Data Drift`, `Model Drift/Decay`, `Concept Drift`.
+    - **Technical Monitoring**: `Latency`, `Error Rate`, `Resource Utilization` (`CPU/Memory`).
+- **ML-Specific Observability**
+    - **Data Drift**: Detecting changes in input feature distributions.
+    - **Model Performance Drift**: Tracking the actual business and ML metrics over time.
+    - Tools for Monitoring: **`Prometheus`** & **`Grafana`**, or cloud-native monitoring services.
+- **Continuous Training (CT)**
+    - Defining **Triggers** for automatic retraining (e.g., scheduled, significant data/model drift detected).
+    - Automating the retraining pipeline using a workflow orchestrator like **`Airflow`** or **`Kubeflow Pipelines`**.
+    - Integrating the retrained, validated model back into the **`MLFlow Model Registry`** for a governance review.
