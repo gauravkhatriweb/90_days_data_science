@@ -30,7 +30,8 @@
 - [ ] Refactor or improve earlier code
 
 ## Resources & Videos
-- No specific video assigned for today. Focus on practice and projects.
+- [FastAPI Full Course for Beginners | Build Real-World APIs + ML Project + Deployment](https://www.youtube.com/results?search_query=FastAPI+Full+Course+for+Beginners+Build+Real-World+APIs)
+- Focus on practice and projects after completing the video.
 
 ## Practice & Assignments
 - Continue pending practice or focus on projects.

@@ -31,6 +31,7 @@
 
 ## Resources & Videos
 - [ML Playlist — DL Section](https://youtube.com/playlist?list=PLaldQ9PzZd9qT0KsKJ7yCq70iFFP3MFJ5)
+- [Deep Learning Complete Course | Part 4 | Transformers & Attention Mechanism Completely Explained](https://www.youtube.com/results?search_query=Deep+Learning+Complete+Course+Part+4+Transformers)
 
 ## Practice & Assignments
 - Continue pending practice or focus on projects.
