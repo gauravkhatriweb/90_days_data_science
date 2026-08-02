@@ -2,15 +2,14 @@
 
 
 ## Objectives
-- Understand Variables
-- Practice Loops
-- Build related skills and projects
+- Master remaining core data structures (Tuples, Sets, Dictionaries)
+- Learn Exception Handling for error management
 
 ## Topics
-- Variables
-- Loops
-- Functions
-- Lists/Dicts/Sets
+- Tuples
+- Sets
+- Dictionaries
+- Exception Handling
 
 ## Today's Priorities
 
@@ -30,10 +29,13 @@
 - [ ] Refactor or improve earlier code
 
 ## Resources & Videos
-- [Python Full Course Ch 9-15](https://www.youtube.com/watch?v=_aWbUudZ5Yo) (~4-5 hrs)
+- [Python Full Course](https://www.youtube.com/watch?v=_aWbUudZ5Yo)
+  - **Watch:** `05:17:00` to `06:43:23` (Before File handling)
+  - **Duration:** ~1 hr 26 mins
+  - **Key Chapters:** Tuples, Sets, Dictionaries, Exception Handling
 
 ## Practice & Assignments
-- Functions/DS (Original Week 2 Q1-Q30) - Split across these days
+- Complete Practice Questions: **Q14 to Q18** (5 questions)
 
 
 ## Revision

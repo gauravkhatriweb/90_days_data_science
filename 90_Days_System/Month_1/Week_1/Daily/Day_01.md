@@ -2,15 +2,15 @@
 
 
 ## Objectives
-- Understand Variables
-- Practice Loops
-- Build related skills and projects
+- Setup environment
+- Understand basic syntax, variables, and data types
+- Learn strings, input/output, and operators
 
 ## Topics
-- Variables
-- Loops
-- Functions
-- Lists/Dicts/Sets
+- Installation & Setup
+- Variables & Data Types
+- Strings & Type Conversion
+- Input/Output & Operators
 
 ## Today's Priorities
 
@@ -30,10 +30,13 @@
 - [ ] Refactor or improve earlier code
 
 ## Resources & Videos
-- [Python Full Course Ch 1-8](https://www.youtube.com/watch?v=_aWbUudZ5Yo) (~4-5 hrs)
+- [Python Full Course](https://www.youtube.com/watch?v=_aWbUudZ5Yo)
+  - **Watch:** `00:00` to `01:39:27` (Before If-Else)
+  - **Duration:** ~1 hr 39 mins
+  - **Key Chapters:** Intro, Setup, Variables, Strings, Operators
 
 ## Practice & Assignments
-- Python Basics (Original Week 1 Q1-Q30) - Split across these days
+- Complete Practice Questions: **Q1 to Q4** (4 questions)
 
 
 ## Revision

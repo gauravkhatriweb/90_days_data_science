@@ -2,15 +2,14 @@
 
 
 ## Objectives
-- Understand Variables
-- Practice Loops
-- Build related skills and projects
+- Understand File Handling concepts
+- Complete the File Handling real-world project
+- Learn the basics of Object Oriented Programming (OOP)
 
 ## Topics
-- Variables
-- Loops
-- Functions
-- Lists/Dicts/Sets
+- File Handling Basics
+- File Handling Project
+- Object Oriented Programming (OOP)
 
 ## Today's Priorities
 
@@ -30,10 +29,13 @@
 - [ ] Refactor or improve earlier code
 
 ## Resources & Videos
-- [Python Full Course Ch 9-15](https://www.youtube.com/watch?v=_aWbUudZ5Yo) (~4-5 hrs)
+- [Python Full Course](https://www.youtube.com/watch?v=_aWbUudZ5Yo)
+  - **Watch:** `06:43:23` to `09:18:32` (Before Advanced concepts)
+  - **Duration:** ~2 hrs 35 mins
+  - **Key Chapters:** File Handling, File Project, OOP (Classes, Objects, Inheritance)
 
 ## Practice & Assignments
-- Functions/DS (Original Week 2 Q1-Q30) - Split across these days
+- Complete Practice Questions: **Q19 to Q23** (5 questions)
 
 
 ## Revision

@@ -2,15 +2,12 @@
 
 
 ## Objectives
-- Understand Variables
-- Practice Loops
-- Build related skills and projects
+- Revise all concepts covered during the week
+- Complete any pending exercises and projects
 
 ## Topics
-- Variables
-- Loops
-- Functions
-- Lists/Dicts/Sets
+- Full Week Revision
+- Project Finalization
 
 ## Today's Priorities
 
@@ -30,10 +27,12 @@
 - [ ] Refactor or improve earlier code
 
 ## Resources & Videos
-- No specific video assigned for today. Focus on practice and projects.
+- **Watch:** Review any confusing parts of the video from the past 6 days.
+  - **Duration:** Self-paced revision
 
 ## Practice & Assignments
-- Functions/DS (Original Week 2 Q1-Q30) - Split across these days
+- Complete Practice Questions: **Q28 to Q30** (3 questions)
+- Finish any pending assignments or project tweaks.
 
 
 ## Revision

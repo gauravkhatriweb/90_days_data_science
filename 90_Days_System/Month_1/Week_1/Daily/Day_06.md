@@ -2,15 +2,12 @@
 
 
 ## Objectives
-- Understand Variables
-- Practice Loops
-- Build related skills and projects
+- Grasp Advanced Python concepts
+- Build the OOP-based Bank Management System project
 
 ## Topics
-- Variables
-- Loops
-- Functions
-- Lists/Dicts/Sets
+- Advanced Python Concepts
+- OOPs Project: Bank Management System
 
 ## Today's Priorities
 
@@ -30,13 +27,14 @@
 - [ ] Refactor or improve earlier code
 
 ## Resources & Videos
-- [Python Full Course Ch 9-15](https://www.youtube.com/watch?v=_aWbUudZ5Yo) (~4-5 hrs)
+- [Python Full Course](https://www.youtube.com/watch?v=_aWbUudZ5Yo)
+  - **Watch:** `09:18:32` to `11:34:50` (End)
+  - **Duration:** ~2 hrs 16 mins
+  - **Key Chapters:** Advanced concepts, Bank Management Project
 
 ## Practice & Assignments
-- Functions/DS (Original Week 2 Q1-Q30) - Split across these days
+- Complete Practice Questions: **Q24 to Q27** (4 questions)
 
-## Projects
-- [ ] **Contact Book App**
 
 ## Revision
 - [ ] Review concepts from Day 5

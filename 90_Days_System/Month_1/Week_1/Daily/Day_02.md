@@ -2,15 +2,12 @@
 
 
 ## Objectives
-- Understand Variables
-- Practice Loops
-- Build related skills and projects
+- Master conditional logic (If-Else)
+- Understand and practice For loops
 
 ## Topics
-- Variables
-- Loops
-- Functions
-- Lists/Dicts/Sets
+- If-Else & Conditional Statements
+- For Loops & Pattern Questions
 
 ## Today's Priorities
 
@@ -30,10 +27,13 @@
 - [ ] Refactor or improve earlier code
 
 ## Resources & Videos
-- [Python Full Course Ch 1-8](https://www.youtube.com/watch?v=_aWbUudZ5Yo) (~4-5 hrs)
+- [Python Full Course](https://www.youtube.com/watch?v=_aWbUudZ5Yo)
+  - **Watch:** `01:39:27` to `03:40:37` (Before While loops)
+  - **Duration:** ~2 hrs 1 min
+  - **Key Chapters:** If-Else, Loops Concept, For Loop Questions
 
 ## Practice & Assignments
-- Python Basics (Original Week 1 Q1-Q30) - Split across these days
+- Complete Practice Questions: **Q5 to Q8** (4 questions)
 
 
 ## Revision

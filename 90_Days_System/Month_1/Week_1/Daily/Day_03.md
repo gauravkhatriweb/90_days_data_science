@@ -2,15 +2,15 @@
 
 
 ## Objectives
-- Understand Variables
-- Practice Loops
-- Build related skills and projects
+- Understand While loops and build a mini game
+- Learn Functions and scope
+- Introduction to Data Structures (Lists)
 
 ## Topics
-- Variables
-- Loops
-- Functions
-- Lists/Dicts/Sets
+- While Loops & Mini Game
+- Functions & Scope
+- Data Structures Overview
+- Lists
 
 ## Today's Priorities
 
@@ -30,14 +30,14 @@
 - [ ] Refactor or improve earlier code
 
 ## Resources & Videos
-- [Python Full Course Ch 1-8](https://www.youtube.com/watch?v=_aWbUudZ5Yo) (~4-5 hrs)
+- [Python Full Course](https://www.youtube.com/watch?v=_aWbUudZ5Yo)
+  - **Watch:** `03:40:37` to `05:17:00` (Before Tuples)
+  - **Duration:** ~1 hr 36 mins
+  - **Key Chapters:** While loops, Functions, Lists
 
 ## Practice & Assignments
-- Python Basics (Original Week 1 Q1-Q30) - Split across these days
+- Complete Practice Questions: **Q9 to Q13** (5 questions)
 
-## Projects
-- [ ] **Number Guessing Game**
-- [ ] **CLI Calculator**
 
 ## Revision
 - [ ] Review concepts from Day 2
