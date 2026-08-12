@@ -66,24 +66,24 @@ Welcome to your 6-month roadmap to become a Data Scientist. You're not just lear
 - [ ] Q10. Handle multiple exceptions in a single try block.
 
 ### Week 4: OOPs Concepts + Solve 50–100 Logic Building Problems
-- [ ] Q1. Write a Python program to check if a string has all unique characters.
-- [ ] Q2. Create a program that removes all duplicate characters from a string.
-- [ ] Q3. Write a script to count the frequency of each character in a string.
-- [ ] Q4. Write a program that accepts a sentence and calculates the number of upper and lower case letters.
-- [ ] Q5. Create a program to find the longest word in a sentence.
-- [ ] Q6. Write a program that takes a string and returns the string in reverse order without using [::-1].
-- [ ] Q7. Create a Python function to check if a string is a pangram.
-- [ ] Q8. Write a Python script to sort words in a sentence alphabetically.
-- [ ] Q9. Write a program to check if two strings are anagrams.
-- [ ] Q10. Write a Python program to capitalize the first letter of each word in a sentence.
-- [ ] Q11. Create a program that extracts numbers from a string and returns their sum.
-- [ ] Q12. Write a program to replace all spaces in a string with underscores.
-- [ ] Q13. Write a function to count how many times a substring appears in a string.
-- [ ] Q14. Write a script to convert a string into title case without using .title().
-- [ ] Q15. Write a Python program to merge two dictionaries into one.
-- [ ] Q16. Create a program to filter out all non-alphabetic characters from a string.
-- [ ] Q17. Write a function that returns True if a string ends with a given suffix.
-- [ ] Q18. Create a program that counts words, characters, and lines in a paragraph.
+- [x] Q1. Write a Python program to check if a string has all unique characters.
+- [x] Q2. Create a program that removes all duplicate characters from a string.
+- [x] Q3. Write a script to count the frequency of each character in a string.
+- [x] Q4. Write a program that accepts a sentence and calculates the number of upper and lower case letters.
+- [x] Q5. Create a program to find the longest word in a sentence.
+- [x] Q6. Write a program that takes a string and returns the string in reverse order without using [::-1].
+- [x] Q7. Create a Python function to check if a string is a pangram.
+- [x] Q8. Write a Python script to sort words in a sentence alphabetically.
+- [x] Q9. Write a program to check if two strings are anagrams.
+- [x] Q10. Write a Python program to capitalize the first letter of each word in a sentence.
+- [x] Q11. Create a program that extracts numbers from a string and returns their sum.
+- [x] Q12. Write a program to replace all spaces in a string with underscores.
+- [x] Q13. Write a function to count how many times a substring appears in a string.
+- [x] Q14. Write a script to convert a string into title case without using .title().
+- [x] Q15. Write a Python program to merge two dictionaries into one.
+- [x] Q16. Create a program to filter out all non-alphabetic characters from a string.
+- [x] Q17. Write a function that returns True if a string ends with a given suffix.
+- [x] Q18. Create a program that counts words, characters, and lines in a paragraph.
 - [ ] Q19. Write a script to encode a string using Caesar cipher (shift = 3).
 - [ ] Q20. Write a program that accepts a string and counts vowels and consonants.
 - [ ] Q21. Create a script to convert binary string to decimal.
