@@ -1,0 +1,2671 @@
+
+What is Data Science?
+IBM Technology
+IBM Technology
+
+1.79M subscribers
+
+Subscribe
+
+22K
+
+
+Share
+
+Ask
+
+Save
+
+1,135,155 views  Jun 13, 2022  #DataScience #MachineLearning #IBM
+ Want a career in Data Science? Start here → https://ibm.biz/BdK65F
+Data Science touches almost every operation of a business. See how  → https://ibm.biz/BdPEfu
+
+Data Science is the convergence of computer science, mathematics, and business expertise and helps entrepreneurs predict, diagnose, and solve their problems. Luv Aggarwal, a Data Solution Engineer at IBM, goes through the basics and explains how the discipline deploys data mining, data cleaning, machine learning and a variety of advanced analytics to yield actionable insights that will provide a roadmap for growth.  
+
+AI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/BdK65E
+ 
+#DataScience #BusinessSolutions #Lightboard #IBM #ComputerScience #Data #MachineLearning 
+
+
+[00:00:00] Let's talk about data science and some of the other related terms you may have heard,
+[00:00:03] such as predictive analytics, machine learning, advanced analytics and others.
+[00:00:08] So let's start with the textbook definition of data science.
+[00:00:11] So data science is the field of study that involves extracting knowledge and insights, from
+[00:00:26] noisy data, and then turning those insights into actions that our business or organization
+[00:00:39] can take. Okay. So let's dig into it a little bit more and discuss what are the different
+[00:00:45] areas that are covered by data science. So really data science is the intersection
+[00:00:50] between three different disciplines. We start with computer science, but then we also cover
+[00:01:02] the area of mathematics, and then what I think is the most important is. Business
+[00:01:14] expertize. So the intersection of these three disciplines is data science, and true data
+[00:01:22] science initiatives involve collaboration across all these three different areas.
+[00:01:29] Okay. So now let's touch on the different types of data science that you can do.
+[00:01:33] Now, what we need to understand here is that we have different data science
+[00:01:37] methods for different questions that we might ask in an organization. And these questions can
+[00:01:43] vary by complexity and the value that we get out of them. So let's chart them here
+[00:01:51] by complexity and value. Okay. So the first one that we have here is descriptive analytics.
+[00:02:08] So this is really about what is happening in my business, right. And it involves having
+[00:02:13] accurate data collection to make sure that we know what's happening. So a good question
+[00:02:18] we could ask here is, well, did sales go up or down? The next level is diagnostic analytics,
+[00:02:31] and this is more about why did something happen? So why did sales go up or down?
+[00:02:36] And it involves drilling down to the root cause of our problem. Now, the next one that we have is
+[00:02:47] predictive analytics. So this is about what is likely to happen next. Right. So what will
+[00:02:55] our sales performance be next quarter? And it involves using historical patterns in our
+[00:03:00] in our data to predict outcomes in the future. And then finally we have prescriptive analytics.
+[00:03:14] So this is about what do I need to do next? What is the recommended best action for a particular
+[00:03:20] outcome? So a question we could ask here is what do I need to do to improve sales by 10%?
+[00:03:25] Right. Okay. So now we can talk about how data science is done and who actually does it. So let's
+[00:03:34] look at the data science lifecycle. And the first thing that we always must start with is business
+[00:03:45] understanding.
+[00:03:49] So this is really critical to make sure that we're asking the right question before we go down a
+[00:03:55] lengthy data science initiative. And this is where you can see that having the business expertize and
+[00:04:01] the domain expertize can be incredibly critical to make sure that we're asking the right questions.
+[00:04:07] Okay. So once we've defined that, we can move on to data mining.
+[00:04:16] So this is the process of actually going out into our data landscape and procuring the data
+[00:04:22] that we need for our analysis. So once we've done that, we can move on to data cleaning.
+[00:04:34] So the reality of the marketplace is that we when we find data, it's probably not in the best format
+[00:04:42] that we need it in. And it probably has some some issues with it. Right. It might have rows
+[00:04:48] that have missing values. It might have duplicates in it. So there are some preparation and cleaning
+[00:04:53] that we have to do before it's ready for our analysis. So once we've done that cleansing.
+[00:05:00] We can move on to exploration.
+[00:05:08] Okay. So this is the part of the process that allows us to use different analytical tools that
+[00:05:14] can start helping us answer some of the types of questions that I mentioned here earlier.
+[00:05:20] And if we actually want to get into some of these higher value questions like predictive and
+[00:05:24] prescriptive, then we must start using advanced analytical tools such as machine learning tools
+[00:05:32] that leverage massive amounts of computing power and massive amounts of high quality data
+[00:05:38] to make predictions and prescribe actions for the future. Now once we've done our exploration
+[00:05:45] and perhaps our advanced analytics. What do we do next? Well, we need to visualize
+[00:05:54] our insights and outcomes of our analysis. Okay. Now I want to quickly touch on who does what
+[00:06:02] in this life cycle. So in an organization, you may have roles like a business analyst,
+[00:06:10] you might have data engineers. And then you might have data scientists.
+[00:06:18] So business analysts are obviously involved in formulating the questions. They have the
+[00:06:24] domain expertize. They can help with the business understanding, but they're also involved with.
+[00:06:30] Visualizing our insights in a way that's useful for the business. Right. And then we have folks
+[00:06:36] like data engineering folks. So these are the people that can help us find the data,
+[00:06:42] clean the data. And then also help with some of the exploration. Next, we move on to our
+[00:06:49] data scientists. So these are the people that will really help us with the exploration. They'll help
+[00:06:54] us with the advanced machine learning techniques. And they'll also assist in the visualization.
+[00:07:01] So you can see there's there's some overlap between the roles. And that's why it's critical
+[00:07:07] to have collaboration across these roles. And what you also start seeing nowadays in the marketplace
+[00:07:15] is that sometimes business analysts have to do some machine learning. They have to help out
+[00:07:19] with exploration data. Scientists sometimes need to go and find the data on their own.
+[00:07:24] So there's a lot of overlap, and these different roles must collaborate with each other.
+[00:07:30] Okay. So I hope you can see now how the data science lifecycle can help us take noisy data,
+[00:07:36] turn it into knowledge and insights, and then turn it into meaningful action for our business.
+[00:07:41] Thank you. If you have questions, please drop us a line below.
+[00:07:45] And if you want to see more videos like this in the future, please like and subscribe. 
+
+
+
+
+
+Data Analytics vs Data Science
+IBM Technology
+IBM Technology
+
+1.79M subscribers
+
+Subscribe
+
+15K
+
+
+Share
+
+Ask
+
+Save
+
+780,161 views  Nov 8, 2023
+ Explore analytics tools and solutions → https://ibm.biz/BdSPGc
+
+Are you interested in data science? And have you heard of data analytics, but aren't sure how they're different? In this video, Martin Keen explains that while data science and data analytics are often used interchangeably, they have distinct roles. In terms of job roles, he covers the tools and practices of data scientists and contrast them with those of data analysts.
+
+ Get started for free on IBM Cloud → https://ibm.biz/sign-up-now
+
+Subscribe to see more videos like this in the future → http://ibm.biz/subscribe-now 
+
+
+[00:00:00] Data science and data analytics. Are they the same thing? Well, you may have seen these terms
+[00:00:08] used interchangeably, but if I'm mining data from a large dataset, am I performing data science or
+[00:00:15] am I performing data analytics? Or what if I'm trying to create a prediction of when my store
+[00:00:20] will sell out of our current inventory of cantaloupes? Well, is that analytics or is
+[00:00:27] that science? It's worthwhile to understand the difference to better comprehend what these two
+[00:00:33] fields can do, and also, if you're considering a career in either field. After all, these are two
+[00:00:40] different jobs. Somebody who works in the field of data science is known as a data scientist.
+[00:00:49] For data analytics, that role is called a data analyst. Now, this is kind of a trick question
+[00:00:59] because we can classify everything-- data mining, data forecasting and all the rest of
+[00:01:05] it --as simply data science. And that's because data science is the overarching umbrella term
+[00:01:12] that covers tasks related to finding patterns in large datasets, training machine learning models,
+[00:01:17] and deploying AI applications. Data analytics, it could be argued, is one task that resides under
+[00:01:26] the data science umbrella. It's a specialization of data science, and it focuses on querying,
+[00:01:34] interpreting and visualizing datasets. Data science is iterative, meaning data scientists form
+[00:01:41] hypotheses and experiments to see if a desired outcome can be achieved using available data.
+[00:01:47] And that is a process that is known as the data science lifecycle, which usually follows seven
+[00:01:56] phases. So first is to identify a problem or an opportunity. Then the next phase is data mining,
+[00:02:06] which is to extract data relevant to that problem or opportunity from large datasets. Now that data
+[00:02:12] will likely consist of a bunch of redundancies and errors, which is fixed in the next stage,
+[00:02:18] data cleaning. And then at that point, we move on to data exploration analysis to try to make sense
+[00:02:26] of that data. We'll then apply feature engineering using domain knowledge to extract details from the
+[00:02:34] data. And predictive modeling comes next to use the data to predict or forecast future outcomes
+[00:02:42] and behaviors. And then finally, we have data visualization that represents the data points with
+[00:02:49] graphical tools such as charts and animations. And so the lifecycle repeats. Now, the role of a
+[00:02:54] data scientist is an in-demand profession right now. If that's something you're interested in,
+[00:02:59] you'll want to develop deep skills in machine learning and AI. It's helpful to be able to
+[00:03:04] write code in languages such as Python--also in R-- it's another popular language for data science. And
+[00:03:14] you should have experience working with big data platforms. So perhaps Hadoop or Apache Spark. And
+[00:03:22] it's also very helpful to have database knowledge and SQL. So that's data science. But what about
+[00:03:30] its specialization, data analytics? Well, the job of a data analyst is to conceptualize a data set
+[00:03:39] as it currently exists. So we have some data here and we need to do something with it. And
+[00:03:48] we need to be able to make decisions based on this data. How do we conceptualize it? Well,
+[00:03:53] four ways. One is through predictive analytics, which helps to identify trends, correlations and
+[00:04:00] causation within datasets like forecasting when those cantaloupes would have all flown off the
+[00:04:06] shelves. Or, in health care, to forecast regions which will experience a rise in flu cases. There's
+[00:04:13] prescriptive analytics, and that predicts likely outcomes and makes decision recommendations like
+[00:04:19] predicting when a tire will wear out and need to be replaced. There's diagnostic analytics
+[00:04:26] that helps pinpoint the reason an event occurred. Manufacturers can analyze a failed component on an
+[00:04:31] assembly line and figure out the reason behind its failure. And then there is descriptive analytics
+[00:04:38] which evaluates the qualities and quantities of a data set. A content streaming provider might
+[00:04:44] use descriptive analytics to understand how many subscribers it's lost or how many it's gained over
+[00:04:49] a given period of time and what content is being watched. And while a data scientist is a clearly
+[00:04:56] defined and specialized role, virtually any stakeholder can be a data analyst. For example,
+[00:05:03] business analysts can use BI dashboards to conduct business analytics and visualize KPIs. But many
+[00:05:10] organizations do employ professional, dedicated data analysts, responsible for data wrangling
+[00:05:16] and interpreting findings like why a company's marketing campaign didn't meet expectations. If
+[00:05:22] you want to be a data analyst, it helps to have both analytical and programming skills. So this
+[00:05:29] includes familiarity with databases. Also, you'll need to know about statistical analysis. And also
+[00:05:38] data visualization is another important skill. So data analytics is often more focused on using
+[00:05:47] statistical tools and techniques to interpret existing data and offer actionable insights.
+[00:05:53] It's usually less concerned with creating new algorithms or models. Data science,
+[00:05:58] on the other hand, has a broader scope that can involve complex machine learning algorithms, often
+[00:06:03] created from scratch. Data science focuses on phases from data collection to predictive
+[00:06:09] modeling. Data analysis, on the other hand, is more about answering specific questions with
+[00:06:15] that data. And if you've done both your data science and data analytics right,
+[00:06:22] you'll always be able to keep cantaloupes and just about everything else in stock.
+
+
+
+The Complete Data Science Roadmap
+Programming with Mosh
+Programming with Mosh
+
+5.15M subscribers
+
+Subscribe
+
+23K
+
+
+Share
+
+Ask
+
+Save
+
+852,197 views  Aug 1, 2024  #ai #machinelearning #coding
+ Go from zero to a data scientist in 12 months. This step-by-step roadmap covers the essential skills you must learn to become a data scientist in 2024. 
+
+👉  Download the FREE roadmap PDF here: https://mosh.link/data-science-roadmap
+
+✋ Stay connected
+
+Complete courses: https://codewithmosh.com
+Twitter:   / moshhamedani  
+Facebook:   / programmingwithmosh  
+Instagram:   / codewithmosh.official  
+LinkedIn:   / codewithmosh  
+
+📚 Tutorials 
+
+   • Python Full Course for Beginners  
+   • Git Tutorial for Beginners: Learn Git in 1...  
+   • Data Structures and Algorithms for Beginners  
+   • SQL Course for Beginners [Full Course]  
+
+📖 Chapters
+
+00:00 - Introduction
+00:24 - Programming Languages
+00:45 - Version Control
+01:05 - Data Structures & Algorithms 
+01:25 - SQL
+02:08 - Mathematics & Statistics
+02:30 - Data Handling and Visualization
+03:19 - Machine Learning
+04:01 - Deep Learning
+04:35 - Specialization
+05:24 - Big Data
+
+#datascience #machinelearning #ai #coding #programming 
+
+[00:00:00] if you want to become a data scientist
+[00:00:02] there are nine essential skills you need
+[00:00:03] to master let's dive in and check them
+[00:00:05] out one by
+[00:00:08] one data science is all about analyzing
+[00:00:11] and interpreting complex data to provide
+[00:00:14] actionable insights as a data scientist
+[00:00:16] you'll need to get good at a bunch of
+[00:00:18] different skills from programming and
+[00:00:20] math to data handling and visualization
+[00:00:22] let's jump in first up you need to get
+[00:00:24] the hang of python it's the main
+[00:00:26] language in data science and it's pretty
+[00:00:28] easy to pick up you can get a decent
+[00:00:30] grasp of it in about a month or two then
+[00:00:32] there's R it's another popular language
+[00:00:35] in data science start with python
+[00:00:37] because it's super versatile and once
+[00:00:39] you're comfortable with it you can dive
+[00:00:41] into R for its cool statistical and
+[00:00:43] visualization features next you need to
+[00:00:45] learn git git isn't a programming
+[00:00:48] language it's a Version Control System
+[00:00:50] we use to track changes to our code and
+[00:00:52] collaborate with others git has a ton of
+[00:00:54] features but you don't need to learn
+[00:00:55] them all think of it like the 8020 rule
+[00:00:58] 80% of the time you use 20% of GS
+[00:01:01] features 1 to two weeks of practice is
+[00:01:03] enough to get up and running next you
+[00:01:05] need to dive into data structures and
+[00:01:08] algorithms understanding these Concepts
+[00:01:10] will boost your problem solving skills
+[00:01:12] which is key for tackling complex
+[00:01:14] challenges plus speak take companies
+[00:01:16] like Google Amazon and Facebook always
+[00:01:19] ask about them in job interviews spend
+[00:01:21] about a month or two on this and you'll
+[00:01:23] be in great shape next you need to get
+[00:01:25] comfortable with SQL SQL stands for
+[00:01:27] structured query language it's a very
+[00:01:29] very simple language we use for working
+[00:01:31] with databases as a data scientist you
+[00:01:34] should know how to use SQL to access
+[00:01:36] organize and analyze the data you need
+[00:01:38] SQL is pretty simple and you can get a
+[00:01:41] decent grasp of it in about a month or
+[00:01:43] two by the way to help you on this
+[00:01:45] journey I've created a free
+[00:01:47] supplementary PDF that breaks down the
+[00:01:49] specific Concepts you need to learn for
+[00:01:51] each skill it's a great resource to
+[00:01:53] review your progress find gaps your
+[00:01:55] knowledge and prepare for interviews you
+[00:01:57] can find the link in the description box
+[00:02:00] also I have a bunch of tutorials on this
+[00:02:01] channel and complete courses on my
+[00:02:03] website if you're looking for structured
+[00:02:05] learning again links are in the
+[00:02:07] description box next you need a solid
+[00:02:09] foundation in mathematics and statistics
+[00:02:12] this is crucial because data science
+[00:02:14] relies heavily on these principles focus
+[00:02:16] on linear algebra calculus probability
+[00:02:19] and statistics these will help you
+[00:02:22] understand data analysis techniques and
+[00:02:24] how to interpret data correctly spend
+[00:02:26] about 2 to 3 months mastering these
+[00:02:29] topics I'm after that you need to get
+[00:02:31] good at preparing and visualizing data
+[00:02:33] this means cleaning up the data and
+[00:02:35] organizing it in a way that makes it
+[00:02:37] easy to analyze you'll need to Learn
+[00:02:39] Python libraries like pandas and numpy
+[00:02:41] to manipulate and clean the data once
+[00:02:44] your data is clean you need to visualize
+[00:02:46] it to understand patterns and
+[00:02:47] communicate results libraries like matte
+[00:02:50] plot lip and Seaborn help you create
+[00:02:52] insightful visualizations to identify
+[00:02:55] Trends and anomalies also why not
+[00:02:58] strictly necessary getting familiar with
+[00:03:00] business intelligence tools like Tableau
+[00:03:02] or powerbi can give you an edge because
+[00:03:05] these tools are widely used in the
+[00:03:06] industry for creating interactive and
+[00:03:09] sharable dashboards if you already have
+[00:03:11] a solid background in Python and SQL you
+[00:03:14] can get a good grasp of data
+[00:03:15] pre-processing and visualization in a
+[00:03:18] month or two next up you'll need to get
+[00:03:20] a handle on machine learning
+[00:03:21] fundamentals machine learning algorithms
+[00:03:24] fall into two categories supervised and
+[00:03:27] unsupervised in supervised learning the
+[00:03:29] model learns from labeled data meaning
+[00:03:32] each input comes with a known output in
+[00:03:35] unsupervised learning the model works
+[00:03:37] with unlabel data and tries to figure
+[00:03:39] out patterns and relationships on its
+[00:03:41] own it's important to learn about these
+[00:03:43] types of algorithms and how they work
+[00:03:46] you'll also need to get familiar with
+[00:03:47] tools like tensor flow pytorch and psyit
+[00:03:50] learn which are used to build and train
+[00:03:53] machine learning models dedicate about 3
+[00:03:55] to 4 months to master the core machine
+[00:03:57] learning Concepts and how to use the
+[00:03:59] these tools effectively after you've got
+[00:04:02] the basics of machine learning down it's
+[00:04:04] time to explore deep learning deep
+[00:04:06] learning is a subset of machine learning
+[00:04:08] that uses neural networks with many
+[00:04:10] layers that's why we call it deep these
+[00:04:12] networks are great for handling more
+[00:04:15] complex tasks like image and speech
+[00:04:17] recognition start with understanding the
+[00:04:19] basics of neural networks and then move
+[00:04:21] on to more advanced architectures like
+[00:04:23] cnns and rnns tools like tensor flow and
+[00:04:26] Pie torch are also essential here spend
+[00:04:29] about 2 to 3 months getting a good grasp
+[00:04:31] of deep learning Concepts and how to
+[00:04:33] implement them all right at this point
+[00:04:35] youve got a solid foundation in data
+[00:04:37] science it's like you have become a
+[00:04:39] general doctor now doctors often
+[00:04:41] specialize in different areas like the
+[00:04:43] heart or kidneys similarly you should
+[00:04:46] consider specializing in exciting Fields
+[00:04:48] like natural language processing also
+[00:04:50] called NLP or computer vision NLP is all
+[00:04:53] about working with text and language
+[00:04:55] data it's used for things like analyzing
+[00:04:58] sentiments in text translating languages
+[00:05:00] and creating chat pods like chat GPT
+[00:05:03] computer vision on the other hand is
+[00:05:05] about teaching computers to understand
+[00:05:07] and interpret visual data like images
+[00:05:09] and videos it's used in facial
+[00:05:11] recognition detecting objects and even
+[00:05:13] in self-driving cars now you don't need
+[00:05:15] to learn them both unless you're very
+[00:05:17] enthusiastic so pick the one that
+[00:05:19] interests you the most spend two to 3
+[00:05:21] months diving deep into one of these
+[00:05:23] areas now as you move forward in your
+[00:05:25] data science path there might come a
+[00:05:26] time when you need to work with massive
+[00:05:29] data sets that's where Big Data comes in
+[00:05:31] Big Data is all about handling and
+[00:05:33] processing huge amounts of data quickly
+[00:05:36] tools like Hadoop and Spark are super
+[00:05:38] handy for this spend 2 to 3 months
+[00:05:41] getting the hang of these tools and
+[00:05:42] you'll be able to spot patterns and
+[00:05:44] trends that you wouldn't catch with
+[00:05:46] smaller data sets so if you dedicate 3
+[00:05:49] to 5 hours every day you can follow this
+[00:05:52] road map and pick up all the skills you
+[00:05:53] need to apply for an entrylevel data
+[00:05:56] science job in about 12 to 20 months if
+[00:05:58] you have any questions please let me
+[00:06:00] know in the comments below and I will do
+[00:06:02] my best to answer you right here or in
+[00:06:04] my future videos if you enjoy this video
+[00:06:06] please give it a like And subscribe for
+[00:06:08] more useful content thanks for watching 
+
+
+The Complete Data Science RoadMap | from Basics to Advanced for 2026
+
+
+Apna College
+ and Shradha Khapra
+
+Subscribe
+
+23K
+
+
+Share
+
+Ask
+
+Save
+
+616,597 views  Feb 15, 2026
+ In this video we will learn the Complete Data Science RoadMap. Detailed explanation from basics to advanced in Data Science and Step by Step RoadMap.
+How to start with Data Science
+Resources & Skills Required
+Basics to Advanced Data Scientist 
+
+We are also sharing the 👇
+🚀 Data Science Complete Syllabus : https://www.apnacollege.in/course/pri... 
+
+[00:00:00] हाय एवरीवन एंड वेलकम टू अपना कॉलेज। आज
+[00:00:02] के सेशन के अंदर वी आर गोइंग टू कवर द
+[00:00:04] कंप्लीट स्टेप बाय स्टेप लर्निंग पाथ टू
+[00:00:05] बिकमिंग अ ग्रेट डेटा साइंटिस्ट। तो आज हम
+[00:00:08] ए टू जी सारे के सारे स्किल्स, सारे के
+[00:00:10] सारे टूल्स जो डेटा साइंस के अंदर एक
+[00:00:12] करियर बनाने के लिए जरूरी होते हैं, हमें
+[00:00:13] सीखने पड़ते हैं उनको इन डेप्थ कवर करने
+[00:00:16] वाले हैं। एंड उसके साथ में बाय द एंड ऑफ
+[00:00:18] द सेशन हम खुद को एक ऐसी पोजीशन के अंदर
+[00:00:20] पाएंगे जहां पर वी विल हैव कंप्लीट
+[00:00:22] क्लेरिटी कि डेटा साइंस के लिए हमें
+[00:00:23] क्या-क्या सीखना होता है। एंड उसके साथ
+[00:00:25] में हम ऐसी सिचुएशन में होंगे कि जाकर
+[00:00:27] डायरेक्टली हम अपनी स्किल्स को सीखना
+[00:00:29] स्टार्ट कर सकते हैं। सो लेट्स स्टार्ट
+[00:00:30] विद द सेशन। टुडे इफ वी आर इंटरेक्टिंग
+[00:00:33] विद टेक्नोलॉजी आज अगर हम कोई एप्लीकेशन
+[00:00:34] को यूज करते हैं, कोई वेबसाइट को यूज करते
+[00:00:36] हैं, टेक्नोलॉजी के साथ डेली बेसिस पे
+[00:00:38] इंटरेक्ट करते हैं, तो ऐसा हो ही नहीं
+[00:00:40] सकता दैट वी आर नॉट इंटरेक्टिंग वि द
+[00:00:42] इंप्लीमेंटेशंस ऑफ डेटा साइंस। टुडे वी आर
+[00:00:44] सराउंडेड विद आर्टिफिशियल इंटेलिजेंस विद
+[00:00:46] मशीन लर्निंग। आज हम अपनी एंटरटेनमेंट
+[00:00:48] एप्स देख लें जैसे Netflix हो गया, प्राइम
+[00:00:50] हो गया, Hotstar हो गया। वहां पर हमें
+[00:00:52] काफी सारे कंटेंट रेकमेंडेशंस मिलते हैं।
+[00:00:54] अगर हम शॉपिंग के लिए Amazon या MNTRa
+[00:00:56] जैसे प्लेटफॉर्म्स पर जाते हैं तो वी गेट
+[00:00:57] प्रोडक्ट रेकमेंडेशंस। इफ वी स्क्रोल ऑन
+[00:01:00] Instagram और इफ वी यूज़ YouTube तो वहां
+[00:01:02] पर हमें काफी सारे कंटेंट या ऐड सजेशंस भी
+[00:01:04] देखने को मिलेंगे। आज हमारे पास सेल्फ
+[00:01:06] ड्राइविंग कार्स हैं। वी हैव ड्रोंस डूइंग
+[00:01:09] ऑटोमेटेड डिलीवरीज। इनफैक्ट वी आल्सो हैव
+[00:01:11] सेल्फ ड्राइविंग टैक्सीस कमिंग अप इन
+[00:01:14] चाइना इन दुबई। प्लस हमारे पास एलएलएम्स
+[00:01:16] है। जैसे जीपीडी हो गया, जेमिनाई हो गया,
+[00:01:17] क्लड हो गया। तो आज की डेट में बहुत सारे
+[00:01:20] रियल लाइफ प्रैक्टिकल एग्जांपल्स ऑफ द
+[00:01:22] इंप्लीमेंटेशन ऑफ डेटा साइंस हमें अपने
+[00:01:24] अराउंड देखने को मिलते हैं। एंड दैट इज
+[00:01:25] व्हाई हम में से काफियों का मन किया होगा
+[00:01:27] दैट वी आल्सो वांट टू बिल्ड अ करियर इन
+[00:01:29] डेटा साइंस। तो उसी को आज के सेशन के अंदर
+[00:01:31] हम इन डेप्थ कवर करने वाले हैं। अब डेटा
+[00:01:33] साइंस को हम समझ सकते हैं एज अ मिक्स ऑफ
+[00:01:36] मैथ, डेटा, प्रोग्रामिंग, मशीन लर्निंग
+[00:01:39] एंड डीप लर्निंग। जिसके अंदर सबसे ज्यादा
+[00:01:42] जो मुझे सबसे बड़ा प्राइमरी रोल लगता है
+[00:01:44] दैट इज ऑफ डेटा। पिछले 10 साल के अंदर
+[00:01:46] डेटा साइंस हो गया, एआई हो गया, एमएल हो
+[00:01:48] गया। ये काफी ज्यादा उभर के इसलिए आ पाए
+[00:01:50] हैं क्योंकि जितनी भी हमारी बड़ी-बड़ी
+[00:01:52] कंपनीज़ हैं, सिर्फ टेक कंपनीज़ नहीं, हमारी
+[00:01:54] फinटेक कंपनीज़ हो गई, हमारी हेल्थ केयर
+[00:01:55] कंपनीज़ हो गई, ये सब एआई को किसी ना किसी
+[00:01:58] तरीके से आर ट्राइंग टू इंटीग्रेट विद
+[00:02:00] देयर सिस्टम्स। व्हाई? बिकॉज़ नाउ दे हैव
+[00:02:02] डेटा ऑफ़ बिलियंस ऑफ यूज़र्स। एंड ये जो
+[00:02:04] डेटा होता है इतने लार्ज स्केल पे इसको हम
+[00:02:06] बिग डेटा कहते हैं। एंड अब ये जो
+[00:02:08] ऑर्गेनाइजेशंस हैं इस बिग डेटा के ऊपर
+[00:02:10] डेटा साइंस को परफॉर्म करके काफी सारे
+[00:02:12] यूज़फुल प्रोडक्ट्स हैं, काफी सारी यूज़फुल
+[00:02:14] सर्विसेस हैं जिसको बिल्ड कर सकती हैं।
+[00:02:16] जिसकी वजह से आज की डेट में एआई एंड एमएल
+[00:02:18] इज़ बिकमिंग मोर एंड मोर पॉपुलर। अब हमने
+[00:02:21] यहां पर बात की कि डेटा साइंस के अंदर
+[00:02:22] हमें मैथ भी यूज़ करना पड़ता है। बट जस्ट टू
+[00:02:24] गिव यू अ डिस्क्लेमर। हमें कोई बहुत
+[00:02:26] ज्यादा एडवांस लेवल का मैथ सीखने की जरूरत
+[00:02:28] नहीं है। अगर हमने 10थ तक का मैथ सीखा हुआ
+[00:02:30] है तो हम डायरेक्टली अपनी डेटा साइंस की
+[00:02:32] स्किल्स को सीखना स्टार्ट कर सकते हैं।
+[00:02:33] वहां पर जो भी मैथ के टॉपिक्स आएंगे जो
+[00:02:36] हमने शायद ना कवर किए हो तो उनको हम एज
+[00:02:37] एंड व्हेन रिक्वायर्ड तरीके से सीख सकते
+[00:02:39] हैं। सो लेट्स स्टार्ट विद द स्टेप बाय
+[00:02:41] स्टेप प्रोसेस ऑफ बिकमिंग अ डेटा
+[00:02:43] साइंटिस्ट। जिसके अंदर सबसे पहला स्टेप
+[00:02:45] होता है ऑफ लर्निंग अ प्रोग्रामिंग
+[00:02:46] लैंग्वेज। अब इन टर्म्स ऑफ़ प्रोग्रामिंग
+[00:02:48] लैंग्वेज हमारे पास दो पॉपुलर ऑप्शंस होते
+[00:02:50] हैं। फर्स्ट इज़ Python, सेकंड इज़ आर जिसके
+[00:02:52] अंदर जनरली हमें मशीन लर्निंग का कोड
+[00:02:54] देखने को मिलता है। इसमें मैं आपको
+[00:02:56] पर्सनली रेकमेंड करूंगी कि हमें अपना डेटा
+[00:02:58] साइंस पाइthon के थ्रू सीखना चाहिए।
+[00:03:00] इनफैक्ट मेजॉरिटी जो डेटा साइंटिस्ट या
+[00:03:02] एआई इंजीनियर्स इंडस्ट्री के अंदर काम
+[00:03:03] करते हैं वो भी हमें सेम रेकमेंडेशंस
+[00:03:05] देंगे। व्हाई? इसके पीछे बहुत सारी रीज़ंस
+[00:03:08] हैं। सबसे पहला पाइथन इज़ वेरी पॉपुलर। इट
+[00:03:10] इज़ इजी टू लर्न। उसके साथ में इट आल्सो
+[00:03:12] हाई इन डिमांड। मतलब अगर हम इंडस्ट्री के
+[00:03:14] अंदर जाकर डेटा साइंस जॉब्स के लिए अप्लाई
+[00:03:16] करते हैं तो वहां पर मेजॉरिटी कंपनीज़
+[00:03:18] पाइथन को एज अ रिक्वायरमेंट स्टेट करती
+[00:03:20] हैं। एंड उसके साथ में इसके अंदर हमारे
+[00:03:22] पास अच्छे रिसोर्सेज मिलते हैं जिसके थ्रू
+[00:03:23] इसको सीखना और ज्यादा आसान बन जाता है। तो
+[00:03:26] सबसे पहली चीज प्रोग्रामिंग के अंदर जिसको
+[00:03:27] हम सीखने वाले हैं। दैट इज़ द पाइथन
+[00:03:29] प्रोग्रामिंग लैंग्वेज। उसके अंदर हमारे
+[00:03:31] वेरिएबल्स हो गए, लूप्स हो गई, कंडीशनल
+[00:03:32] स्टेटमेंट्स हो गई, फंक्शंस हो गए। इस
+[00:03:34] तरीके के इंपॉर्टेंट इंपोर्टेंट
+[00:03:35] कॉन्सेप्ट्स को हमें कवर करना है। एंड इसी
+[00:03:37] के अंदर हमारा सेकंड स्टेप होगा दैट वी
+[00:03:39] कवर टू इंपॉर्टेंट पाइथन लाइब्रेरीज़।
+[00:03:42] इसमें फर्स्ट है नपाई, सेकंड है पंडास। ये
+[00:03:44] दोनों ही लाइब्रेरीज डेटा प्री प्रोसेसिंग
+[00:03:46] के लिएेंट है। नाउ व्हाट इज डेटा प्री
+[00:03:48] प्रोसेसिंग? जनरली एज अ डेटा साइंटिस्ट
+[00:03:50] हमारे पास कुछ डेटा होता है जिसके ऊपर
+[00:03:52] हमें हो सकता है मशीन लर्निंग, डीप
+[00:03:53] लर्निंग एल्गोरिथम्स अप्लाई करनी हो। अब
+[00:03:55] हर बार ये जो डेटा होता है जरूरी नहीं है
+[00:03:57] ये ऑलरेडी क्लीन डेटा हो। इस डेटा के अंदर
+[00:03:59] काफी सारे प्रॉब्लम्स हो सकते हैं जिनको
+[00:04:00] हमें फिक्स करना पड़ता है। एंड उसको कहते
+[00:04:02] हैं डेटा प्रीपिंग। तो इन दोनों
+[00:04:04] लाइब्रेरीज़ के थ्रू हम डेटा को प्री
+[00:04:06] प्रोसेस करते हैं। nपा इज़ स्पेसिफिकली
+[00:04:08] यूज़्ड फॉर न्यूमेरिकल कॉम्पटीशन। जबकि
+[00:04:09] पंडास इज़ बिल्ट ऑन टॉप ऑफ़ NPI जिसको हम
+[00:04:12] डेटा प्री प्रोसेसिंग के लिए यूज़ कर रहे
+[00:04:14] होते हैं। तो ये दोनों ही लाइब्रेरीज़ बहुत
+[00:04:15] ज्यादा इंपॉर्टेंट है जिनके ऊपर हमें
+[00:04:17] अच्छे से काम करना आना चाहिए। तो यह था
+[00:04:19] हमारा फर्स्ट स्टेप ऑन अपना कॉलेज YouTube
+[00:04:21] वी हैव क्रिएटेड अ कंप्लीट पाइथन
+[00:04:23] प्रोग्रामिंग वन शॉट जिसके थ्रू हम पाइथन
+[00:04:25] प्रोग्रामिंग लैंग्वेज को एंड टू एंड डेटा
+[00:04:27] साइंस के लिए सीख सकते हैं। एंड इसी वन
+[00:04:28] शॉट का आपके पास प्लेलिस्ट भी अवेलेबल है
+[00:04:31] जिसको भी जाकर हम चेक आउट कर सकते हैं। तो
+[00:04:32] हम चाहें तो पाइथन यहां से सीख सकते हैं।
+[00:04:34] नहीं तो जहां से भी हमें कोई अच्छा
+[00:04:36] रिसोर्स मिल रहा है, हम वहां से जाकर भी
+[00:04:38] इसको सीख सकते हैं। एंड नाउ कम्स द मैथ
+[00:04:40] एंड स्टैटिस्टिक्स। अब यहां पर हमें
+[00:04:42] कंप्लीट इन डेप्थ मैथ्स सीखने की जरूरत
+[00:04:44] नहीं है। हमें सिर्फ उतना मैथ सीखना है
+[00:04:46] जितना हमारे लिए जरूरी है मशीन लर्निंग
+[00:04:48] एंड डीप लर्निंग एल्गोरिदम्स का बिहाइंड द
+[00:04:51] सीन्स लॉजिक समझने के लिए। क्योंकि जब हम
+[00:04:53] इंटरव्यूज के अंदर जा रहे होंगे तो वहां
+[00:04:54] पर हमसे एक्सपेक्टेड है कि हम जिन भी
+[00:04:56] एल्गोरिद्स को अप्लाई कर रहे हैं उनके
+[00:04:58] बारे में कुछ ना कुछ इंट्यूशन बिहाइंड द
+[00:05:00] सींस लॉजिक हमें पता होना चाहिए। एंड उसका
+[00:05:02] समझने के लिए कुछ स्पेसिफिक मैथ के
+[00:05:03] टॉपिक्स हैं, स्टैटिस्टिक्स के टॉपिक्स
+[00:05:05] हैं जिनका हमें आईडिया होना चाहिए। अब
+[00:05:07] यहां पर अगर हम ऐसे स्टूडेंट हैं जिसने
+[00:05:09] ऑलरेडी स्कूल के अंदर 11 12th में मैथ पढ़ा
+[00:05:11] है तब तो हमने ये कांसेप्ट सारे किए होंगे
+[00:05:13] स्कूल के अंदर। नहीं तो इफ वी आर समबडी
+[00:05:15] जिसने सिर्फ 10थ तक ही मैथ पढ़ा है तो कोई
+[00:05:16] घबराने की बात नहीं है। ये ऐसे कांसेप्ट्स
+[00:05:18] हैं जिनको बहुत आसानी से सीखा जा सकता है।
+[00:05:20] तो मैथ के अंदर चार इंपॉर्टेंट टॉपिक्स
+[00:05:22] हैं जिनको हमें कवर करना होता है। फर्स्ट
+[00:05:24] इज़ स्टैटिस्टिक्स, देन प्रोबेबिलिटी,
+[00:05:26] लीनियर अलजेब्रा एंड कैलकुलस। इनको भी
+[00:05:28] हमें बहुत ज्यादा इन डेप्थ नहीं करना। कुछ
+[00:05:29] स्पेसिफिक टॉपिक्स हैं जिनको हमें कवर
+[00:05:31] करना होता है। जैसे स्टैटिस्टिक्स की बात
+[00:05:33] करें तो उसमें मीन, मीडियन मोड एग्जैक्टली
+[00:05:35] क्या होता है? हमारा वेरियंस क्या होता
+[00:05:36] है? स्टैंडर्ड डेविएशन क्या होता है? इस
+[00:05:38] तरीके की टर्म्स का हमें आईडिया होना
+[00:05:40] चाहिए। अब यहां पर ये जरूर याद रखना है कि
+[00:05:42] जब हम डेटा साइंस सीख रहे हैं, इट इज़ अ
+[00:05:44] प्रैक्टिकल स्किल। तो इसके अंदर चाहे हम
+[00:05:46] मैथ की बात करें, चाहे प्रोग्रामिंग
+[00:05:47] लैंग्वेज की बात करें, चाहे आगे जाकर मशीन
+[00:05:49] लर्निंग की बात करें। हमें चीजों को
+[00:05:51] मेमोराइज नहीं करना है। मतलब हमें मैथ के
+[00:05:53] अंदर यहां पे डेफिनेशंस को याद नहीं रखना।
+[00:05:54] जैसे हम बोर्ड एग्जाम के लिए करते थे।
+[00:05:56] हमें यहां पर चीजों का इंट्यूशन समझना है।
+[00:05:59] बिहाइंड द सीनंस लॉजिक समझना है। क्योंकि
+[00:06:01] ये एक प्रैक्टिकल स्किल है जिसके अंदर
+[00:06:03] चीजों को हमें प्रैक्टिकल पॉइंट ऑफ व्यू
+[00:06:04] से सीखने की कोशिश करनी है। तो ये हमारे
+[00:06:06] स्टैटिस्टिक्स के कुछ सब टटॉपिक्स हैं।
+[00:06:08] अगर हम प्रोबेबिलिटी की बात करें तो
+[00:06:10] कंडीशनल प्रोबेबिलिटी एंड नाइव बेस्ड
+[00:06:12] थ्योरम इसके बारे में हमें बहुत क्लियरली
+[00:06:14] अच्छे से आना चाहिए क्योंकि इनकी डायरेक्ट
+[00:06:16] एप्लीकेशन हमें नाइव बेस्ड एल्गोरिदम के
+[00:06:18] अंदर देखने को मिलती है। उसके साथ में वी
+[00:06:20] शुड आल्सो बी अवेयर ऑफ़ प्रोबेबिलिटी
+[00:06:21] डिस्ट्रीब्यूशन कि हमारा नॉर्मल
+[00:06:23] डिस्ट्रीब्यूशन गॉर्जियन डिस्ट्रीब्यूशन
+[00:06:24] क्या होता पोइजन डिस्ट्रीब्यूशन क्या होता
+[00:06:26] है? बाइनोमियल डिस्ट्रीब्यूशन क्या होता
+[00:06:27] है? इनके बीच में डिफरेंसेस क्या होते
+[00:06:29] हैं? कहां पर जनरली हमें देखने को मिलते
+[00:06:30] हैं? तो उसकी हमें क्लेरिटी होनी चाहिए।
+[00:06:32] लीनियर अलजेब्रा के अंदर हमारे वेक्टर्स
+[00:06:33] हो गए, मैट्रिससेस हो गए, आइगन वेक्टर्स
+[00:06:35] एंड आइगन वैल्यूज़ हो गई। ये इंपॉर्टेंट
+[00:06:37] कॉन्सेप्ट्स हमें पता होना चाहिए। एंड
+[00:06:38] कैलकुलस की बात करें तो कैलकुलस के अंदर
+[00:06:40] हमें फोकस करना है ज्यादा डिफरेंशियल
+[00:06:42] कैलकुलस पर। मतलब डिफरेंशिएशन किस तरीके
+[00:06:44] से वर्क करता है? हमारे डेरिवेटिव्स क्या
+[00:06:45] होते हैं? dy / dx का एग्जैक्टली क्या
+[00:06:47] मतलब होता है? और कैसे प्लॉट्स के अंदर
+[00:06:49] मतलब चार्ट्स के अंदर ग्राफ्स के अंदर
+[00:06:51] कैसे उसको हम रिप्रेजेंट करते हैं? तो
+[00:06:53] उसकी भी हमें क्लेरिटी होनी चाहिए। तो ये
+[00:06:55] चार इंपॉर्टेंट मैथमेटिकल कांसेप्ट्स हैं
+[00:06:57] जिनको हमें कवर करना है। अब इनको पढ़ने के
+[00:06:59] लिए देयर इज़ अ बुक कॉल्ड एसेंशियल मैथ्स
+[00:07:01] फॉर डेटा साइंस जिसको हम जाकर रेफर कर
+[00:07:02] सकते हैं। सो दिस वाज़ द सेकंड स्टेप। नाउ
+[00:07:04] कम्स द थर्ड स्टेप व्हिच इज़ डेटा
+[00:07:06] विजुअलाइज़ेशन। अब डेटा विजुअलाइज़ेशन होता
+[00:07:08] है जब हम अपने डेटा को और अच्छे तरीके से
+[00:07:10] विजुअली समझने की कोशिश करते हैं। तो उसके
+[00:07:12] लिए वी कैन यूज़ ग्राफ्स, वी कैन यूज़
+[00:07:14] चार्ट्स, वी कैन यूज़ प्लॉट्स। किसी भी
+[00:07:16] ऑर्गेनाइज़ेशन के अंदर जब भी हम काम कर रहे
+[00:07:18] होते हैं। ऐसा तो है नहीं कि हम सिर्फ
+[00:07:19] अकेले ही पूरी ऑर्गेनाइज़ेशन में काम करते
+[00:07:20] हैं। ऐज़ अ डेटा साइंटिस्ट। हमारे पास बहुत
+[00:07:23] सारे और टीम मेंबर्स होते हैं जो शायद
+[00:07:25] हमारी तरह डेटा साइंटिस्ट नहीं है जो शायद
+[00:07:27] हमारे मैनेजर्स भी हो सकते हैं, हमारे
+[00:07:28] टीममेट्स भी हो सकते हैं जिनको हम दिखाना
+[00:07:30] चाहते हैं कि हम डेटा से हमने क्या-क्या
+[00:07:32] इंसाइट्स निकाले हैं। तो उन इंसाइट्स को
+[00:07:34] जब हम विजुअली उनको दिखाना चाहते हैं तो
+[00:07:36] वहां पर डेटा विजुअलाइजेशन का यूज़ होता
+[00:07:38] है। उसके साथ में कभी-कभी हम भी एज अ डेटा
+[00:07:40] साइंटिस्ट अपने डेटा के अंदर जो पैटर्न्स
+[00:07:42] हैं उनको आइडेंटिफाई करने के लिए उसको
+[00:07:44] विजुअली एज अ ह्यूमन समझना चाहते हैं। तो
+[00:07:46] वहां पर भी इसका यूज़ है। तो इसके अंदर दो
+[00:07:48] इंपॉर्टेंट पाइथन लाइब्रेरीज़ हैं जिनको
+[00:07:50] हमें अच्छे से करना होता है। दैट इज़ मैट
+[00:07:52] प्लॉट लिब एंड सी बॉन्ड। दोनों की ही हमें
+[00:07:54] अच्छी खासी अंडरस्टैंडिंग होनी चाहिए। जब
+[00:07:56] भी हम लो लेवल डिटेल्स को कंट्रोल करना
+[00:07:57] चाहते हैं तो वहां पर मैट प्लॉट लिब
+[00:07:59] ज्यादा काम आता है। पर जब भी हम जल्दी से
+[00:08:01] अपने कोई प्लॉट को अपने चार्ट को मिनिमल
+[00:08:03] कोड के साथ प्लॉट करना चाहते हैं तो वहां
+[00:08:04] पर वी हैव सीबॉन्ड। तो दोनों ही
+[00:08:06] लाइब्रेरीज़ इंपॉर्टेंट है। एंड दोनों को
+[00:08:07] ही हम साथ में भी यूज़ कर सकते हैं। अब
+[00:08:09] काफी सारे स्टूडेंट्स होंगे जो डेटा साइंस
+[00:08:11] के साथ डेटा एनालिटिक्स पोजीशंस को भी
+[00:08:13] टारगेट कर रहे होंगे। तो इन स्टूडेंट्स को
+[00:08:15] डेटा विजुअलाइजेशन के लिए दो और टूल्स हैं
+[00:08:17] जिनको यूज करना पड़ेगा जिनको सीखना
+[00:08:19] पड़ेगा। दैट इज पावर बीआई एंड टैब्लो। तो
+[00:08:21] अगर हम डेटा एनालिटिक्स को भी टारगेट करना
+[00:08:23] चाहते हैं तो विजुअलाइजेशन के लिए इन
+[00:08:24] दोनों को भी हम जाकर सीख सकते हैं। एंड
+[00:08:26] नाउ कम्स द फोर्थ स्टेप व्हिच इज़
+[00:08:28] प्रोबेब्ली द मोस्टेंट स्टेप दैट इज़
+[00:08:30] लर्निंग मशीन लर्निंग। अब मशीन लर्निंग इज़
+[00:08:32] अ पार्ट ऑफ़ आर्टिफिशियल इंटेलिजेंस। तो
+[00:08:34] सबसे पहले एआई और एमएल के बीच का डिफरेंस
+[00:08:37] समझते हैं। एआई यानी आर्टिफिशियल
+[00:08:38] इंटेलिजेंस होता है व्हेन वी ट्रेन आवर
+[00:08:40] मशीनंस, व्हेन वी ट्रेन आवर कंप्यूटरटर्स,
+[00:08:42] आवर सिस्टम्स टू परफॉर्म ह्यूमन
+[00:08:44] इंटेलिजेंस वाले टास्क। जैसे फॉर एग्जांपल
+[00:08:47] हमें टेक्स्ट को स्पीच के अंदर कन्वर्ट
+[00:08:49] करना है या स्पीच को टेक्स्ट के अंदर
+[00:08:50] कन्वर्ट करना है। तो ये काम हम ह्यूमंस कर
+[00:08:52] सकते हैं। आज की डेट में यही सेम काम एआई
+[00:08:54] भी कर सकता है। तो हमने क्या किया? ह्यूमन
+[00:08:56] लेवल वाला जो काम था वो करने के लिए अपने
+[00:08:58] सिस्टम्स को ट्रेन कर दिया। अब एआई का ही
+[00:09:01] जो सबसे बड़ा पार्ट होता है दैट इज मशीन
+[00:09:03] लर्निंग। मशीन लर्निंग हमारी वो
+[00:09:05] एल्गोरिदम्स होती हैं जो डेटा को यूज करके
+[00:09:07] कुछ ना कुछ प्रेडिकशंस करती हैं। कुछ ना
+[00:09:09] कुछ इंफॉर्मेशन करती हैं। बेसिकली यही
+[00:09:11] ह्यूमन लेवल इंटेलिजेंस वाले कामों को
+[00:09:13] परफॉर्म करती है। जैसे लेट्स सपोज कोई एक
+[00:09:14] हेल्थ केयर कंपनी है जिसके पास बहुत सारे
+[00:09:16] पेशेंट्स का डेटा है। अब वो हेल्थ केयर
+[00:09:18] कंपनी अपना एक मशीन लर्निंग मॉडल ट्रेन
+[00:09:20] करती है जिसको उसने पूरा डेटा फीड किया है
+[00:09:22] और अब कोई अगर नया पेशेंट उनके पास आता है
+[00:09:24] तो नाउ दिस मॉडल कैन प्रिडिक्ट कि वो जो
+[00:09:27] पेशेंट है वो हेल्दी है या वो अनहेल्ी है।
+[00:09:29] तो इस तरीके के सिस्टम्स को जब हम डिजाइन
+[00:09:31] करते हैं तो दे आर नाउ पार्ट ऑफ़ मशीन
+[00:09:33] लर्निंग। तो मशीन लर्निंग के तीन
+[00:09:35] इंपॉर्टेंट टाइप्स होते हैं। सुपरवाइज़्ड
+[00:09:36] लर्निंग, अनसुपरवाइज़ लर्निंग एंड
+[00:09:38] रीइंफोर्समेंट लर्निंग। पहले
+[00:09:39] रीइंफोर्समेंट लर्निंग को समझते हैं।
+[00:09:40] रीइंफोर्समेंट लर्निंग इज़ वेरी सिमिलर टू
+[00:09:42] ट्रेनिंग आवर पेट। जैसे हमारे पास कोई पेट
+[00:09:44] डॉग होता है तो उसको ट्रेन करने के लिए
+[00:09:46] अगर वो हमारी कमांड्स को फॉलो करता है तो
+[00:09:48] उसको हम कुछ बिस्किट ऑफर करते हैं। कुछ और
+[00:09:50] खाने का ऑफर करते हैं। तो वैसे ही जब हम
+[00:09:52] एल्गोरिदम्स को रिवॉर्ड्स एंड पेनल्टीज के
+[00:09:54] साथ ट्रेन करते हैं तो दैट इज़ पार्ट ऑफ़
+[00:09:56] रीइंफोर्समेंट लर्निंग। रीइंफोर्समेंट
+[00:09:57] लर्निंग को जनरली हम डीप लर्निंग के अंदर
+[00:09:59] कवर करते हैं। तो मशीन लर्निंग के
+[00:10:00] स्पेसिफिकली दो इंपॉर्टेंट पार्ट्स हैं जो
+[00:10:02] हम एमएल के अंदर सीखेंगे। दोज़ आर सुपरवाइज
+[00:10:05] एंड अनसपरवाइज्ड लर्निंग। सुपरवाइज्ड
+[00:10:07] लर्निंग के अंदर हम लेबल्ड डेटा के साथ
+[00:10:09] डील करते हैं। लेबल्ड डेटा कहने का मतलब
+[00:10:11] है जिस डेटा के लिए आउटपुट डिफाइंड है।
+[00:10:13] मतलब जो हेल्थ केयर कंपनी है उसे
+[00:10:14] रिकॉर्ड्स के अंदर देख के ऑलरेडी पता है
+[00:10:16] कि कौन सा पेशेंट हेल्दी है, कौन सा
+[00:10:18] पेशेंट या कौन सा जो यूजर उनके पास आया
+[00:10:21] है, दैट इज़ अनहेल्दी। तो यहां पे आउटपुट
+[00:10:23] ऑलरेडी पता है। बस हमारी एल्गोरिदम को
+[00:10:25] डायरेक्टली प्रेडिक्शन देना है। तो
+[00:10:26] सुपरवाइज लर्निंग को हम यूज़ करते हैं टू
+[00:10:28] सॉल्व रिग्रेशन एंड क्लासिफिकेशन
+[00:10:29] प्रॉब्लम्स। वहीं पर हमारी जो अनसपरवाइज
+[00:10:31] मशीन लर्निंग होती है वहां पे जनरली हमारे
+[00:10:33] पास अनलेबल डेटा होता है। मतलब जहां पे
+[00:10:35] कोई स्पेसिफिक आउटपुट नहीं होता। जैसे फॉर
+[00:10:37] एग्जांपल किसी हॉस्पिटल के पास बहुत सारे
+[00:10:39] यूज़र्स का डेटा है। पर उसे ये नहीं पता कि
+[00:10:41] कौन सा यूजर हेल्दी है, कौन सा यूजर
+[00:10:43] अनहेल्दी है। बस उसके पास बहुत सारी
+[00:10:44] इंफॉर्मेशन है। तो यहां पे हम क्लस्टर्स
+[00:10:46] बनाने की कोशिश कर सकते हैं। क्लस्टर्स
+[00:10:48] मतलब ग्रुप्स बनाने की कोशिश कर सकते हैं
+[00:10:50] कि ये सारे के सारे हमारे ओल्ड पेशेंट्स
+[00:10:52] हैं। ये सारे के सारे वो पेशेंट्स हैं जो
+[00:10:54] जनरल चेकअप कराने के लिए आए थे। तो इस
+[00:10:56] तरीके से हमारी एल्गोरिदम ग्रुप्स बनाती
+[00:10:58] है जिसको हम कहते हैं क्लस्टरिंग
+[00:10:59] प्रॉब्लम्स। तो इन प्रॉब्लम्स को हम
+[00:11:00] अनसुपवाइज्ड मशीन लर्निंग के अंदर सॉल्व
+[00:11:02] करते हैं। अब मशीन लर्निंग के अंदर अपने
+[00:11:04] मॉडल्स को बिल्ड करने के लिए एक
+[00:11:05] इंपॉर्टेंट पाइथन लाइब्रेरी होती है जिसको
+[00:11:07] हमें सीखना होता है। दैट इज़ स्काई किट
+[00:11:09] लर्न। तो स्काईट लर्न इज़ द प्राइमरी मशीन
+[00:11:11] लर्निंग लाइब्रेरी जिसके ऊपर हमें एक
+[00:11:13] अच्छी खासी कमांड लेनी चाहिए। एंड इसको
+[00:11:14] सीखने के लिए वी कैन रेफर अ वेरी पॉपुलर
+[00:11:16] बुक व्हिच इज़ हैंड्स ऑन मशीन लर्निंग विथ
+[00:11:18] स्काई किट लर्न। तो उसको जाकर हम यूज़ कर
+[00:11:20] सकते हैं। अब जब भी हम मशीन लर्निंग सीखने
+[00:11:22] की बात कर रहे हैं या अभी हम डीप लर्निंग
+[00:11:23] डिस्कस करेंगे उसको भी जब हम सीखेंगे तो
+[00:11:25] सिर्फ कांसेप्ट्स को सीखना काफी नहीं है।
+[00:11:27] हमें साथ में काफी सारे प्रोजेक्ट्स भी
+[00:11:29] हैं जिनको बनाना पड़ता है ताकि हमारी
+[00:11:30] प्रैक्टिकल लर्निंग हो सके। वंस अगेन डेटा
+[00:11:33] साइंस इज़ नॉट अ थ्योरेटिकल फील्ड। इट इज़ अ
+[00:11:35] प्रैक्टिकल फील्ड। तो यहां पे हैंड्स ऑन
+[00:11:37] प्रैक्टिकल स्किल्स होना, हैंड्स ऑन चीजें
+[00:11:39] करना बहुत ज्यादा जरूरी है। अब एज़ अ डेटा
+[00:11:41] साइंटिस्ट वी शुड ऑल्सो नो हाउ टू डील विद
+[00:11:43] डेटाबेस। क्योंकि मेजॉरिटी जो
+[00:11:45] ऑर्गेनाइजेशंस हैं उनका डेटा किसी डेटाबेस
+[00:11:47] के अंडर स्टर्ड होता है। और मेजॉरिटी
+[00:11:49] ऑर्गेनाइजेशनंस के अंदर जनरली रिलेशनल
+[00:11:51] डेटाबेस हैं जो काफी पॉपुलर हैं जो यूज़
+[00:11:53] होते हैं। इनफैक्ट लार्ज स्केल
+[00:11:54] ऑर्गेनाइजेशंस के अंदर एसक्यूएल इज़ वेरी
+[00:11:56] पॉपुलर। तो डेटाबेस की टर्म्स में
+[00:11:58] एसक्यूएल पर हमारी अच्छी खासी कमांड होनी
+[00:12:00] चाहिए ताकि डायरेक्टली हम डेटाबेस से अपने
+[00:12:02] डेटा को एक्सट्रैक्ट कर पाएं। उसको फेच कर
+[00:12:03] पाएं। प्लस उसके साथ में एज अ डेटा
+[00:12:05] साइंटिस्ट वी शुड आल्सो बी फेमिलियर विद
+[00:12:07] वर्जन कंट्रोल। यानी हमें गिट एंड गीटब की
+[00:12:09] अच्छी खासी नॉलेज होनी चाहिए। तो इन दोनों
+[00:12:11] को ही अपना कॉलेज YouTube के ऊपर हमने
+[00:12:14] डेडिकेटेड ट्यूटोरियल्स के अंदर कवर कर
+[00:12:15] रखा है। यानी हमारे पास डेडिकेटेड
+[00:12:17] एसक्यूएल का हमें वन शॉट मिल जाएगा। एंड
+[00:12:19] हमारे पास डेडिकेटेड गट एंड गिटब का हमें
+[00:12:21] वन शॉट मिल जाएगा। जहां से जाकर हम इन
+[00:12:23] दोनों को सीख सकते हैं। एंड नाउ कम्स द
+[00:12:25] नेक्स्ट स्टेप व्हिच इज़ एजेंट एज़ लर्निंग
+[00:12:27] मशीन लर्निंग व्हिच इज़ डीप लर्निंग। अब कई
+[00:12:29] सालों पहले तक डीप लर्निंग कोई बहुत
+[00:12:31] ज्यादा स्ट्रिक्ट रिक्वायरमेंट नहीं होती
+[00:12:33] थी डेटा साइंस रूल्स के लिए। लेकिन आज की
+[00:12:35] डेट में बिकॉज़ द कंपटीशन इज़ हाई बिकॉज़ लॉट
+[00:12:37] मोर पीपल आर लर्निंग अबाउट डेटा साइंस। तो
+[00:12:39] आज की डेट में काफी सारी कंपनीज़ हैं जो
+[00:12:41] मशीन लर्निंग के साथ डीप लर्निंग स्किल्स
+[00:12:43] भी डेटा साइंटिस्ट से एक्सपेक्ट करती हैं।
+[00:12:45] तो इसीलिए 2026 के अंदर अगर हम डेटा साइंस
+[00:12:47] के अंदर जाने की तैयारी कर रहे हैं तो
+[00:12:48] वहां पर हमें डीप लर्निंग को भी सीखना
+[00:12:50] चाहिए। डीप लर्निंग इज़ नाउ अ सबसेट ऑफ़
+[00:12:52] मशीन लर्निंग जिसके अंदर हम न्यूरल
+[00:12:54] नेटवर्क्स के साथ डील करते हैं। न्यूरल
+[00:12:56] नेटवर्क्स बेसिकली हमारे नेटवर्क्स ऑफ
+[00:12:58] न्यूरॉन्स होते हैं। व्हिच ट्राई टू मिमिक
+[00:13:00] द ह्यूमन ब्रेन। हमारा जो ह्यूमन ब्रेन
+[00:13:02] होता है, इसके अंदर बहुत सारा नेटवर्क ऑफ
+[00:13:04] न्यूरॉन्स होते हैं। मतलब हमारे पास
+[00:13:05] बिलियंस ऑफ न्यूरॉन्स होते हैं। इन्हीं
+[00:13:06] न्यूरॉन्स को जब हम आर्टिफिशियली क्रिएट
+[00:13:08] करने की कोशिश करते हैं मशीनंस के अंदर
+[00:13:10] डीप लर्निंग के अंदर तो उसको हम कहते हैं
+[00:13:12] आर्टिफिशियल न्यूरल नेटवर्क्स। तो हम
+[00:13:14] एएनएस को सीख रहे होते हैं बेसिकली डीप
+[00:13:16] लर्निंग के अंदर। एएनएस के अंदर भी हमारे
+[00:13:18] पास मल्टीपल टाइप्स ऑफ एएनएस होते हैं।
+[00:13:20] जैसे एफएनएस हो गए हमारी फीड फॉरवर्ड
+[00:13:22] न्यूरल नेटवर्क्स। आरएनएस हो गए हमारे
+[00:13:24] रेनेंट न्यूरल नेटवर्क। सीएनए हो गए हमारे
+[00:13:25] कन्वोल्यूशनल न्यूरल नेटवर्क्स। तो ये
+[00:13:27] हमारे डिफरेंट टाइप्स ऑफ न्यूरल नेटवर्क्स
+[00:13:28] हैं जिनके आर्किटेक्चर के साथ हमारी
+[00:13:30] फमिलियरिटी होनी चाहिए। उसके साथ में यहीं
+[00:13:32] पर हमारे ट्रांसफॉर्मर्स आ जाते हैं जिसके
+[00:13:34] बारे में भी हमें बेसिक नॉलेज होनी चाहिए।
+[00:13:35] अब जो सीएनएस होते हैं इनका स्पेसिफिक काम
+[00:13:37] होता है टू एक्सट्रैक्ट इनफेशन फ्रॉम
+[00:13:39] इमेजेस फ्रॉम वीडियोस। जबकि आरएनएस को
+[00:13:41] जनरली हम एनएलपी के अंदर यूज़ करते हैं
+[00:13:43] वेयर दे एक्सट्रैक्ट इनफेशन फ्रॉम टेक्स्ट
+[00:13:45] और फ्रॉम टेक्सचुअल कंटेंट। एंड नाउ इन
+[00:13:47] टर्म्स ऑफ़ टूल्स डीप लर्निंग के अंदर
+[00:13:48] हमारे पास एक इंपॉर्टेंट चॉइस होती है। या
+[00:13:50] तो हम डीप लर्निंग को पाइथन के थ्रू सीख
+[00:13:52] सकते हैं या फिर इसे टेंसर फ्लो के थ्रू
+[00:13:54] सीख सकते हैं। दोनों ही बहुत बढ़िया ऑप्शंस
+[00:13:56] हैं। हम दोनों में से किसी को भी पिक कर
+[00:13:58] सकते हैं। मेरी पर्सनल रेकमेंडेशन होगी कि
+[00:14:00] अगर हम डीप लर्निंग को सीख रहे हैं फॉर
+[00:14:01] डेटा साइंस तो हमें पाई के साथ स्टार्ट
+[00:14:03] करना चाहिए। एंड उसके थ्रू हमें अपनी
+[00:14:05] न्यूरल नेटवर्क्स को सीखना चाहिए। अब यहां
+[00:14:07] पर हमारी जो एआई की फील्ड है वो डिफरेंट
+[00:14:10] सब फील्ड्स के अंदर डिवाइड हो जाती है।
+[00:14:11] मतलब हमारे पास कुछ पॉपुलर डोमेनस हैं जो
+[00:14:14] यहां पर निकल के आती हैं मशीन लर्निंग के
+[00:14:15] अंदर एआई के अंदर। सबसे पहली इज़ जनरेटिव
+[00:14:18] एआई व्हिच इज़ जेन एआई जिसके अंदर हम नया
+[00:14:20] कंटेंट जनरेट करते हैं इन द फॉर्म ऑफ़
+[00:14:22] टेक्स्ट, इमेजज़, वीडियोस, ऑडियो एंड इन
+[00:14:25] डिफरेंट फॉर्म्स के अंदर। तो, यहां पे
+[00:14:26] काफी पॉपुलर एग्जांपल है हमारे मॉडर्न डे
+[00:14:28] एलएलएम्स। उसके साथ में सेकंड फील्ड हमारे
+[00:14:30] पास है एनएलपी की व्हिच इज़ नेचुरल
+[00:14:32] लैंग्वेज प्रोसेसिंग। ये भी एलएलएम्स के
+[00:14:34] अंदर यूज़ होती है। एंड थर्ड फील्ड है
+[00:14:35] हमारे पास कंप्यूटर विज़न की जिसका काफी
+[00:14:37] अच्छा इंप्लीमेंटेशन हमें आज की डेट में
+[00:14:39] सेल्फ ड्राइविंग कार्स के अंदर, ड्रोंस के
+[00:14:41] अंदर, रोबोट्स के अंदर बहुत सारी डिफरेंट
+[00:14:43] डोमेनस के अंदर देखने को मिलता है। अब ये
+[00:14:45] जो सारी की सारी डोमेनस हैं वो अपने आप
+[00:14:46] में काफी डीप है। तो एक साथ हम इनके अंदर
+[00:14:48] इन डेप्थ नहीं जा सकते। लेकिन हमें इन
+[00:14:50] सबकी एक बेसिक अंडरस्टैंडिंग होनी चाहिए।
+[00:14:53] एंड ओवर द इयर्स जैसे-जैसे हम इंडस्ट्री
+[00:14:55] के अंदर काम करते हैं और ज्यादा वर्क
+[00:14:56] एक्सपीरियंस गेन करते हैं। एंड जैसे-जैसे
+[00:14:58] हम अपना खुद का भी इंटरेस्ट एक्सप्लोर
+[00:15:00] करते हैं कि डीप लर्निंग के अंदर हमें
+[00:15:02] एग्जैक्टली कहां पर सबसे ज्यादा काम करने
+[00:15:04] में मजा आ रहा है। कहां पर हमें ज्यादा
+[00:15:05] ल्यूक्रेटिव ऑप्शंस देखने को मिल रहे हैं।
+[00:15:07] वहां पर ओवर द इयर्स वी कैन बिल्ड अ
+[00:15:09] स्पेशलाइजेशन फॉर आवरसेल्फ। तो ओवर अ
+[00:15:11] पीरियड ऑफ़ टाइम हम अपनी कंप्यूटर विज़न के
+[00:15:13] अंदर या एनएलपी के अंदर या जेनआई के अंदर
+[00:15:14] या किसी और फील्ड के अंदर भी अपनी
+[00:15:16] स्पेशलाइज़ेशन को बिल्ड कर सकते हैं। तो ये
+[00:15:18] थे हमारे सारे इंपॉर्टेंट स्टेप्स सारी
+[00:15:20] इंपॉर्टेंट चीजें जिनको हमें डेटा साइंस
+[00:15:21] के लिए सीखना होता है। इसके साथ में इफ यू
+[00:15:23] वांट टू लुक एट द कंप्लीट सिलेबस। तो ऑन
+[00:15:25] अपना कॉलेज वेबसाइट वी हैव अ बैच फॉर डेटा
+[00:15:28] साइंस व्हिच इज़ कॉल्ड प्राइम बैच। तो उसके
+[00:15:30] अंदर आपको डिटेल लिस्ट ऑफ ऑल द टॉपिक्स
+[00:15:32] मिल जाएगी। तो हम चाहे तो सारे के सारे
+[00:15:34] टॉपिक्स को वहां से जाकर भी टैली कर सकते
+[00:15:36] हैं। नाउ बिफोर वी एंड द सेशन आई वांट टू
+[00:15:37] शेयर थ्री इंपॉर्टेंट टिप्स विद यू जो
+[00:15:39] हमें हमारी फ्यूचर डेटा साइंस जर्नी के
+[00:15:41] अंदर बहुत ज्यादा हेल्प कर रही होंगी।
+[00:15:43] सबसे पहला इज दैट प्रोजेक्ट्स आर
+[00:15:45] रियलीेंट। मैंने पहले भी बताया है कि ये
+[00:15:47] जो फील्ड है ये काफी प्रैक्टिकल फील्ड है।
+[00:15:49] तो इसके अंदर प्रोजेक्ट्स बनाना बहुत
+[00:15:50] ज्यादा जरूरी है क्योंकि उससे एक तो हमारे
+[00:15:52] खुद के स्किल्स इंप्रूव होते हैं। दूसरा
+[00:15:54] हमारे पास रे्यूमे में प्रूफ ऑफ वर्क आ
+[00:15:56] जाता है। कोई भी स्किल सिर्फ रे्यूे के
+[00:15:58] स्किल सेक्शन में लिखने से सही नहीं हो
+[00:16:00] जाती। हमें उन स्किल्स का प्रोजेक्ट्स की
+[00:16:02] फॉर्म में या वर्क एक्सपीरियंस की फॉर्म
+[00:16:03] में प्रूफ देना होता है। एस्पेशली अगर हम
+[00:16:05] ऐसे कैंडिडेट हैं जिसके पास शायद अभी वर्क
+[00:16:07] एक्सपीरियंस नहीं है तो वहां पर स्किल्स
+[00:16:09] की जोेंस है मतलब प्रोजेक्ट्स की जोेंस है
+[00:16:11] वो और ज्यादा बढ़ जाती है। तो हमारे
+[00:16:13] प्रोजेक्ट्स के लिए कैगल इज़ अ वेरी पॉपुलर
+[00:16:15] प्लेटफार्म जिसको हम यूज़ कर सकते हैं।
+[00:16:16] जहां पर एक तो हमें बहुत सारे डेटा सेट्स
+[00:16:18] मिल जाएंगे जिसके ऊपर हम एल्गोरिथ्स को
+[00:16:20] अप्लाई कर सकते हैं। उसके साथ में वी विल
+[00:16:21] आल्सो गेट अ लॉट ऑफ़ प्रोजेक्ट्स आइडियाज़
+[00:16:23] देयर। प्लस हमारे जो प्रोजेक्ट्स हैं उनको
+[00:16:25] डिप्लॉय करना भी बहुत ज्यादा जरूरी है। तो
+[00:16:26] डिप्लॉयमेंट के लिए अगर हमें ऑलरेडी वेब
+[00:16:28] डेवलपमेंट आता है मन स्टक मीन स्टक अगर
+[00:16:30] हमें ऑलरेडी या आता है तो हम चाहे तो अपने
+[00:16:32] प्रोजेक्ट्स को उनकी हेल्प से डिप्लॉय कर
+[00:16:33] सकते हैं। या इनफैक्ट डेवलपमेंट बेस्ड
+[00:16:35] प्रोजेक्ट्स के साथ भी हम अपने एआई को
+[00:16:37] इंटीग्रेट कर सकते हैं। या फिर हम चाहें
+[00:16:38] तो फ्लास्क को फास्ट एपीआई को सीख सकते
+[00:16:40] हैं। उसके थ्रू हम डिप्लॉयमेंट कर सकते
+[00:16:42] हैं। या फिर आज की डेट में हमारे पास ऐसे
+[00:16:43] भी ऑप्शंस अवेलेबल हैं जहां पे वी डोंट
+[00:16:45] नीड टू लर्न अ लॉट ऑफ़ डेवलपमेंट टू
+[00:16:46] डिप्लॉय आवर मशीन लर्निंग आवर एआई
+[00:16:48] प्रोजेक्ट्स। तो स्ट्रीमलेट एक काफी
+[00:16:50] पॉपुलर प्लेटफार्म है जिसको हम यूज़ कर
+[00:16:51] सकते हैं या फिर हम हगिंग फेस को भी चाहें
+[00:16:53] तो यूज़ कर सकते हैं। सो दिस वाज़ द फर्स्ट
+[00:16:55] टिप एंड द सेकंड टिप इज़ दैट लॉन्ग टर्म के
+[00:16:57] अंदर हमें डेटा साइंस में डोमेन स्पेशलिटी
+[00:17:00] को टारगेट करना है। यानी अगर हम डोमेन
+[00:17:02] स्पेसिफिक अपने लिए करियर क्यूरेट कर पाते
+[00:17:04] हैं तो वो हमें लॉन्ग टर्म के अंदर काफी
+[00:17:05] अच्छे रिजल्ट्स देगा। जैसे फॉर एग्जांपल
+[00:17:08] अगर हमने इंटर्नशिप की है फाइनेंस फील्ड
+[00:17:10] के अंदर एंड हम जॉब भी जाकर फाइनेंस फील्ड
+[00:17:12] के अंदर ले रहे हैं। फिर सेकंड कंपनी में
+[00:17:13] भी फाइनेंस कंपनी के अंदर जाकर एज अ डेटा
+[00:17:15] साइंटिस्ट ज्वाइन कर रहे हैं। तो इस तरीके
+[00:17:17] से जब हम थर्ड टाइम फोर्थ टाइम एज अ
+[00:17:19] वर्किंग प्रोफेशनल स्किल सेट के साथ
+[00:17:21] ऑलरेडी फाइनेंस का जो बैकग्राउंड होगा
+[00:17:23] हमारा फिनटेक कंपनीज़ के अंदर वर्क करने का
+[00:17:25] उसको लेकर इंडस्ट्री में जाएंगे तो जो भी
+[00:17:27] हमारी फinटेक कंपनीज़ होंगी वो हमें ज्यादा
+[00:17:30] प्रायोरिटी देंगी एज़ कंपेयर टू अदर डेटा
+[00:17:32] साइंस कैंडिडेट्स। तो इसी तरीके से हमारी
+[00:17:35] जो पर्टिकुलर डोमेनस होती हैं जो काफी
+[00:17:36] पॉपुलर डोमेनस हैं उनको हम टारगेट कर सकते
+[00:17:39] हैं टू बिल्ड आवर करियर इन डेटा साइंस। तो
+[00:17:41] इसके अंदर फाइनेंस एक अच्छा ऑप्शन है।
+[00:17:42] हेल्थ केयर एक अच्छा ऑप्शन है। बायोटेक इज़
+[00:17:44] आल्सो इक्रेटिव ऑप्शन। हमारे पास एनर्जी
+[00:17:46] है, हमारे पास डिफेंस है। तो हमें डोमेन
+[00:17:49] स्पेशलिटी के ऊपर काफी ज्यादा फोकस करना
+[00:17:51] है। एंड द थर्ड टिप इज़ कि इफ वी आर अ
+[00:17:53] फ्रेशर तो हमें कोशिश करनी है जैसे ही
+[00:17:55] हमारे डेटा साइंस के ये सारे के सारे
+[00:17:56] सिलेबस हमारा कंप्लीट हो जाता है इन चीजों
+[00:17:58] को हम सीख लेते हैं। उसके बाद कुछ टाइम
+[00:18:00] लगाकर हम डेटा स्ट्रक्चर्स एंड
+[00:18:02] एल्गोरिदम्स के भी जो कोर कांसेप्ट्स होते
+[00:18:04] हैं उनको कवर करें। क्योंकि कुछ स्पेसिफिक
+[00:18:05] कंपनीज़ होती हैं जिनकी रिक्वायरमेंट होती
+[00:18:07] है कि जब वह फ्रेशर लेवल पे डेटा
+[00:18:08] साइंटिस्ट को हायर कर रहे होते हैं तो वह
+[00:18:10] उनसे कुछ बेसिक डीएसए के भी सवाल
+[00:18:12] एक्सपेक्ट करते हैं तो वहां पे टाइम
+[00:18:13] कॉम्प्लेक्सिटी, स्पेस कॉम्प्लेक्सिटी
+[00:18:14] जैसे कॉन्सेप्ट्स इंपॉर्टेंट हो जाते हैं
+[00:18:16] जो हमें एल्गोरिदम्स को ऑप्टिमाइज करने के
+[00:18:18] अंदर और ज्यादा हेल्प करते हैं या वो
+[00:18:19] माइंडसेट बिल्ड करते हैं कि हम
+[00:18:21] एल्गोरिदम्स के बारे में उनकी क्या टाइम
+[00:18:23] एफिशिएंसी है क्या स्पेस एफिशिएंसी है उन
+[00:18:25] टर्म्स के अंदर सोच पाते हैं। सो दैट इज़
+[00:18:27] आल्सो समथिंग दैट वी कैन फोकस ऑन। तो, आई
+[00:18:28] होप कि आज के सेशन से जो सारा एंड टू एंड
+[00:18:31] डेटा साइंस का प्रोसेस है, क्या-क्या
+[00:18:32] स्किल्स, क्या-क्या टूल्स हैं जिनको हमें
+[00:18:33] सीखना पड़ता है वो हमें अच्छे से समझ में
+[00:18:35] आया होगा। एंड नाउ वी आर इन अ पोजीशन कि
+[00:18:37] जाकर हम अपनी फर्स्ट प्रोग्रामिंग
+[00:18:38] लैंग्वेज पाइथन को सीखना स्टार्ट कर सकते
+[00:18:40] हैं। एंड सारी चीजों को फिर हम स्टेप बाय
+[00:18:42] स्टेप सीखते चले जाएंगे। अब डेफिनेटली ये
+[00:18:45] जो सारे हमने टॉपिक्स डिस्कस किए, इनको
+[00:18:47] सीखने में हमें टाइम लगेगा। हमारा एफर्ट
+[00:18:48] लगेगा। हमारा हार्ड वर्क लगेगा। जो जरूरी
+[00:18:50] भी है। अगर हम स्ट्रक्चर तरीके से
+[00:18:52] कंसिस्टेंसी के साथ जिस तरीके से मैंने
+[00:18:54] चीजें बताई हैं, वैसे-वैसे डेटा साइंस के
+[00:18:56] इन सारे कांसेप्ट्स को कवर करते चले जाते
+[00:18:58] हैं। तो हमें अराउंड फोर टू सिक्स मंथ्स
+[00:19:00] का टाइम लगना चाहिए। अगर हम डेली एटलीस्ट
+[00:19:02] थ्री टू फोर आवर्स अपनी प्रिपरेशन जर्नी
+[00:19:04] को दे रहे हैं। तो इन केस हम बीच में
+[00:19:05] ब्रेक्स लेते हैं या हम काफी कम टाइम देते
+[00:19:07] हैं तो उस केस में हमारा जो टाइम है वो और
+[00:19:08] ज्यादा बढ़ जाएगा। पर टाइम इन्वेस्ट करना,
+[00:19:10] हार्ड वर्क पुट इन करना बहुत ज्यादा जरूरी
+[00:19:12] है। अभी हम में से जो मेजॉरिटी लोग हैं वो
+[00:19:15] अपने अर्ली स्टेजेस ऑफ करियर के अंदर
+[00:19:16] होंगे। अभी अपने 20ज के अंदर होंगे। जहां
+[00:19:19] पर अगर हम एक स्ट्रक्चर तरीके से अपनी
+[00:19:21] तैयारी को करते हैं। जहां पर हम अपने
+[00:19:23] करियर को प्रायोरिटी देते हैं। क्योंकि
+[00:19:24] डेफिनेटली हार्ड वर्क हर किसी को किसी ना
+[00:19:26] किसी स्टेज पे करना होता है। तो जितना
+[00:19:28] अर्ली इयर्स के अंदर हम अपने हार्ड वर्क
+[00:19:29] पुट इन कर लेते हैं। कुछ प्रैक्टिकल
+[00:19:31] स्किल्स अपने पास लेकर आ जाते हैं। तो
+[00:19:33] उतना ही लॉन्ग टर्म के अंदर हम खुद को एक
+[00:19:35] ज्यादा कॉन्फिडेंट पोजीशन के अंदर पाएंगे।
+[00:19:37] आज की डेट में इंफॉर्मेशन काफी ज्यादा है।
+[00:19:39] रिसोर्सेज बहुत सारे हैं। पर सबसे ज्यादा
+[00:19:41] जो चीज मैटर करती है, दैट इज कि हम उस
+[00:19:43] इंफॉर्मेशन को हम उन रिसोर्सेज को कितना
+[00:19:45] सीरियसली लेते हैं। कितना अच्छे तरीके से
+[00:19:47] इफेक्टिवली उन रिसोर्सेज को यूटिलाइज करके
+[00:19:50] हम अपनी जो तैयारी है उसको शुरू करते हैं
+[00:19:52] एंड इनफैक्ट उसको खत्म कर रहे होते हैं।
+[00:19:54] तो आई होप कि आज के सेशन से बहुत सारी
+[00:19:56] इंपॉर्टेंट चीजें हैं जो हमें हमारे डेटा
+[00:19:58] साइंस करियर के अंदर आज भी एंड फ्यूचर के
+[00:20:01] अंदर भी बहुत ज्यादा हेल्प कर रही होंगी।
+[00:20:02] आई विश यू ऑल द बेस्ट फॉर योर डेटा साइंस
+[00:20:04] करियर। एंड इसके अलावा अगर आपका एआई से
+[00:20:06] रिलेटेड, एमएल से रिलेटेड, डेटा साइंस से
+[00:20:08] रिलेटेड अगर कोई भी सवाल है तो उसके बारे
+[00:20:10] में यू कैन लेट मी नो इन द कमेंट्स। आज के
+[00:20:12] लिए इतना ही। मिलते हैं नेक्स्ट सेशन के
+[00:20:13] अंदर। टिल देन कीप लर्निंग एंड कीप
+[00:20:15] एक्सप्लोरिंग। 
+
+
+
+
+PK
+
+Skip navigation
+
+
+
+
+
+Create
+
+9+
+
+Avatar image
+Home
+Shorts
+Subscriptions
+
+3DJake
+
+3DXMentor
+
+Aakash Pillay
+
+Aayu and Pihu Show
+
+AbbyViral
+
+abdidoesstuff
+
+Abdul Bari
+Show more
+You
+Your channel
+History
+Playlists
+Watch later
+Liked videos
+Your videos
+Show more
+Explore
+Music
+Gaming
+News
+Show more
+More from YouTube
+YouTube Premium
+YouTube Music
+YouTube Kids
+Report history
+AboutPressCopyrightContact usCreatorsAdvertiseDevelopers
+TermsPrivacyPolicy & SafetyHow YouTube worksTest new features
+© 2026 Google LLC
+
+
+Sheryians AI School
+@SheryiansAI
+•
+145K subscribers
+•
+152 videos
+Welcome to Sheryians AI School 
+...more
+
+ sheryians.com
+and 2 more links
+
+Subscribed
+Community
+
+Latest
+
+Popular
+
+Oldest
+
+
+25:39
+GPT-6 Astra vs Claude Fable: Which AI Builds the Better Cancer Prediction Model?
+22K views
+•
+3 days ago
+
+
+
+22:57
+How India Became A Country Of Coders
+14K views
+•
+5 days ago
+
+
+
+44:15
+Every LLM Term You Pretend to Understand, Explained Simply
+20K views
+•
+10 days ago
+
+
+
+5:10:16
+End-to-End Research Topic Classification Using GNNs
+20K views
+•
+2 weeks ago
+
+
+
+4:53:58
+Build an End-to-End NLP Project with Deep Learning, FastAPI & Deployment
+26K views
+•
+1 month ago
+
+
+
+7:57
+Complete Data Analytics | Course Launch
+18K views
+•
+1 month ago
+
+
+
+2:53:50
+ML Project: Classifying NYC House Types from Scratch
+17K views
+•
+1 month ago
+
+
+
+4:12:42
+Building & Deploying a Mental Health Score Predictor (Full ML Project)
+72K views
+•
+1 month ago
+
+
+
+1:08:23
+Git & GitHub Full Course for Beginners | Industry Workflow (Part 2)
+4.3K views
+•
+1 month ago
+
+
+
+17:12
+Best Entry-Level AI Jobs for Freshers Ranked Easy to Hard
+16K views
+•
+1 month ago
+
+
+
+15:22
+Machine Learning Projects That Actually Get You Hired
+33K views
+•
+1 month ago
+
+
+
+18:37
+AI Engineer Roadmap 2026: 90% of Students Get This Wrong
+45K views
+•
+2 months ago
+
+
+
+18:02
+How I Would Become a Machine Learning Engineer in 2026 (If I Started Today)
+20K views
+•
+2 months ago
+
+
+
+1:16:55
+Pydantic Full Course 2026: Data Validation for Python & AI Developers
+14K views
+•
+2 months ago
+
+
+
+5:18:04
+Complete Agentic AI Course with LangGraph
+81K views
+•
+2 months ago
+
+
+
+1:06:05
+Git & GitHub Full Course for Beginners | Industry Workflow (Part 1)
+14K views
+•
+3 months ago
+
+
+
+17:33
+The Exact Path I Would Follow to Become a Data Analyst in 2026
+36K views
+•
+3 months ago
+
+
+
+13:37
+The Data Science Job Market Is Not What You Think
+22K views
+•
+3 months ago
+
+
+
+19:16
+AI & ML Jobs Nobody Tells You About (Full List for Freshers)
+19K views
+•
+3 months ago
+
+
+
+8:28
+Before You Start AI & ML, Watch This Video First.
+30K views
+•
+3 months ago
+
+
+
+12:26
+Is Traditional Machine Learning Dead?
+11K views
+•
+3 months ago
+
+
+
+7:13
+The Complete MLOps Ecosystem: Git, Docker, Kubernetes, and MLflow
+9.8K views
+•
+3 months ago
+
+
+
+15:38
+Can You Really Learn DSA With Python?
+55K views
+•
+3 months ago
+
+
+
+9:45:58
+Complete DAX Tutorial for Beginners to Advanced | Power BI Full Course
+56K views
+•
+3 months ago
+
+
+
+23:26
+AI vs ML vs DL vs Data Science vs GenAI — Explained Simply
+12K views
+•
+4 months ago
+
+
+
+3:11:55
+AI Video Assistant With RAG | Full Project in Python
+91K views
+•
+4 months ago
+
+
+
+30:37
+Traditional RAG vs Vectorless RAG(Page Indexing) What should you use.
+5.3K views
+•
+4 months ago
+
+
+
+18:45
+The Truth About AI And Jobs Nobody Is Telling You (2025 Data)
+47K views
+•
+4 months ago
+
+
+
+2:01:05
+Build a Multi-Agent AI Research System with LangChain (Full Project)
+104K views
+•
+5 months ago
+
+
+
+4:06:10
+Generative AI Full Course (Part 3) | Tools, AI Agents, Tool Calling, APIs & LangChain
+80K views
+•
+5 months ago
+
+
+
+6:16
+What the Industry ACTUALLY Wants in 2026? What Really Matters
+11K views
+•
+5 months ago
+
+
+
+2:54:45
+Build an End-to-End Business Analytics Dashboard in Power BI (Food Delivery App Data)
+38K views
+•
+5 months ago
+
+
+
+3:41:39
+Generative AI Full Course (Part 2) | Document Loaders, Text Splitters, Vector DB, RAG & LangChain
+111K views
+•
+5 months ago
+
+
+
+3:02:17
+Build an Industry-Level Data Analytics Dashboard Project | PostgreSQL × Power BI
+30K views
+•
+6 months ago
+
+
+
+3:52:07
+Generative AI Full Course (Part 1 ) | Beginner to Advanced | LangChain, LLMs & Prompt Engineering
+448K views
+•
+6 months ago
+
+
+
+2:11:09
+Build an Industry-Level Taxi Fare Dashboard in Power BI | End-to-End Project
+21K views
+•
+6 months ago
+
+
+
+3:51:47
+Deep Learning Complete Course | Part 4 | Transformers & Attention Mechanism Completely Explained
+78K views
+•
+6 months ago
+
+
+
+2:08:03
+End-to-End Movie Recommendation System using NLP, TF-IDF & FastAPI
+68K views
+•
+8 months ago
+
+
+
+3:54:24
+FastAPI Full Course for Beginners | Build Real-World APIs + ML Project + Deployment
+169K views
+•
+8 months ago
+
+
+
+4:02:54
+Deep Learning Complete Course | Part 3| RNN implementation.
+84K views
+•
+8 months ago
+
+
+
+3:30
+Data Science + Analytics + Gen AI | Launch your AI Career now
+24K views
+•
+10 months ago
+
+
+
+24:12
+The ML workflow that you must know.
+16K views
+•
+10 months ago
+
+
+
+1:54:48
+Deep Learning Complete Course | Part 2| CNN implementation.
+90K views
+•
+1 year ago
+
+
+
+13:19
+Your AI/ML Degrees are Scam | Disturbing reality of Tier 3 Colleges
+49K views
+•
+1 year ago
+
+
+
+4:20:35
+Deep Learning Complete Course | Part 1| ANN implementation.
+234K views
+•
+1 year ago
+
+
+
+17:58
+Ultimate Data Science Roadmap 2025 | 180 days Step By Step Schedule
+53K views
+•
+1 year ago
+
+
+
+2:30:15
+Learn Complete NLP with Project (Bag of Words, Tf-idf) | For Beginners
+145K views
+•
+1 year ago
+
+
+
+5:18:53
+Complete SQL in 1 shot for Data analytics in 2025
+330K views
+•
+1 year ago
+
+
+
+5:16:31
+Complete powerBI Course for Data Analysis and Visualization | Job Oriented.
+261K views
+•
+1 year ago
+
+
+
+5:55:56
+Complete MS Excel course for Data Analyst | Job Oriented
+719K views
+•
+1 year ago
+
+
+
+4:00:10
+Part 4 - Model Tuning, Ensemble & Unsupervised Learning | Full ML Course | Sheryians AI School
+204K views
+•
+1 year ago
+
+
+
+3:39:38
+Part 3 - Supervised Learning| Classification Algorithms for Beginners | Sheryians AI School
+244K views
+•
+1 year ago
+
+
+
+2:41:18
+Part 2 - Supervised Learning | Complete Machine Learning Course for Beginners | Sheryians AI School
+302K views
+•
+1 year ago
+
+
+
+2:43:08
+Complete Machine Learning Course for Beginners | Part 1- Foundation | Sheryians AI School
+1M views
+•
+1 year ago
+
+
+
+4:56:01
+Complete Statistics Course for Beginners | Data Science Tutorial | Sheryians AI School
+360K views
+•
+1 year ago
+
+
+
+2:35:08
+Complete Data Visualization Course for Beginners |  Matplotlib & Seaborn | Sheryians AI School
+251K views
+•
+1 year ago
+
+
+
+2:23:38
+Complete Data Science Course for Beginners| Pandas Library | Sheryians AI School
+300K views
+•
+1 year ago
+
+
+
+2:00:00
+Complete Data Science Course for Beginners | NumPy | Sheryians AI School
+303K views
+•
+1 year ago
+
+
+
+11:35:16
+Python Full Course for Beginners to Advanced | 12 Hours Complete Tutorial + Python Book
+1.4M views
+•
+1 year ago
+
+ 
+
+
+PK
+
+Skip navigation
+
+
+
+
+
+Create
+
+9+
+
+Avatar image
+Home
+Shorts
+Subscriptions
+
+3DJake
+
+3DXMentor
+
+Aakash Pillay
+
+Aayu and Pihu Show
+
+AbbyViral
+
+abdidoesstuff
+
+Abdul Bari
+Show more
+You
+Your channel
+History
+Playlists
+Watch later
+Liked videos
+Your videos
+Show more
+Explore
+Music
+Gaming
+News
+Show more
+More from YouTube
+YouTube Premium
+YouTube Music
+YouTube Kids
+Report history
+AboutPressCopyrightContact usCreatorsAdvertiseDevelopers
+TermsPrivacyPolicy & SafetyHow YouTube worksTest new features
+© 2026 Google LLC
+
+
+Sheryians AI School
+@SheryiansAI
+•
+145K subscribers
+•
+152 videos
+Welcome to Sheryians AI School 
+...more
+
+ sheryians.com
+and 2 more links
+
+Subscribed
+Community
+ 
+4 videos
+ML & DL projects
+Updated 2 days ago
+View full playlist
+
+13 videos
+Raw Talks (Questions, myths, information)
+View full playlist
+
+5 lessons
+Generative AI course
+View full course
+
+3 videos
+Data Analysis Projects
+View full playlist
+
+8 lessons
+Data Analysis Foundation Course
+View full course
+
+4 lessons
+Complete Deep Learning Course
+View full course
+
+9 lessons
+Complete Machine Learning Course with Projects | Learn ML Step-by-Step
+View full course
+
+15 lessons
+Data Science Foundation Course
+View full course
+ 
+
+ This 12-hour comprehensive course by Akarsh Vyas from Sheryians AI School provides a full guide to learning Python, starting from absolute zero to advanced levels. The course is designed for beginners, students preparing for placements, and career changers. It covers the entire journey of learning Python, from environment setup to real-world project development.
+Key topics covered so far:
+
+Environment Setup: Guidance on installing Python and setting up VS Code (6:19-15:32), including best practices for path configuration and necessary extensions.
+Core Concepts: Comprehensive explanations of variables, data types (25:19), strings, and type conversion (34:28).
+Operators & Control Flow: Detailed breakdown of various operators (59:11), including arithmetic and logical, followed by a focus on logic building with If-Else statements (1:39:27) and loops (For and While) (2:16:14).
+Functions & Data Structures: Explanation of creating reusable code with functions (4:06:22) and an overview of Python’s built-in data structures: Lists (4:33:38), Tuples (5:17:00), Sets (5:26:10), and Dictionaries (5:49:31).
+Practical Applications: Includes modules on exception handling (6:23:24) and file handling (6:43:23), followed by a dedicated file handling project (6:52:30).
+Highlights for later:
+
+Coming up in the remainder of the course, the instructor covers Object-Oriented Programming (OOP) (7:24:17), advanced concepts like decorators (9:18:32), and concludes with a full-scale Bank Management System project (10:05:09). 
+This video is a comprehensive beginner's course on NumPy, a fundamental library for data science and AI in Python. The tutorial covers everything from setting up the development environment to advanced array manipulation techniques.
+Course Highlights:
+
+Environment Setup: The instructor guides you through setting up Jupyter Notebooks using Anaconda (0:28 - 17:18), and provides alternatives like VS Code and Google Colab for different coding needs.
+NumPy Arrays: An introduction to why arrays are essential compared to standard Python lists (19:28 - 46:57).
+Manipulation: Learn the fundamentals of indexing, slicing, and iteration (46:57 - 1:04:12), as well as complex mathematical operations and the concept of broadcasting (1:04:12 - 1:30:01).
+Advanced Techniques: Detailed look at deep and shallow copies, matrix multiplication using the @ operator, and array stacking/splitting (1:04:12 - 1:30:01).
+Practical Exercises: The course concludes with hands-on projects, including a Valid Sudoku checker and data analysis tasks involving age, math scores, and science marks (1:30:01 - 1:59:34).
+
+
+
+ This video is a comprehensive 2.5-hour guide to the Pandas library in Python, designed to take learners from beginners to proficient data analysts. The course, presented by Akarsh Vyas from Sheryians AI School, covers essential data science workflows and includes practical, real-world mini-projects.
+Key topics covered in this course include:
+Foundations: An introduction to the origins of Pandas and its necessity in modern data science (0:25).
+Core Data Structures: Detailed explanations of Series (3:32) and DataFrames (11:27).
+Data Cleaning & Preparation: Techniques for handling missing data (35:20) and performing various data operations (1:17:20).
+Data Manipulation: Methods for filtering, sorting, selecting (1:24:47), and joining datasets (45:33).
+Analysis Techniques: Advanced aggregation, GroupBy operations (57:46), and building Pivot Tables and Cross Tabs (1:08:02).
+Hands-on Projects:
+The second half of the course focuses on applying these skills to real-world data:
+Feature Extraction Project: Learning how to pull specific insights from raw datasets (1:27:58).
+Data Capstone Project: A full end-to-end data analysis project to solidify learning (1:56:19). This video is a comprehensive beginner's guide to Data Visualization in Python, presented by Akarsh Vyas. It covers the foundational libraries and practical techniques needed to turn raw data into insightful visual stories.
+Key Learning Sections:
+
+Library Overview: The instructor begins by sharing the origin stories of essential libraries—Matplotlib (created by John Hunter), Seaborn (by Michael Waskom), and Plotly/Cufflinks (by Santiago Paladino) (0:20 - 2:49).
+Core Visualization Libraries:
+Matplotlib: Explored as the fundamental building block for Python plotting (05:29 - 41:21).
+Seaborn: Used for advanced statistical charts, including Distribution plots (41:21), Categorical plots (01:05:57), Matrix plots (01:23:36), and Regression plots (01:37:09).
+Plotly & Cufflinks: Focused on creating interactive, zoomable, and 3D charts for non-technical audiences (01:45:09).
+Practical Capstone Project: The course concludes with a real-world project analyzing IPL cricket data, where the instructor applies the learned libraries to perform comprehensive data analysis and reporting (01:55:53 - 02:34:44).
+The tutorial emphasizes the difference between coding-based visualization (highly flexible for ML pipelines) and no-code tools (like PowerBI or Tableau) (02:49 - 05:29), positioning Python as the superior choice for technical data science workflows.This comprehensive tutorial by Akarsh Vyas provides a deep dive into statistics essential for Data Science, Machine Learning, and AI. The course covers fundamental to advanced concepts through clear explanations and code implementations.
+Key Topics Covered So Far (0:00 - 0:03):
+
+Since your current progress is at the very beginning of this 5-hour session, the video provides a structured roadmap of the topics to be explored, including:
+Descriptive Statistics: Visualization techniques, measures of central tendency (mean, median, mode), and measures of dispersion (variance, standard deviation, IQR).
+Probability: Basics of probability, conditional probability, and Bayes' Theorem.
+Probability Distributions: Understanding Normal, Binomial, and Poisson distributions.
+Inferential Statistics & Hypothesis Testing: Deep dives into Z-tests, T-tests, Chi-square tests, and ANOVA.
+Modeling: Concepts of correlation, regression, and statistical thinking applied to Machine Learning.
+This course is designed for beginners and emphasizes practical coding applications using libraries like NumPy and Seaborn to reinforce theoretical learning.
+
+
+
+ This video, presented by Akarsh Vyas from Sheryians AI School, serves as the foundational first part of a four-part series on Machine Learning. The session focuses on the essential preliminary steps required before building a model, emphasizing that these stages are often critical yet overlooked in typical tutorials.
+Key Concepts Covered:
+
+Foundations of ML: The instructor defines Machine Learning as teaching computers to learn from data, similar to human experience (0:03 - 0:06). He distinguishes between AI, Machine Learning, and Deep Learning (0:10 - 0:14) and categorizes learning types into Supervised, Unsupervised, and Reinforcement Learning (0:14 - 0:25).
+The Data Pipeline: The core of the video covers the critical workflow for any project:
+EDA (Exploratory Data Analysis): Visualizing and understanding the data structure (0:28 - 0:33).
+Data Cleaning & Preprocessing: Handling null values, duplicates, and converting non-numeric data into numbers (0:33 - 0:54).
+Feature Engineering & Selection: Boosting model performance by creating new features and selecting the most relevant ones (0:54 - 1:01).
+Practical Projects:
+
+Project 1 (Insurance): The instructor guides viewers through an insurance.csv dataset, performing full EDA and preprocessing (1:01 - 2:07).
+Project 2 (Heart Disease): A secondary walkthrough using a heart.csv dataset to illustrate data distribution and identifying potential issues like outliers (2:07 - 2:42).
+This video provides the groundwork for upcoming sessions, where the focus will shift to building and training actual predictive models.This video, presented by Akarsh Vyas from Sheryians AI School, serves as the second part of a comprehensive machine learning course, specifically focusing on Supervised Learning with an emphasis on Linear Regression.
+Key concepts covered in the video include:
+Regression Fundamentals: An introduction to what regression is and its practical use cases (0:06:29 - 0:12:04).
+Linear Regression: A deep dive into the concept and intuition behind linear regression models (0:12:04 - 0:38:47).
+Mathematical Intuition: A conceptual breakdown of the Cost Function (0:38:47 - 0:46:30) and Gradient Descent (0:46:30 - 1:04:26), including the Repeat Convergence Theorem (1:04:26 - 1:10:59) and the role of Hyperplanes when dealing with multiple features (1:10:59 - 1:14:56).
+Model Evaluation & Best Practices: Practical instruction on using Scikit-learn, performing Train-Test Splits (1:15:52 - 1:28:46), and understanding Model Evaluation Metrics like MSE, RMSE, and R² Score (1:28:46 - 1:46:17).
+Overfitting and Underfitting: Visualizing and explaining these critical model performance issues (1:46:17 - 1:57:37).
+Hands-on Projects:
+The session includes two major practical projects where the instructor demonstrates the entire workflow: data loading, exploratory data analysis (EDA), feature engineering, model training, and prediction, specifically for predicting house prices (1:14:56 - 1:28:46 and 1:57:37 - 2:40:45).This video, part of the Sheryians AI School series by instructor Akarsh Vyas, provides a comprehensive guide to Supervised Learning - Classification Algorithms. The session covers both the mathematical intuition and practical implementation of key machine learning models (0:01:28 - 0:05:11).
+Key Algorithms Covered:
+Logistic Regression: The primary tool for binary classification (0:08:32 - 0:56:24).
+K-Nearest Neighbors (KNN): Classifying data based on similarity (1:20:17 - 1:42:32).
+Naive Bayes: A probabilistic approach (1:42:32 - 2:05:38).
+Decision Trees: Step-by-step decision making (2:05:38 - 2:42:41).
+Support Vector Machines (SVM): Finding the optimal boundary between classes (2:42:41 - 3:02:15).
+Model Evaluation and Application:
+The video details how to evaluate these models using the Confusion Matrix, Accuracy, Precision, Recall, and F1-score (0:56:24 - 1:20:17).
+Hands-on Project: The instructor demonstrates these concepts using the Titanic Survival dataset (3:02:15 - 3:21:22) and concludes with a practical guide on deploying a machine learning application using Streamlit (3:21:22 - 3:39:04).This video, the fourth part of a comprehensive machine learning course by Sheryians AI School, focuses on advanced techniques to improve model performance and introduces unsupervised learning concepts.
+Key Topics Covered:
+
+Model Tuning & Optimization: The instructor explains how to enhance model accuracy using hyperparameter tuning (0:03:29), covering methods like Grid Search CV (0:33:26) and Randomized Search CV (1:05:12), supported by cross-validation (0:10:46) to ensure robust results.
+Ensemble Learning: The session dives into building stronger, generalized models by combining multiple algorithms, including Stacking (1:22:56), Bagging (1:27:56), and Boosting (1:32:00) techniques like AdaBoost, Gradient Boosting, and XGBoost (2:17:12).
+Unsupervised Learning: The video transitions into pattern discovery without labeled data, covering clustering algorithms like K-Means (2:45:31) and DBSCAN (3:18:29) for identifying hidden data structures.
+Dimensionality Reduction: The instructor demonstrates the use of PCA (Principal Component Analysis) to simplify complex datasets while retaining essential information (3:29:53).
+The course emphasizes hands-on implementation, providing code walkthroughs for all discussed algorithms to prepare students for real-world data science applications.This comprehensive tutorial by Akarsh Vyas provides a complete guide to mastering SQL for Data Analytics in 2025. It covers the entire journey from absolute beginner concepts to advanced professional skills using a PostgreSQL environment.
+Key Course Highlights:
+
+Foundations: The course begins with the basics of what a database is, how to install PostgreSQL and pgAdmin on both Windows and MAC (0:12:58 - 0:25:09), and performing fundamental CRUD operations (0:31:18).
+Data Management: Detailed sessions on Data Types (0:56:38), Constraints (1:16:27), and managing columns using ALTER commands (3:00:41).
+Querying & Filtering: Practical training on using clauses (1:54:13), logical operators (2:11:20), and aggregation functions (2:26:11) to analyze data effectively.
+Advanced Concepts:
+Joins: Explanations of inner, left, right, and full joins to combine data from multiple tables (4:06:36).
+Relationships: Understanding one-to-one, one-to-many, and many-to-many database designs (3:42:24 - 4:59:12).
+Reporting & Automation: Creating Views for reporting (5:02:00) and Stored Procedures (PL/pgSQL) for task automation (5:09:46).
+Hands-on Practice: The video includes multiple exercises and test scenarios throughout to ensure job-readiness for Data Analytics, Data Science, and Business Intelligence roles.
+
+
+
+This video serves as an introductory guide to Natural Language Processing (NLP) within the context of Machine Learning, specifically designed for beginners. The instructor, Akarsh Vyas, covers the theoretical foundations, essential preprocessing steps, and hands-on implementation of NLP techniques without using deep learning.
+Key Topics Covered So Far:
+
+Introduction to NLP: Explains that NLP is a branch of Artificial Intelligence enabling computers to understand, read, write, and communicate like humans (1:42 - 4:30).
+Real-world Applications: Highlights how NLP powers tools like ChatGPT, Alexa, email spam filters, and sentiment analysis for customer reviews (4:34 - 6:38).
+Text Preprocessing Pipeline: Demonstrates how to clean raw text, including removing punctuation, emojis, and stop words using NLTK (43:39 - 55:38).
+Feature Extraction Techniques: Detailed explanations and implementation of traditional methods to convert text into numerical vectors:
+One-Hot Encoding: Explains the limitations regarding vocabulary size and memory (1:14:01 - 1:19:17).
+Bag of Words (BoW): Explains frequency-based counting and its implementation using CountVectorizer (1:19:42 - 1:33:41).
+TF-IDF: Explains Term Frequency-Inverse Document Frequency and its advantage in information retrieval using TfidfVectorizer (1:53:44 - 2:04:36).
+Project Implementation:
+
+The instructor walks through a Hands-on Emotion Detection Project from scratch, splitting data (2:07:05), training models with Naive Bayes (2:14:30), and testing against Logistic Regression (2:23:13).This video serves as an introductory guide to Deep Learning, emphasizing that it is a subset of Machine Learning and requires foundational knowledge of ML before proceeding (0:00-0:14). Instructor Akarsh Vyas provides a comprehensive overview of how neural networks function, moving from the basic concept of Perceptrons (0:12:15) to building a complete Artificial Neural Network (ANN) project (3:43:54).
+Key concepts covered include:
+Foundational Mechanics: Detailed explanations of Forward Propagation (0:29:53) and Backward Propagation (0:48:54) to explain how networks learn.
+Crucial Components: In-depth discussion on selecting Activation Functions (1:23:55), calculating Loss Functions (2:20:11), and choosing effective Optimizers (3:01:29).
+Technical Challenges: Addressing common issues such as the Vanishing Gradient Problem (1:09:22).
+Practical Implementation: A hands-on tutorial using TensorFlow and Keras to create an ANN model (1:50:48), with tips on using Google Colab for hardware acceleration (1:52:38).
+Model Interpretation: A brief look at the differences between Black Box and White Box models (4:16:25).
+The video concludes by setting expectations for upcoming sessions, which will cover more advanced topics like Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN) (4:19:11).
+
+
+
+This video serves as an introductory deep dive into Convolutional Neural Networks (CNNs), specifically designed for those who have completed the instructor's previous lesson on Artificial Neural Networks (ANNs). The instructor explains why CNNs are superior to ANNs for image processing, highlighting how they analyze images by focusing on local patterns rather than flattening pixels into a one-dimensional array (0:38 - 11:53).
+Core Concepts Covered:
+CNN Architecture: The video breaks down the hierarchy of layers, including the input layer, convolutional layer for feature extraction, and pooling layers for reducing dimensionality (19:00 - 25:03).
+Mathematical Intuition: The instructor discusses the roles of padding, strides (42:12 - 55:26), and pooling techniques like max pooling to capture dominant features while ignoring noise (55:26 - 1:06:47).
+Practical Implementation: The latter half of the video (1:15:20 - 1:54:13) is dedicated to a hands-on project using TensorFlow/Keras and the MNIST dataset. The instructor compares the performance of a simple Perceptron, an ANN, and a CNN to demonstrate why CNNs provide higher accuracy for image classification tasks.
+Throughout the video, the instructor emphasizes the importance of understanding the logic behind these models rather than rote memorization, encouraging the use of AI tools for coding assistance while maintaining a focus on core architectural intuition.This video serves as the third part of a Deep Learning complete course by instructor Akarsh Vyas, focusing on Recurrent Neural Networks (RNNs) and their ability to handle sequential data (0:00 - 1:06).
+Key concepts covered in the video:
+Limitations of ANNs and CNNs: The video explains why traditional architectures struggle with sequential or time-based data due to a lack of memory or context awareness (7:39 - 8:28).
+Introduction to RNNs: Covers the architecture of RNNs, including data feeding, hidden states, and the challenges of capturing semantic meaning (21:25 - 23:01).
+Advanced Architectures: The session dives deep into the mechanisms of:
+LSTM (Long Short-Term Memory): Detailed explanation of gates (forget, input, and output) and cell states to manage long-term dependencies (1:33:29 - 2:05:41).
+GRU (Gated Recurrent Units): An optimized alternative to LSTM with fewer parameters, featuring reset and update gates (2:06:45 - 2:16:01).
+Practical Implementation: The latter half of the video focuses on building a Next Word Prediction application using TensorFlow/Keras, including data preprocessing, tokenization, and model training (2:33:42 - 3:49:00).
+The video concludes with a demonstration of the trained model in a Streamlit application, proving that while these models have been largely superseded by Transformers for production tasks, they remain foundational for understanding modern sequence modeling (3:59:12 - 4:02:51).
+
+
+
+This video is a comprehensive tutorial on Transformers and the Attention Mechanism, which serve as the foundation for modern Large Language Models (LLMs) like GPT, Claude, and Gemini (1:31:39). The instructor provides a deep dive into how these architectures process data compared to earlier models.
+Key Concepts Covered:
+
+Evolution of Architectures: The tutorial begins with a recap of ANNs (fixed data), CNNs (spatial patterns), and RNNs/LSTMs (sequential data), highlighting why RNNs struggle with long sequences due to their sequential nature (0:02:11 - 1:23:15).
+Attention Mechanism: This is a pivotal section that explains how models gain contextual understanding by allowing the decoder to "look" at all encoder states simultaneously (0:59:41 - 1:29:06).
+Transformer Architecture: The core of the video explains the Transformer model, introduced in the paper "Attention Is All You Need." It details the roles of the Encoder and Decoder blocks (1:29:39 - 3:11:34).
+Self-Attention & Multi-Head Attention: You will learn about the "Query, Key, and Value" (
+𝑄
+,
+𝐾
+,
+𝑉
+) matrices, how attention scores are calculated using the dot product, and how applying the Softmax function creates probability distributions for meaningful connections between words (1:43:11 - 2:33:08).
+Positional Encoding: Since Transformers process data in parallel rather than sequentially, positional encoding is essential to maintain the context of word order (2:42:24).
+Training & Testing: The instructor demonstrates the workflow using examples, explaining methods like Teacher Forcing during the training phase (3:01:46 - 3:40:05).
+This video is highly theoretical and designed to strengthen deep learning foundations for those interested in moving into Generative AI. 
+
+
+180-Day Data Science Journey
+(Beginner to Expert)
+
+Welcome to your 6-month roadmap to become a Data Scientist. You're not just learning you're
+leveling up. Let's break it down week by week.
+
+Phase 1: Python (Week 1–4)
+“Lay your foundation — this is your weapon for everything ahead.”
+Week 1: Basics – Variables, Data Types, Input/Output, Loops, Conditionals
+Q1. Write a Python program to swap two variables.
+Q2. Take user input and display it back to the user.
+Q3. Write a program to check if a number is even or odd.
+Q4. Create a program that prints the multiplication table of a given number.
+Q5. Write a program to find the largest of three numbers.
+Q6. Convert temperature from Celsius to Fahrenheit.
+Q7. Write a program to calculate the factorial of a number using a loop.
+Q8. Create a program to count the number of vowels in a string.
+Q9. Write a Python script to reverse a given string.
+Q10. Check if a number is a palindrome.
+Q11. Write a program to find the sum of first N natural numbers.
+Q12. Create a number guessing game.
+Q13. Write a program to print all prime numbers between 1 and 100.
+Q14. Check if a given year is a leap year or not.
+Q15. Create a program to print the Fibonacci series up to N terms.
+Q16. Write a program to find the GCD of two numbers.
+Q17. Write a program to find the LCM of two numbers.
+Q18. Check whether a character is a vowel or consonant.
+Q19. Write a program to calculate the sum of digits of a number.
+
+Q20. Create a program to find the second largest number in a list.
+Q21. Write a program to count the number of digits in an integer.
+Q22. Create a program to print all Armstrong numbers between 1 to 1000.
+Q23. Write a Python program to print a pattern of stars in a triangle.
+Q24. Create a calculator app using if-else.
+Q25. Write a program to display the ASCII value of a character.
+Q26. Convert a decimal number to binary using loops.
+Q27. Create a program to find the square root of a number.
+Q28. Write a program to find the sum of all even numbers in a list.
+Q29. Create a program to check whether a number is prime or not.
+Q30. Write a program to display the cube of the number up to an integer.
+
+Week 2: Functions, Lists, Tuples, Dictionaries, Sets
+
+1. Write a function to check if a number is even.
+2. Create a list and find the sum of all its elements.
+3. Write a program to find the maximum and minimum in a list.
+4. Create a program that removes duplicates from a list.
+5. Write a function to reverse a list.
+6. Create a tuple and access its elements.
+7. Convert a list into a tuple and vice versa.
+8. Write a program to merge two dictionaries.
+9. Write a function to count the frequency of elements in a list.
+10. Create a dictionary of squares of numbers from 1 to 10.
+11. Write a program to sort a list in ascending order.
+12. Create a program to check if a key exists in a dictionary.
+13. Create a set and perform union, intersection, and difference.
+
+14. Write a function to find common elements in two lists.
+15. Write a function that returns the factorial of a number.
+16. Create a function that checks whether a string is a palindrome.
+17. Write a function to count vowels in a string.
+18. Create a dictionary and iterate over its keys and values.
+19. Write a function to remove all punctuation from a string.
+20. Write a function to capitalize the first letter of each word in a string.
+21. Create a list comprehension to get squares of all even numbers in a range.
+22. Write a function to check if a string is an anagram.
+23. Create a nested dictionary to represent student records.
+24. Write a function to flatten a nested list.
+25. Write a program to find the second highest number in a list.
+26. Create a function to rotate a list left by k positions.
+27. Write a function to find the missing number from a list of 1 to N.
+28. Write a program to remove all None values from a list.
+29. Write a function to merge two dictionaries and handle key collisions by summing values.
+30. Create a function to find unique elements present in only one of two lists.
+
+Week 3: File Handling, Error Handling, Modules, Comprehensions
+
+Q1. Write a Python script to read a file and print its contents.
+Q2. Create a file and write your name into it.
+Q3. Handle a ZeroDivisionError using try-except.
+Q4. Write a program to handle file not found error.
+Q5. Create a module with a function and import it in another file.
+Q6. Use a list comprehension to filter even numbers from a list.
+Q7. Write a generator that yields even numbers up to N.
+Q8. Create a program to count lines and words in a file.
+
+Q9. Write a program to read a CSV file and print its contents.
+Q10. Handle multiple exceptions in a single try block.
+
+Week 4: OOPs Concepts + Solve 50–100 Logic Building Problems
+
+Q1. Write a Python program to check if a string has all unique characters.
+Q2. Create a program that removes all duplicate characters from a string.
+Q3. Write a script to count the frequency of each character in a string.
+Q4. Write a program that accepts a sentence and calculates the number of upper and lower case letters.
+Q5. Create a program to find the longest word in a sentence.
+Q6. Write a program that takes a string and returns the string in reverse order without using [::-1].
+Q7. Create a Python function to check if a string is a pangram.
+Q8. Write a Python script to sort words in a sentence alphabetically.
+Q9. Write a program to check if two strings are anagrams.
+Q10. Write a Python program to capitalize the first letter of each word in a sentence.
+Q11. Create a program that extracts numbers from a string and returns their sum.
+Q12. Write a program to replace all spaces in a string with underscores.
+Q13. Write a function to count how many times a substring appears in a string.
+Q14. Write a script to convert a string into title case without using .title().
+Q15. Write a Python program to merge two dictionaries into one.
+Q16. Create a program to filter out all non-alphabetic characters from a string.
+Q17. Write a function that returns True if a string ends with a given suffix.
+Q18. Create a program that counts words, characters, and lines in a paragraph.
+Q19. Write a script to encode a string using Caesar cipher (shift = 3).
+Q20. Write a program that accepts a string and counts vowels and consonants.
+Q21. Create a script to convert binary string to decimal.
+Q22. Write a program to count the number of words starting with a vowel in a string.
+Q23. Create a script that takes a sentence and removes all stop words.
+Q24. Write a Python program to split a sentence into words and reverse each word.
+
+Q25. Write a function that returns a new string made of every third character of the original string.
+Q26. Write a program to find all palindromic substrings in a string.
+Q27. Write a function that compresses a string using run-length encoding.
+Q28. Write a Python program to count the frequency of each word in a file.
+Q29. Write a script that extracts hashtags from a tweet.
+Q30. Write a function to remove punctuation from a string.
+Q31. Create a program that finds the first non-repeating character in a string.
+Q32. Write a script that converts camelCase to snake_case.
+Q33. Write a function to generate acronyms from a sentence.
+Q34. Write a script to check if a file contains a specific word.
+Q35. Write a Python program to find and replace text in a file.
+Q36. Write a script that checks if all characters in a string are digits.
+Q37. Write a program to calculate the average word length in a sentence.
+Q38. Create a function that removes all HTML tags from a string.
+Q39. Write a program to parse a date string and display it in a different format.
+Q40. Write a script that finds all email addresses in a given text.
+Q41. Write a program that counts the occurrence of each vowel in a paragraph.
+Q42. Create a function that validates an email address format.
+Q43. Write a script to check if a string is a valid URL.
+Q44. Write a program that extracts all integers from a given text.
+Q45. Create a script to find duplicate words in a paragraph.
+Q46. Write a program that converts a sentence to Pig Latin.
+Q47. Write a script that finds the longest sentence in a paragraph.
+Q48. Write a Python program to read a file and display all lines that contain a given keyword.
+Q49. Write a script to clean a text file by removing extra spaces and blank lines.
+Q50. Write a Python program to count how many sentences are in a paragraph.
+
+Learn Python using this video - https://www.youtube.com/watch?v=_aWbUudZ5Yo
+
+Step 2: Maths (Week 5–8)
+"Understand the numbers — because Data Science is 80% about interpreting data correctly."
+
+Recommended Resource: Watch our 5-hour full Statistics session on Sheryians AI School (YouTube) —
+https://www.youtube.com/watch?v=eF7HoC-cLRM&t=17267s
+
+Week 5: Statistics Basics – Descriptive Statistics
+Mean, Median, Mode – Concepts & Formulas
+
+Variance & Standard Deviation – Why do we need them?
+
+Range, Quartiles, IQR
+
+Understanding Data Distribution (Normal vs Skewed)
+
+Hands-on with Python: mean(), median(), std(), describe() in NumPy & Pandas
+
+Q1. Create a NumPy array of 10 random integers between 1 and 100. Find its mean.
+Q2. Calculate the median of the array: [10, 5, 8, 12, 3, 7].
+Q3. Generate an array of 15 random numbers between 1 and 50. Find its standard deviation.
+Q4. Create a 3x3 array with values from 1 to 9. Find the row-wise mean.
+Q5. For the array [4, 6, 8, 10, 12], calculate mean, median, std.
+Q6. Generate a 5x5 NumPy array of random integers (0 to 100). Find the overall mean.
+Q7. Create an array of 50 random integers and calculate the standard deviation.
+Q8. Find indices of non-zero elements from [1,2,0,0,4,0]
+Q9. You have an 2D array, print array element [[7,4]]:
+
+[[2,3,4
+5,7,4
+8,9,0]]
+Q10. Create 2 array of 2-Dimension and then perform matrix multiplication on them.
+
+Week 6: Probability & Combinatorics
+Basic Probability Rules (Addition, Multiplication)
+
+Conditional Probability & Bayes Theorem
+
+Permutations & Combinations (Simple problems)
+
+Expected Value & Real-World Examples
+Q1. A dice is thrown once. Find the probability of getting a 2 or 5.
+Q2. A card is drawn from a deck of 52 cards. Find the probability of getting a red card or a king.
+Q3. A number is chosen from 1 to 10. Find the probability that the number is even or divisible by 3.
+Q4. In a bag, there are 3 red and 2 blue balls. A ball is drawn randomly. Find the probability of getting a red ball
+or a blue ball.
+Q5. A spinner has 6 equal parts numbered 1 to 6. Find the probability of spinning a 1 or 6.
+Q6. A card is drawn twice with replacement. Find the probability that both cards are spades.
+Q7. A card is drawn from a deck and not replaced, then another card is drawn. Find the probability that both
+are aces.
+Q8. A coin is tossed twice. Find the probability of getting head on both tosses.
+Q9. A dice is rolled twice. Find the probability that first die shows 3 and second die shows an even number.
+Q10. A bag contains 4 white and 2 black balls. Two balls are drawn without replacement. Find the probability
+that both are black.
+Q11. A coin is tossed once. Find the probability of getting a tail.
+Q12. A dice is thrown once. Find the probability of getting a number greater than 4
+Q13. A card is drawn from a deck. Find the probability that it is a queen or a red card.
+Q14. A box contains 2 red, 3 blue, and 5 green balls. One ball is drawn. Find the probability that it is green.
+
+Q15. A dice is rolled twice. Find the probability that both numbers are odd.
+Q16. A coin is tossed 3 times. Find the probability of getting exactly 2 heads.
+Q17. A bag has 4 yellow and 1 black ball. A ball is drawn and not replaced, then another ball is drawn. Find the
+probability that both balls are yellow.
+Q18. Two cards are drawn together from a deck. Find the probability that both are kings.
+Q19. A spinner with 4 equal sections numbered 1 to 4 is spun twice. Find the probability that both spins show
+the same number.
+Q20. A box has 5 red and 5 blue balls. One ball is drawn at random. Find the probability that it is not blue.
+
+Week 7: Inferential Statistics – Hypothesis Testing
+Population vs Sample
+
+Sampling Techniques
+
+Hypothesis Testing: Null & Alternate Hypotheses
+
+p-values, Significance Levels (α)
+
+T-tests & Chi-Square Test (Intuition only, no heavy math)
+
+Q1. A coin is tossed 50 times and shows 30 heads. State the null and alternate hypotheses to check if the coin
+is fair.
+Q2. A factory claims its bulbs last 1000 hours on average. Formulate the null and alternate hypotheses for
+testing this claim.
+Q3. A new teaching method is applied to a class. Formulate hypotheses to test whether the new method
+improves average student marks.
+Q4. A company claims 40% of customers prefer online shopping. Formulate hypotheses to test this claim.
+Q5. If a hypothesis test gives p-value = 0.03 and α=0.05, should you reject the null hypothesis?
+Q6. If a test gives p-value = 0.15 and α = 0.05, what is your decision about the null hypothesis?
+Q7. Explain what it means if p-value < α in hypothesis testing.
+
+Q8. If α = 0.01, what is the confidence level of the test?
+Q9. You have the heights of 10 male and 10 female students. Which test will you perform to check if their
+average heights are different?
+Q10. A training program is introduced. Employee performance is measured before and after. Which T-test will
+check if the program improved performance?
+Q11. You roll a dice 120 times and record how many times each number appears. Use a Chi-Square test to
+check if the dice is fair.
+Q12. A chips brand claims the average packet weight is 50g. You weigh 10 random packets:
+[49, 52, 51, 50, 48, 49, 50, 51, 52, 50]
+Use a One-Sample T-Test to check if the claim is true.
+Q13. A hospital claims a new medicine has a 70% success rate. In a trial of 20 patients, 12 recovered.
+Use a proportion test to check if the success rate matches the claim.
+Q14. A survey of 30 people records gender (Male/Female) and favorite drink (Tea/Coffee).
+Perform a Chi-Square test to check if drink preference depends on gender.
+Q15. A factory claims its bulbs last 1000 hours on average. You test 8 bulbs:
+[980, 1005, 995, 1010, 1000, 985, 1020, 990]
+Use a One-Sample T-Test to verify the claim.
+
+Step 3: Data Preprocessing & Visualization (Week 9–11)
+
+Videos - Numpy - https://www.youtube.com/watch?v=Utgwk0r9Zq4&t=365s
+Pandas - https://www.youtube.com/watch?v=QUaSmqBeR9w
+Visualization - https://www.youtube.com/watch?v=-jTD74eEy2I&t=5057s
+
+"Now that you understand data, learn to clean and visualize it."
+
+Week 9: Data Cleaning – Missing Values, Outliers, Encoding, Scaling
+Identifying & Handling Missing Data (drop, fill, impute)
+
+Detecting & Treating Outliers (IQR, Z-score)
+
+Encoding Categorical Variables (Label, One-Hot)
+
+Feature Scaling (Min-Max, Standardization)
+Q1. Count how many missing values are in a DataFrame.
+Q2. Show which values are missing in a DataFrame (True/False).
+Q3. Remove all rows with missing values.
+Q4. Fill missing values in a column with 0.
+Q5. Fill missing values in a column with "Not Available".
+Q6. Print the maximum and minimum value of a column.
+Q7. Find values in a column that are greater than 100.
+Q8. Replace all values greater than 100 with 100.
+Q9. Sort a column to check for extreme values.
+Q10. Remove the highest value from a numeric column.
+Q11. Convert column Gender with Male/Female into 0/1.
+Q12. Create separate columns for each City from a City column.
+Q13. Count how many times each category appears in a column.
+Q14. Change all values in a column to lowercase.
+Q15. Divide all values in a numeric column by 100.
+Q16. Subtract the minimum value from a numeric column.
+Q17. Convert all column values to range 0 to 1 manually.
+Q18. Show the mean and standard deviation of a numeric column.
+Q19. Subtract column mean from each value (basic standardization).
+Q20. Round all values in a numeric column to 2 decimals.
+
+Week 10: pandas + numpy Deep Dive – DataFrames, Aggregations, Joins
+pandas for DataFrames (create, read, filter, modify)
+
+Aggregations (groupby, agg, pivot_table)
+
+Merging & Joining multiple datasets
+
+numpy for numerical operations (arrays, stats, reshaping)
+Q1. Create a DataFrame of 5 students with columns: Name, Age, Marks.
+Q2. Display the first 3 rows and last 2 rows of the DataFrame.
+Q3. Show the shape of the DataFrame (rows × columns).
+Q4. Access only the Name column from the DataFrame.
+Q5. Filter all rows where Marks are greater than 50.
+Q6. Add a new column Result with values: "Pass" or "Fail".
+Q7. Update the Marks of the first student to 95.
+Q8. Delete the Result column from the DataFrame.
+Q9. Sort the DataFrame by Marks in descending order.
+Q10. Count the number of unique names in the Name column.
+Q11. Create a DataFrame of Sales with columns: Region, Product, Sales.
+Q12. Calculate the total sales.
+Q13. Calculate the average sales per product.
+Q14. Count how many times each product appears in the dataset.
+Q15. Find maximum and minimum sales per region using groupby and agg.
+Q16. Create a pivot table showing total sales per Region vs Product.
+Q17. Create a pivot table showing average sales per Region.
+Q18. Create a NumPy array of numbers from 1 to 10.
+Q19. Find the sum, mean, and standard deviation of the array.
+Q20. Reshape an array of numbers from 1 to 12 into a 3×4 matrix.
+Q21. Create a 2D NumPy array of random integers (3×3).
+
+Q22. Find the sum of each row and sum of each column.
+Q23. Multiply two 3×3 matrices using NumPy.
+Q24. Find the maximum and minimum value in the array and their indices.
+Q25. Slice a NumPy array to get only even numbers.
+
+Week 11: Data Visualization – matplotlib, seaborn, EDA Techniques
+matplotlib basics: Line, Bar, Scatter, Pie
+
+seaborn for advanced plots: Heatmaps, Boxplots, Pairplots
+
+Exploratory Data Analysis (EDA): Identify trends & patterns
+
+Visual Storytelling: Making insights clear
+Q1. Create a dataset with the following columns-> Products,Regions,Sales,Profit and 10 rows:
+Q2. Plot a line chart of Sales for all 10 rows (index as X-axis).
+Q3. Plot a bar chart showing total sales for each product.
+Q4. Plot a scatter plot of Sales vs Profit.
+Q5. Create a pie chart showing total sales by region.
+Q6. Plot a histogram of the Sales column.
+Q7. Create a boxplot of Profit to detect outliers.
+Q8. Create a countplot showing how many products are sold in each region.
+Q9. Create a heatmap to show correlation between Sales and Profit.
+Q10. Show total and average sales per region using pandas.
+
+Step 4: SQL (Week 11–13)
+"Welcome to the world of real-world data – learn to query like a pro."
+
+Week 12: Basics – SELECT, WHERE, ORDER BY, LIMIT, Aliasing
+Introduction to Databases & SQL
+
+SELECT statements to retrieve data
+
+Filtering with WHERE (AND, OR, BETWEEN, IN, LIKE)
+
+Sorting results with ORDER BY
+
+Limiting results with LIMIT & OFFSET
+
+Aliasing columns and tables
+Q1. Create and Insert Data. Create a table named Employees with the following columns:
+EmployeeID,Name,Department,Salary,JoiningDate.
+Q2. Select all columns from the Employees table.
+Q3. Display only Name and Department columns.
+Q4. Show all employees who work in the IT department.
+Q5. Retrieve employees with a Salary greater than 45,000.
+Q6. Show employees who joined after 2020-01-01.
+Q7. Retrieve employees with a salary between 40,000 and 55,000.
+Q8. Display employees whose department is either HR or Finance.
+Q9. Retrieve employees whose name starts with 'S'.
+Q10. Show employees whose name ends with 'a'.
+Q11. Display employees ordered by salary in descending order.
+Q12. Display the first 3 employees based on joining date.
+Q13. Retrieve employees skipping the first 2 rows using OFFSET.
+
+Q14. Show employee names as Employee_Name using alias.
+Q15. Display Department as Dept and Salary as Income.
+Q16. Combine aliasing with sorting: Show top 3 highest paid employees with columns Employee_Name and
+Income.
+Q17. Find the highest salary in the Employees table.
+Q18. Find the total number of employees in each department.
+Q19. Show the average salary of all employees.
+Q20. Display the employee(s) with the lowest salary.
+
+Week 13: GROUP BY, HAVING, Joins (Inner, Left, Right, Full), Subqueries
+GROUP BY & Aggregation functions (SUM, AVG, COUNT, MAX, MIN)
+
+Filtering groups with HAVING
+
+INNER, LEFT, RIGHT, FULL Joins – Combining multiple tables
+
+Writing Subqueries for filtering and aggregations
+Q1. Count how many employees are in each Department.
+Q2. Find the average salary per department.
+Q3. Show the highest and lowest salary in each department.
+Q4. Show the total salary paid per department.
+Q5. Count how many employees joined in each year (use YEAR(JoiningDate)).
+Q6. Find departments that have more than 1 employee.
+Q7. Find departments where average salary > 50,000.
+Q8. Find joining years where more than 2 employees joined.
+Q9. Perform an INNER JOIN to show Employee Name with their Department Manager.
+Q10. Perform a LEFT JOIN to list all employees and their managers, even if manager info is missing.
+Q11. Show total salary per department using JOIN + GROUP BY.
+
+Q12. Find the employee with the highest salary using a subquery.
+Q13. Find all employees who earn more than the average salary.
+Q14. Find the second highest salary using a subquery.
+Q15. Find employees who joined after the employee with the lowest salary.
+Q16. List all departments that have any employee earning more than 60,000.
+Q17. Find the total number of employees and total salary in each department.
+Q18. List all employees whose salary is the maximum in their department.
+Q19. Show all departments where no employee earns less than 45,000 (use HAVING).
+Q20. Find employees whose joining year is the same as any HR department employee (use subquery).
+
+Week 14: Advanced SQL – Window Functions, CTEs, Nested Queries + Projects
+Window Functions (ROW_NUMBER, RANK, DENSE_RANK, PARTITION BY)
+
+Common Table Expressions (CTEs)
+
+Nested Queries for complex filtering
+
+Building end-to-end SQL queries
+
+Mini Projects:
+
+Project 1: Analyze an E-commerce dataset: Top-selling products, most active customers, revenue trends.
+
+Project 2: Build a Student Management Dashboard using SQL: Average scores, top performers, pass/fail stats.
+
+Step 5: Machine Learning (Week 15–21)
+
+Videos - https://youtube.com/playlist?list=PLaldQ9PzZd9qT0KsKJ7yCq70iFFP3MFJ5&si=zPjf0Wb98hFbaYLx
+
+"Now you're the magician – build models, make predictions, automate decisions."
+
+Week 15: Intro to ML + Linear Regression
+What is Machine Learning? (Types: Supervised, Unsupervised, Reinforcement)
+
+Understanding Features & Labels
+
+Simple & Multiple Linear Regression
+
+Implementing Linear Regression with scikit-learn
+Mini Projects:
+
+Project 1: Predict Student Exam Scores: Predict a student’s exam score based on study hours and other
+features like parental education and lunch type.
+
+Project 2: House Price Prediction: Predict the price of a house using features like area, number of bedrooms,
+and bathrooms.
+
+Week 16: Classification (Logistic Regression, KNN)
+Logistic Regression (Binary & Multiclass)
+
+K-Nearest Neighbors (KNN) – Concept & Implementation
+
+Decision Boundaries & Model Interpretability
+Project 1: Predict Student Pass/Fail using Study Hours and Scores
+Project 2: Classify Iris Flowers into 3 Species using Petal and Sepal Measurements
+Project 3: Predict if a Person has Diabetes based on Health Metrics (PIMA Diabetes Dataset)
+Project 4: Classify Titanic Passengers as Survived or Not Survived based on Age, Gender, and Class
+
+Week 17: Decision Tree, Random Forest
+Decision Trees: Splitting Criteria (Gini, Entropy)
+
+Overfitting & Pruning Techniques
+
+Random Forests – Bagging & Feature Importance
+Project 1: Predict Mushroom Type (Edible or Poisonous) using Physical Features (Mushroom Dataset)
+Project 2: Classify Mobile Price Range (Low/Medium/High) based on Technical Specifications
+
+Week 18: SVM, Naive Bayes
+Support Vector Machines: Margins & Kernels
+
+Gaussian Naive Bayes: Probabilistic Classification
+
+When to use SVM vs Naive Bayes
+Project 1: Classify Emails as Spam or Not Spam using the SpamBase Dataset
+
+Project 2: Predict Handwritten Digits (0–9) using the MNIST Dataset
+
+Week 19: Clustering (K-Means, DBSCAN)
+K-Means Clustering – Centroids & Inertia
+
+DBSCAN for density-based clustering
+
+Choosing K (Elbow Method, Silhouette Score)
+Project 1: Customer Segmentation using Mall Customers Dataset
+Project 2: Group Similar Movies based on Ratings or Features using MovieLens Dataset
+
+Week 20: Model Evaluation – Confusion Matrix, Accuracy, Precision, Recall, ROC
+Confusion Matrix & Classification Metrics
+
+Precision, Recall, F1-Score – Tradeoffs
+
+ROC Curve & AUC
+
+Practice:
+
+Project 1: Predict Loan Approval using the Loan Prediction Dataset
+Project 2: Diagnose Diabetes using the Pima Indians Diabetes Dataset
+
+Week 21: Cross-Validation, Hyperparameter Tuning + Mini ML Project
+
+K-Fold Cross Validation
+
+Grid Search & Random Search for Hyperparameter Tuning
+
+Wrap-up: Build a mini end-to-end ML project
+
+Mini Project: Build a model to predict employee attrition (classification) or house prices (regression).
+
+Step 6: Deep Learning (Week 22–25)
+"Let’s mimic the human brain — welcome to neural networks."
+
+Week 22: Basics – Perceptron, Activation Functions, Forward + Backprop
+What is a Neural Network?
+
+Perceptron: The simplest neuron
+
+Activation Functions: Sigmoid, ReLU, Tanh, Softmax
+
+Forward Propagation – How predictions are made
+
+Backpropagation – How networks learn
+Q1. Compute the Sigmoid, ReLU, and Tanh values for the array [-2, -1, 0, 1, 2].
+Q2. Calculate the weighted sum and Sigmoid activation for input [2,3] with weights [0.5,0.2] and bias 0.1.
+Q3. Implement a perceptron to simulate the AND gate.
+Q4. Compute the Mean Squared Error (MSE) for y_true=[1,0,1,0] and y_pred=[0.8,0.2,0.9,0.1].
+
+Q5. Perform one step of weight update for a single neuron using gradient descent (manual backprop).
+Q6. Plot the Sigmoid, ReLU, and Tanh functions for values from -5 to 5.
+Q7. Create a step activation function and test it on input [0.2, -0.3, 1.5, -2].
+Q8. Calculate the derivative of the Sigmoid function for input [0,1,2].
+Q9. Initialize random weights and biases for a single neuron with 3 inputs.
+Q10. Compute the output of a perceptron for OR gate using randomly initialized weights and a step activation
+function.
+
+Week 23: ANN (TensorFlow/Keras) – Build from scratch + Keras implementation
+Building a Neural Network from scratch using NumPy
+
+Introduction to TensorFlow & Keras
+
+Defining models, compiling, training, and evaluating
+
+Hands-on: Predicting house prices or MNIST digits
+Project 1: Predict house prices using a simple Artificial Neural Network (Boston Housing Dataset – available in
+sklearn.datasets).
+Project 2: Classify handwritten digits using ANN (MNIST Dataset – available in Keras).
+
+Week 24: CNN – Image Data, Filters, Pooling, Image Classification
+Convolution: Filters & Feature Maps
+
+Pooling (Max, Average) & Flattening
+
+Building CNNs for Image Classification
+
+Using Pre-trained Models (Transfer Learning)
+Project 1: Classify handwritten digits using CNN (MNIST Dataset – available in Keras).
+
+Project 2: Build a CNN to classify cats vs dogs (Kaggle: “Dogs vs Cats” dataset).
+
+Week 25 : RNN – Sequential Data, LSTM/GRU + DL Project
+Recurrent Neural Networks: Why we need them
+
+LSTM & GRU – Handling long-term dependencies
+
+Sequence data examples: Text, Time-series
+
+End-to-End Deep Learning Project
+Project 1: Predict next words in a sentence using LSTM (Text Generation on small dataset).
+Project 2: Stock price prediction using LSTM on historical stock data.
+
+Step 7: Specialization (Week 25–26)
+“Now choose your path: become a domain expert.”
+
+Week 25: Choose 1 track —
+
+NLP (Text, Sentiment, Transformers)
+
+CV (Computer Vision)
+
+BI Tools (Power BI/Tableau)
+
+Data Engineering (Airflow, ETL)
+
+Week 26: Build & deploy a capstone project + Make GitHub portfolio + Resume prep 
+
+
+This video provides a structured 6-month roadmap for becoming a Data Scientist in 2025, assuming a commitment of 2-3 hours of study daily.
+The 6-Month Roadmap:
+Month 1 (Python): Focus on basic logic, data structures, and object-oriented programming (0:29-2:46).
+Month 2 (Maths & Statistics): Master core concepts like Probability, Descriptive Statistics, and Hypothesis Testing (2:49-5:24).
+Month 3 (Data Analysis & Visualization): Use libraries like NumPy, Pandas, Matplotlib, and Seaborn, or tools like Excel and Power BI (5:33-8:10).
+Month 4 (SQL): Learn Database Management Systems (DBMS) to handle real-world data storage and extraction (8:12-9:40).
+Month 5 (Machine Learning): Dive into algorithms like Linear Regression, Classification, and Clustering, including model evaluation and hyperparameter tuning (9:52-12:30).
+Month 6 (Deep Learning): Explore neural networks (ANN, CNN, RNN) using TensorFlow and PyTorch (12:48-14:40).
+Final Steps:
+Beyond the core 6 months, the roadmap emphasizes the importance of Specialization (e.g., NLP, Computer Vision, or AI tools like LangChain) to remain competitive (15:09-16:15). The narrator encourages consistency and project-based learning over simply watching tutorials.
+
+
+
+ 
+Python Tutorial For Beginners in Hindi | Complete Python Course 🔥
+CodeWithHarry
+CodeWithHarry
+
+9.95M subscribers
+
+
+459K
+
+
+Share
+
+Ask
+
+Save
+
+24,351,329 views  Jun 16, 2024  #HarryBhai
+ Exciting News! I’ve just launched my Data Science Course – and it’s now in Early Bird Access!
+If you loved this Python course, you’re going to enjoy this one even more.
+Check it out here: https://www.codewithharry.com/courses...
+Let’s take your skills to the next level! 
+
+Latest Udemy Web dev Course With Certificate: https://goharry.in/webdev
+Source Code: https://github.com/CodeWithHarry/The-...
+Python PDF Handbook (authored by me): https://www.codewithharry.com/notes/
+Download the Handwritten notes (handwritten by me): https://www.codewithharry.com/notes
+Download the Ultimate Python Cheatsheet: https://www.codewithharry.com/blogpos...
+
+Note: Scroll to the bottom of the page on the website to download the handbook
+
+
+
+Python Udemy Course: https://goharry.in/python
+Get this course at 90% Discount if you use this link
+
+Some of you asked me about Python courses for further learning. I strongly recommend you not to buy any overpriced course. One of the most underrated resources in the journey of programmers is Udemy (This post is not sponsored). The affordable courses Udemy provides with doubt support are way way better than most of the paid courses I see online these days. Here are some of my top picks with discount applied for you:
+
+1. Best Flask Course: https://click.linksynergy.com/link?id...
+
+2. Complete Machine Learning & Data Science Bootcamp - https://click.linksynergy.com/link?id...
+ 
+3. Machine Learning, Data Science and Generative AI with Python - https://click.linksynergy.com/link?id...
+
+4. ChatGPT Complete Guide: Learn Midjourney, ChatGPT 4 & More - https://click.linksynergy.com/link?id...
+ 
+5. Complete Python Django Course: https://click.linksynergy.com/link?id...
+
+6. 100 Days of Code Python (English): https://click.linksynergy.com/link?id...
+
+** These are my affiliate links that will provide a discount for any course/courses you buy from the above links
+TimeStamps ⌚
+00:00:00 - Introduction
+00:02:05 - Chapter 0 - What is Programming?
+00:09:41 - Chapter 1 – Modules, Comments & pip
+00:25:33 - Chapter 1 – Practice Set
+00:34:55 - Chapter 2 – Variables and Datatype
+01:06:47 - Chapter 2 – Practice Set
+01:15:57 - Chapter 3 – Strings
+01:40:20 - Chapter 3 – Practice Set
+01:50:53 - Chapter 4 – Lists and Tuples
+02:15:29 - Chapter 4 – Practice Set
+02:25:56 - Chapter 5 – Dictionary & Sets
+02:53:56 - Chapter 5 – Practice Set
+03:09:41 - Chapter 6 – Conditional Expression
+03:31:23 - Chapter 6 – Practice Set
+03:58:17 - Chapter 7 – Loops in Python
+04:23:13 - Chapter 7 – Practice Set
+04:50:53 - Chapter 8 – Functions & Recursions
+05:17:16 - Chapter 8 – Practice Set
+05:34:55 - Project 1: Snake, Water, Gun Game
+05:54:50 - Chapter 9 – File I/O
+06:14:04 - Chapter 9 – Practice Set
+06:42:22 - Chapter 10 – Object Oriented Programming
+07:07:11 - Chapter 10 – Practice Set
+07:23:17 - Chapter 11 – Inheritance & more on OOPs
+07:48:07 - Chapter 11 – Practice Set
+08:08:45 - Project 2: The Perfect Guess
+08:15:38 - Chapter 12 – Advanced Python 1
+08:49:02 - Chapter 12 – Practice Set
+08:57:51 - Chapter 13 – Advanced Python 2
+09:16:57 - Chapter 13 – Practice Set
+09:30:22 - Mega Project 1: Jarvis
+10:17:56 - Mega Project 2: Auto Reply AI Chatbot
+10:50:55 - Conclusion
+
+🔥 XStore – Premium WordPress theme for eCommerce success! https://1.envato.market/2rXmmA
+
+Follow Me On Social Media
+►Website (created using Django Rest & Angular): https://www.codewithharry.com
+►Facebook:   / codewithharry  
+►Instagram:   / codewithharry   
+Twitter:   / codewithharry  
+Comment "#HarryBhai" if you read this 😉😉 This video is a comprehensive beginner's guide to Python (10:53:55) created by CodeWithHarry. It is designed to take students from absolute basics to building advanced AI-powered applications.
+Key Chapters and Topics:
+
+Foundations: The course starts by explaining what programming is (0:02:05) and how to set up the development environment using Visual Studio Code (0:09:41).
+Core Concepts: Detailed walkthroughs covering Variables and Datatypes (0:34:55), Strings (1:15:57), Lists and Tuples (1:50:53), Dictionaries and Sets (2:25:56), and Conditionals/Loops (3:09:41 - 3:58:17).
+Advanced Programming: Covers Functions and Recursion (4:50:53), File I/O (5:54:50), and Object-Oriented Programming (OOPs) (6:42:22).
+Advanced Python & Environments: Explains Virtual Environments (8:59:56) and how to manage dependencies effectively.
+Hands-on Projects:
+
+Throughout the course, the instructor emphasizes learning by doing through several projects:
+Snake, Water, Gun Game (5:34:55)
+The Perfect Guess (8:08:45)
+Mega Project 1: Jarvis (9:30:22) – A voice-controlled AI assistant.
+Mega Project 2: Auto Reply AI Chatbot (10:17:56).
+The course encourages the use of AI tools like ChatGPT to aid in learning and problem-solving, rather than avoiding them, positioning them as essential tools for modern developers. 
+Python Tutorial for Beginners - Full Course (with Notes & Practice Questions)
+Apna College
+Apna College
+
+7.9M subscribers
+
+
+209K
+
+
+Share
+
+Ask
+
+Save
+
+13,575,540 views  Feb 12, 2024
+ 📌Complete AI/ML Job Ready Batch  :https://www.apnacollege.in/course/pri...
+
+Batch starting from 15th Nov 2025
+--------------------------------------------------------------------------
+
+Link for International students : https://pages.razorpay.com/prime-ai
+(outside India students)
+
+Eligibility for Prime (AI/ML batch) :
+B.Tech students preparing for Tech Placement/Internships. 
+working professionals switching to AI roles
+M.Tech/MCA/BCA who are preparing for Tech Placements/Internships
+
+Class Schedule : 
+Mentioned in video & on website. 
+Lectures will come on weekends
+Lecture duration : 2+ Hour
+
+Want to study for Tech Placements/Internships from us :
+Our Latest Placement Batches : https://linktr.ee/apnacollege.in
+
+Share your progress on Twitter : https://x.com/ShradhaKhapra_
+DSA Series full playlist :    • Complete C++ DSA Course | Data Structures ...  
+
+Notes of Python Tutorial: https://drive.google.com/drive/folder...
+
+TimeStamps 
+00:00:00 - Introduction
+00:02:03 - Variables and Data Types
+02:32:16 - Strings and conditional statements
+03:27:13 - Lists and Tuples
+04:08:03 - Dictionary and Set
+05:01:26 - Loops
+06:04:25 - Functions and Recursion
+07:05:27 - File Input and Output
+07:55:27 - OOPS Part 1
+08:51:23 - OOPS Part 2
+09:59:06 - Mini Project
+
+This comprehensive tutorial by *Apna College* provides a full guide to learning **Python** for beginners. The course covers everything from basic setup to advanced programming concepts, making it suitable for those with no prior coding experience.
+
+### **Course Highlights:**
+*   **Getting Started (0:02:03 - 0:13:44):** Covers **Variables** and **Data Types**, including how to install *Python* and *VS Code*.
+*   **Control Flow & Strings (0:32:16 - 3:27:13):** Explains **Strings** and **Conditional Statements** (if/elif/else).
+*   **Data Structures (3:27:13 - 5:01:26):** Deep dive into **Lists**, **Tuples**, **Dictionaries**, and **Sets**.
+*   **Advanced Logic (5:01:26 - 7:05:27):** Covers **Loops**, **Functions**, and **Recursion**.
+*   **File Management (7:05:27 - 7:55:27):** Introduces **File Input/Output** operations.
+*   **Object-Oriented Programming (7:55:27 - 9:59:06):** Detailed breakdown of **OOPS** concepts across two parts.
+*   **Practical Application (9:59:06 - 10:24:51):** Concludes with a **Mini Project** to apply the learned concepts.
