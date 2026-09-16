@@ -1,0 +1,31 @@
+# The challenge repository ignores exactly what Days 45, 85 and 88 tell you to.
+# If you find yourself wanting to commit something listed here, re-read Day 88.
+
+# environments
+.venv/
+venv/
+env/
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# data — document the SOURCE, never commit the file
+# (see each project's data/raw/SOURCES.md)
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.parquet
+!**/data/raw/SOURCES.md
+
+# generated output — regenerable, so not tracked
+data/processed/
+figures/
+charts/
+
+# os
+.DS_Store

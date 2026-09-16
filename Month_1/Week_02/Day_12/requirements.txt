@@ -1,0 +1,2 @@
+# shopsummary has zero third-party dependencies.
+# That is deliberate -- everything here is built from Days 1-11.

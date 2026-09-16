@@ -2669,3 +2669,391 @@ This comprehensive tutorial by *Apna College* provides a full guide to learning 
 *   **File Management (7:05:27 - 7:55:27):** Introduces **File Input/Output** operations.
 *   **Object-Oriented Programming (7:55:27 - 9:59:06):** Detailed breakdown of **OOPS** concepts across two parts.
 *   **Practical Application (9:59:06 - 10:24:51):** Concludes with a **Mini Project** to apply the learned concepts.
+
+
+
+
+
+Essential Math for Data Science
+
+Subtitle: Take Control of Your Data with Fundamental Linear Algebra, Probability, and Statistics
+
+Author: Thomas Nield
+
+Publisher: O'Reilly
+
+Overview & Back Cover Information
+
+Master the math needed to excel in data science, machine learning, and statistics. In this book, author Thomas Nield guides you through areas like calculus, probability, linear algebra, and statistics and how they apply to techniques like linear regression, logistic regression, and neural networks. Along the way you'll also gain practical insights into the state of data science and how to use those insights to maximize your career.
+
+What You Will Learn:
+
+Use Python code and libraries like SymPy, NumPy, and scikit-learn to explore essential mathematical concepts like calculus, linear algebra, statistics, and machine learning.
+
+Understand techniques like linear regression, logistic regression, and neural networks in plain English, with minimal mathematical notation and jargon.
+
+Perform descriptive statistics and hypothesis testing on a dataset to interpret p-values and statistical significance.
+
+Manipulate vectors and matrices and perform matrix decomposition.
+
+Integrate and build upon incremental knowledge of calculus, probability, statistics, and linear algebra, and apply it to regression models including neural networks.
+
+Navigate practically through a data science career and avoid common pitfalls, assumptions, and biases while tuning your skill set to stand out in the job market.
+
+"In the cacophony that is the current data science education landscape, this book stands out as a resource with many clear, practical examples of the fundamentals of what it takes to understand and build with data."
+
+— Vicki Boykis, Senior Machine Learning Engineer at Tumblr
+
+About the Author
+
+Thomas Nield is the founder of Nield Consulting Group as well as an instructor at O'Reilly Media and the University of Southern California. He enjoys making technical content relatable and relevant to those unfamiliar or intimidated by it. Thomas regularly teaches classes on data analysis, machine learning, mathematical optimization, and practical artificial intelligence. He's the author of Getting Started with SQL (O'Reilly) and Learning RxJava (Packt).
+
+Detailed Table of Contents
+
+Preface (p. ix)
+
+Basic Math and Calculus Review — p. 1
+
+Number Theory — p. 2
+
+Order of Operations — p. 3
+
+Variables — p. 5
+
+Functions — p. 6
+
+Summations — p. 11
+
+Exponents — p. 13
+
+Logarithms — p. 16
+
+Euler’s Number and Natural Logarithms — p. 18
+
+Euler’s Number — p. 18
+
+Natural Logarithms — p. 21
+
+Limits — p. 22
+
+Derivatives — p. 24
+
+Partial Derivatives — p. 28
+
+The Chain Rule — p. 31
+
+Integrals — p. 33
+
+Conclusion — p. 39
+
+Exercises — p. 39
+
+Probability — p. 41
+
+Understanding Probability — p. 42
+
+Probability Versus Statistics — p. 43
+
+Probability Math — p. 44
+
+Joint Probabilities — p. 44
+
+Union Probabilities — p. 45
+
+Conditional Probability and Bayes' Theorem — p. 47
+
+Joint and Union Conditional Probabilities — p. 49
+
+Binomial Distribution — p. 51
+
+Beta Distribution — p. 53
+
+Conclusion — p. 60
+
+Exercises — p. 61
+
+Descriptive and Inferential Statistics — p. 63
+
+What Is Data? — p. 63
+
+Descriptive Versus Inferential Statistics — p. 65
+
+Populations, Samples, and Bias — p. 66
+
+Descriptive Statistics — p. 69
+
+Mean and Weighted Mean — p. 70
+
+Median — p. 71
+
+Mode — p. 73
+
+Variance and Standard Deviation — p. 73
+
+The Normal Distribution — p. 78
+
+The Inverse CDF — p. 85
+
+Z-Scores — p. 87
+
+Inferential Statistics — p. 89
+
+The Central Limit Theorem — p. 89
+
+Confidence Intervals — p. 92
+
+Understanding P-Values — p. 95
+
+Hypothesis Testing — p. 96
+
+The T-Distribution: Dealing with Small Samples — p. 104
+
+Big Data Considerations and the Texas Sharpshooter Fallacy — p. 105
+
+Conclusion — p. 107
+
+Exercises — p. 107
+
+Linear Algebra — p. 109
+
+What Is a Vector? — p. 110
+
+Adding and Combining Vectors — p. 114
+
+Scaling Vectors — p. 116
+
+Span and Linear Dependence — p. 119
+
+Linear Transformations — p. 121
+
+Basis Vectors — p. 121
+
+Matrix Vector Multiplication — p. 124
+
+Matrix Multiplication — p. 129
+
+Determinants — p. 131
+
+Special Types of Matrices — p. 136
+
+Square Matrix — p. 136
+
+Identity Matrix — p. 136
+
+Inverse Matrix — p. 136
+
+Diagonal Matrix — p. 137
+
+Triangular Matrix — p. 137
+
+Sparse Matrix — p. 138
+
+Systems of Equations and Inverse Matrices — p. 138
+
+Eigenvectors and Eigenvalues — p. 142
+
+Conclusion — p. 145
+
+Exercises — p. 146
+
+Linear Regression — p. 147
+
+A Basic Linear Regression — p. 149
+
+Residuals and Squared Errors — p. 153
+
+Finding the Best Fit Line — p. 157
+
+Closed Form Equation — p. 157
+
+Inverse Matrix Techniques — p. 158
+
+Gradient Descent — p. 161
+
+Overfitting and Variance — p. 167
+
+Stochastic Gradient Descent — p. 169
+
+The Correlation Coefficient — p. 171
+
+Statistical Significance — p. 174
+
+Coefficient of Determination — p. 179
+
+Standard Error of the Estimate — p. 180
+
+Prediction Intervals — p. 181
+
+Train/Test Splits — p. 185
+
+Multiple Linear Regression — p. 191
+
+Conclusion — p. 191
+
+Exercises — p. 192
+
+Logistic Regression and Classification — p. 193
+
+Understanding Logistic Regression — p. 193
+
+Performing a Logistic Regression — p. 196
+
+Logistic Function — p. 196
+
+Fitting the Logistic Curve — p. 198
+
+Multivariable Logistic Regression — p. 204
+
+Understanding the Log-Odds — p. 208
+
+R-Squared — p. 211
+
+P-Values — p. 216
+
+Train/Test Splits — p. 218
+
+Confusion Matrices — p. 219
+
+Bayes' Theorem and Classification — p. 222
+
+Receiver Operator Characteristics/Area Under Curve — p. 223
+
+Class Imbalance — p. 225
+
+Conclusion — p. 226
+
+Exercises — p. 226
+
+Neural Networks — p. 227
+
+When to Use Neural Networks and Deep Learning — p. 228
+
+A Simple Neural Network — p. 229
+
+Activation Functions — p. 231
+
+Forward Propagation — p. 237
+
+Backpropagation — p. 243
+
+Calculating the Weight and Bias Derivatives — p. 243
+
+Stochastic Gradient Descent — p. 248
+
+Using scikit-learn — p. 251
+
+Limitations of Neural Networks and Deep Learning — p. 253
+
+Conclusion — p. 256
+
+Exercise — p. 256
+
+Career Advice and the Path Forward — p. 257
+
+Redefining Data Science — p. 258
+
+A Brief History of Data Science — p. 260
+
+Finding Your Edge — p. 263
+
+SQL Proficiency — p. 263
+
+Programming Proficiency — p. 266
+
+Data Visualization — p. 269
+
+Knowing Your Industry — p. 270
+
+Productive Learning — p. 272
+
+Practitioner Versus Advisor — p. 272
+
+What to Watch Out For in Data Science Jobs — p. 275
+
+Role Definition — p. 275
+
+Organizational Focus and Buy-In — p. 276
+
+Adequate Resources — p. 278
+
+Reasonable Objectives — p. 279
+
+Competing with Existing Systems — p. 280
+
+A Role Is Not What You Expected — p. 282
+
+Does Your Dream Job Not Exist? — p. 283
+
+Where Do I Go Now? — p. 284
+
+Conclusion — p. 285
+
+A. Supplemental Topics — p. 287
+
+B. Exercise Answers — p. 309
+
+Index — p. 323
+
+Excerpt: Preface Extracts
+
+In the past 10 years or so, there has been a growing interest in applying math and statistics to our everyday work and lives. Why is that? Does it have to do with the accelerated interest in "data science," which Harvard Business Review called "the Sexiest Job of the 21st Century"? Or is it the promise of machine learning and "artificial intelligence" changing our lives? Is it because news headlines are inundated with studies, polls, and research findings but unsure how to scrutinize such claims? Or is it the promise of "self-driving" cars and robots automating jobs in the near future?
+
+I will make the argument that the disciplines of math and statistics have captured mainstream interest because of the growing availability of data, and we need math, statistics, and machine learning to make sense of it. Yes, we do have scientific tools, machine learning, and other automations that call to us like sirens. We blindly trust these "black boxes," devices, and softwares; we do not understand them but we use them anyway.
+
+While it is easy to believe computers are smarter than we are (and this idea is frequently marketed), the reality cannot be more the opposite. This disconnect can be precarious on so many levels. Do you really want an algorithm or AI performing criminal sentencing or driving a vehicle, but nobody including the developer can explain why it came to a specific decision? Explainability is the next frontier of statistical computing and AI. This can begin only when we open up the black box and uncover the math.
+
+You may also ask how can a developer not know how their own algorithm works? We will talk about that in the second half of the book when we discuss machine learning techniques and emphasize why we need to understand the math behind the black boxes we build.
+
+To another point, the reason data is being collected on a massive scale is largely due to connected devices and their presence in our everyday lives. We no longer solely use the internet on a desktop or laptop computer. We now take it with us in our smartphones, cars, and household devices. This has subtly enabled a transition over the past two decades. Data has now evolved from an operational tool to something that is collected and analyzed for less-defined objectives. A smartwatch is constantly collecting data on our heart rate, breathing, walking distance, and other markers. Then it uploads that data to a cloud to be analyzed alongside other users. Our driving habits are being collected by computerized cars and being used by manufacturers to collect data and enable self-driving vehicles. Even "smart toothbrushes" are finding their way into drugstores, which track brushing habits and store that data in a cloud. Whether smart toothbrush data is useful and essential is another discussion!
+
+All of this data collection is permeating every corner of our lives. It can be overwhelming, and a whole book can be written on privacy concerns and ethics. But this availability of data also creates opportunities to leverage math and statistics in new ways and create more exposure outside academic environments. We can learn more about the human experience, improve product design and application, and optimize commercial strategies. If you understand the ideas presented in this book, you will be able to unlock the value held in our data-hoarding infrastructure. This does not imply that data and statistical tools are a silver bullet to solve all the world's problems, but they have given us new tools that we can use. Sometimes it is just as valuable to recognize certain data projects as rabbit holes and realize efforts are better spent elsewhere.
+
+This growing availability of data has made way for data science and machine learning to become in-demand professions. We define essential math as an exposure to probability, linear algebra, statistics, and machine learning. If you are seeking a career in data science, machine learning, or engineering, these topics are necessary. I will throw in just enough college math, calculus, and statistics necessary to better understand what goes in the black box libraries you will encounter.
+
+With this book, I aim to expose readers to different mathematical, statistical, and machine learning areas that will be applicable to real-world problems. The first four chapters cover foundational math concepts including practical calculus, probability, linear algebra, and statistics. The last three chapters will segue into machine learning. The ultimate purpose of teaching machine learning is to integrate everything we learn and demonstrate practical insights in using machine learning and statistical libraries beyond a black box understanding.
+
+The only tool needed to follow examples is a Windows/Mac/Linux computer and a Python 3 environment of your choice. The primary Python libraries we will need are numpy, scipy, sympy, and sklearn. If you are unfamiliar with Python, it is a friendly and easy-to-use programming language with massive learning resources behind it.
+
+Recommended Books Mentioned in Text:
+
+Data Science from Scratch, 2nd Edition by Joel Grus (O'Reilly)
+
+Python for the Busy Java Developer by Deepak Sarda (Apress)
+
+No Bullsht Guide to Math and Physics* by Ivan Savov
+
+Mathematics 1001 by Dr. Richard Elwes
+
+Conventions Used in This Book
+
+The following typographical conventions are used in this book:
+
+Italic
+
+Indicates new terms, URLs, email addresses, filenames, and file extensions.
+
+Constant width
+
+Used for program listings, as well as within paragraphs to refer to program elements such as variable or function names, databases, data types, environment variables, statements, and keywords.
+
+Constant width bold
+
+Shows commands or other text that should be typed literally by the user.
+
+Constant width italic
+
+Shows text that should be replaced with user-supplied values or by values determined by context.
+
+Chapter 1 Preview: Basic Math and Calculus Review
+
+We will kick off the first chapter covering what numbers are and how variables and functions work on a Cartesian system. We will then cover exponents and logarithms. After that, we will learn the two basic operations of calculus: derivatives and integrals.
+
+Before we dive into the applied areas of essential math such as probability, linear algebra, statistics, and machine learning, we should probably review a few basic math and calculus concepts. Before you drop this book and run screaming, do not worry! I will present how to calculate derivatives and integrals for a function in a way you were probably not taught in college. We have Python on our side, not a pencil and paper. Even if you are not familiar with derivatives and integrals, you still do not need to worry.
+
+I will make these topics as tight and practical as possible, focusing only on what will help us in later chapters and what falls under the "essential math" umbrella.
+
+This Is Not a Full Math Crash Course!
+
+This is by no means a comprehensive review of high school and college math. If you want that, a great book to check out is No Bullsht Guide to Math and Physics* by Ivan Savov (pardon my French). The first few chapters contain the best crash course on high school and college math I have ever seen. The book Mathematics 1001 by Dr. Richard Elwes has some great content as well, and in bite-sized explanations.
+
+ 
