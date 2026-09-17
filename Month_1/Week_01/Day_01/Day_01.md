@@ -144,7 +144,7 @@ If you can do this in under 15 minutes, your Days 2–5 will move fast. If you c
 
 *5–10 minutes. Write, do not just think.*
 
-1. **Diagnostic score:** ___ / 12
+1. **Diagnostic score:** __1_ / 12
 2. Which task was the first one I could not do? What concept was it testing?
 3. What surprised me about the difference between data analysis and data science?
 4. Based on my score, which row of the table above applies to me — and am I honestly applying it, or am I flattering myself?

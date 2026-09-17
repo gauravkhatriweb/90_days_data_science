@@ -58,7 +58,7 @@ def check_environment():
 # TASK 1 -- Print your name and age on one line, using an f-string.
 # Expected output style:  Gaurav is 18 years old
 def task_01():
-    pass
+    print(f"Gaurav is 10 years old!")
 
 
 # TASK 2 -- Given the list below, return the sum of only the even numbers.
@@ -67,18 +67,19 @@ NUMBERS = [4, 9, 12, 7, 3, 20, 15, 8]
 
 def task_02(numbers=NUMBERS):
     pass
+#Idonot kown how to do this 
 
 
 # TASK 3 -- Return the given sentence with the words in reverse order.
 #           "data science is hard"  ->  "hard is science data"
 def task_03(sentence="data science is hard"):
-    pass
+    pass # idk 
 
 
 # TASK 4 -- Count how many times each character appears in a string.
 #           Return a dictionary.  "hello" -> {'h':1,'e':1,'l':2,'o':1}
 def task_04(text="hello"):
-    pass
+    pass#idk 
 
 
 # -----------------------------------------------------------------------------
@@ -91,7 +92,7 @@ def task_04(text="hello"):
 #         if n % 3 == 0:
 #             result.append(n * n)
 def task_05():
-    pass
+    pass#idk
 
 
 # TASK 6 -- Given a list of (name, score) tuples, return the names sorted by
@@ -99,21 +100,21 @@ def task_05():
 SCORES = [("ali", 72), ("sana", 91), ("bilal", 65), ("hira", 88)]
 
 def task_06(scores=SCORES):
-    pass
+    pass#idk
 
 
 # TASK 7 -- Write a function that accepts any number of positional arguments
 #           and any number of keyword arguments, and returns a string
 #           describing how many of each it received.
 def task_07():
-    pass
+    pass#idk
 
 
 # TASK 8 -- Open a file called 'missing_file.csv' and return its first line.
 #           If the file does not exist, return the string "no file".
 #           Do not let the program crash.
 def task_08(path="missing_file.csv"):
-    pass
+    pass#idk
 
 
 # -----------------------------------------------------------------------------
@@ -124,7 +125,7 @@ def task_08(path="missing_file.csv"):
 #           empty list of sales, and a method `record(amount)` that appends
 #           to that list.
 class Shop:
-    pass
+    pass#idk
 
 
 # TASK 10 -- Add a method `total()` to Shop that returns the sum of sales.
@@ -137,7 +138,7 @@ class Shop:
 #            `delivery_fee` attribute, and overrides `total()` to include
 #            the fee once per sale.
 class OnlineShop:
-    pass
+    pass#idk
 
 
 # TASK 12 -- Give Shop a __repr__ so that printing a Shop object shows
@@ -161,9 +162,10 @@ def score_yourself():
       12    not your problem  -> skip to Day 15, say why in the Week 1 review
     """
     MY_SCORE = None   # <-- put your honest number here
-    return MY_SCORE
+    return MY_SCORE#idk
 
 
 if __name__ == "__main__":
     check_environment()
     print("\nNow do Part B. Closed book. 50 minutes.")
+#idk how to solves these that's why i want to watch python videos 
